@@ -1,0 +1,72 @@
+---
+author: Blanboom
+comments: true
+date: 2013-09-22 13:46:07+00:00
+layout: post
+slug: 2013-software-freedom-day-ustc
+title: 2013软件自由日科大站活动小记
+wordpress_id: 53
+categories:
+- 软件
+tags:
+- GNU
+- Linux
+- 开源软件
+---
+
+之前听说过「[软件自由日](http://softwarefreedomday.org)」，昨天，才终于第一次在中科大参加。正好把活动中自己看到的和想到的记在这里。
+
+
+# 活动记录
+
+
+活动开始（随手拍的，而且摄像头还有问题，拍照效果很烂）
+![](http://blanboom.org/images/2013/09/IMG_20130921_1441321.jpg)<!-- more -->
+上海 [LUG](http://en.wikipedia.org/wiki/Linux_user_group) 会长向大家推荐 [Git](http://git-scm.com/)
+![](http://blanboom.org/images/2013/09/IMG_20130921_1446381.jpg)
+![](http://blanboom.org/images/2013/09/IMG_20130921_1459121.jpg)
+杨国鑫同学在讲 [OpenSUSE](http://www.opensuse.org/zh-cn/) 的特性
+![](http://blanboom.org/images/2013/09/IMG_20130921_1536221.jpg)
+很有 Geek 范的抽奖环节
+![](http://blanboom.org/images/2013/09/IMG_20130921_1616081.jpg)
+
+![](http://blanboom.org/images/2013/09/IMG_20130921_1619071.jpg)
+
+![](http://blanboom.org/images/2013/09/IMG_20130921_1442001.jpg)
+讲座结束，上台拿贴纸、光盘等纪念品，同时在前面的 5 个展台向大家展示不同的自由软件
+![Deepin-Disk](http://blanboom.org/images/2013/09/Deepin-Disk.jpg)
+[Vim](http://www.vim.org/) 展示处，一个强大、高效的编辑器，本来用于编写代码，不过现在用途正在变广，甚至一些作家开始用 Vim 写文章（不过我现在用的是 [Sublime Text](http://www.sublimetext.com/)）
+![](http://blanboom.org/images/2013/09/IMG_20130921_162803.jpg)
+还是 Vim，不过这个是 Windows 版的 [gVim](http://blog.sina.com.cn/s/blog_46dac66f010005kw.html) （小心 [emacs](http://www.gnu.org/software/emacs/) 粉[上来围攻 ](http://www.guokr.com/post/64003/)^_^）
+![](http://blanboom.org/images/2013/09/IMG_20130921_163144.jpg)
+在 Linux 或 OS X 上运行 Windows 软件: [Wine](http://www.winehq.org/) 展示区
+![](http://blanboom.org/images/2013/09/IMG_20130921_163243.jpg)
+另外还展示了 mplayer，LaTeX 等，没有一一拍照。最后是 Linux User Dinner 环节，我是外校学生，不好意思去蹭饭，就直接回学校了。
+
+
+# 对于开源（普及类）活动，我的看法
+
+
+类似自由软件日这样的活动，最主要的是向从来没接触过开源软件的人介绍开源的意义，并逐步引导大家接触一些简单的开源工具。因为大部分人对开源的了解还不够。
+
+不过这次的活动，给我的感觉是：讲座的展示的内容对初学者来说，似乎还是有点深（例如一上来就讲 git，对没接触过编程的新生或者简单几句代码就能解决问题同学，似乎还有点难理解项目管理的意义），但对已经了解 Linux 的人来说，这些内容应该都知道。
+
+依我看，推广自由软件，还是应该从最贴近生活的方面开始。类似的活动，这样办可能更好：
+
+
+
+	
+  * 首先介绍开源的意义，让大家对开源有一个初步的了解，同时可以推荐一些关于开源的文章和[书](tonghuix.blog.51cto.com/2169773/1299603‎)。
+
+	
+  * 然后介绍 Firefox 和 Chromium 等开源浏览器（可以考虑出一个自己的定制版，把鼠标手势等常用功能添加进去，让初学者更易上手），以及开源视频播放器 mplayer，开源音乐播放器 Foobar 2000（强调一下音质非常好，以吸引大家的兴趣，也可以制作一个界面优化的定制版），以及开源 PDF 阅读器等等。这些软件学习成本低，容易安装和使用，可以被每个人更快地接受。
+
+	
+  * 介绍 Linux 操作系统也是必不可少的。但这样的活动不适合将这些操作系统在技术上有哪些优点。可以从 自由、免费使用，炫酷的桌面 3D 效果，超快的软件下载速度等方面入手，同时免费可以帮大家装系统，并消除大家在兼容性方面的顾虑。
+
+
+把这些先做好，然后在做技术方面的东西，或许是一个更好的选择。不知道大家怎么看。
+
+
+
+当然总体上，这是还是一场十分有意义的活动。第一次参加，从活动中看到、收获的许多知识，同时也让我发现：在合肥，还是有很多人对开源十分感兴趣的。

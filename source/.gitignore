@@ -1,0 +1,12 @@
+.DS_Store
+node_modules
+db.json
+public
+.deploy
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
