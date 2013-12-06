@@ -1,314 +1,494 @@
-date: 2013-12-04 16:38:25.942
-argv: c:\Program Files\nodejs\node.exe c:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\bin\hexo generate
-os: Windows_NT 6.2.9200 win32 x64
-version:
-  hexo: 2.3.0
-  http_parser: 1.0
-  node: 0.10.22
-  v8: 3.14.5.9
-  ares: 1.9.0-DEV
-  uv: 0.10.19
-  zlib: 1.2.3
-  modules: 11
-  openssl: 1.0.1e
----
+[debug] 17:33:58.712 Configuration file load successfully
+[debug] 17:33:58.717 Version info checked successfully
+[debug] 17:33:58.727 Plugin loaded successfully: hexo-generator-feed
+[debug] 17:33:58.737 Plugin loaded successfully: hexo-generator-sitemap
+[debug] 17:33:58.738 Loading the database...
+[debug] 17:33:59.543 Theme layout loaded
+[debug] 17:33:59.555 Theme configuration loaded
+[debug] 17:33:59.613 Theme source loaded
+[debug] 17:33:59.616 Theme i18n loaded
+[debug] 17:34:00.001 Processed: CNAME
+[debug] 17:34:00.003 Processed: favicon.ico
+[debug] 17:34:00.005 Processed: images/Thumbs.db
+[debug] 17:34:00.005 Processed: images/2013/05/arduino-robot.jpg
+[debug] 17:34:00.005 Processed: images/2013/05/bicycle-generater.jpg
+[debug] 17:34:00.006 Processed: images/2013/05/bicycle-led.jpg
+[debug] 17:34:00.006 Processed: images/2013/05/fire-charger.jpg
+[debug] 17:34:00.006 Processed: images/2013/05/IMG_20130511_003748.jpg
+[debug] 17:34:00.007 Processed: images/2013/05/IMG_20130511_003832.jpg
+[debug] 17:34:00.007 Processed: images/2013/05/IMG_20130511_003931.jpg
+[debug] 17:34:00.007 Processed: images/2013/05/LEDPOV.jpg
+[debug] 17:34:00.008 Processed: images/2013/05/MyLogo.png
+[debug] 17:34:00.008 Processed: images/2013/05/plants.jpg
+[debug] 17:34:00.009 Processed: images/2013/05/point-cloud.jpg
+[debug] 17:34:00.009 Processed: images/2013/05/rplidar_interface.png
+[debug] 17:34:00.009 Processed: images/2013/05/smoking-machine.png
+[debug] 17:34:00.010 Processed: images/2013/05/theremin.jpg
+[debug] 17:34:00.010 Processed: images/2013/05/Thumbs.db
+[debug] 17:34:00.011 Processed: images/2013/05/time-twister.jpg
+[debug] 17:34:00.011 Processed: images/2013/05/vertibot-self-balancer.jpg
+[debug] 17:34:00.011 Processed: images/2013/06/IMG_20130607_183119.jpg
+[debug] 17:34:00.012 Processed: images/2013/06/makey.jpg
+[debug] 17:34:00.012 Processed: images/2013/07/Lelianwang.png
+[debug] 17:34:00.013 Processed: images/2013/08/Hardware-0.jpg
+[debug] 17:34:00.014 Processed: images/2013/08/Hardware-1.jpg
+[debug] 17:34:00.014 Processed: images/2013/08/Hardware-2.jpg
+[debug] 17:34:00.014 Processed: images/2013/08/Hardware-3.png
+[debug] 17:34:00.015 Processed: images/2013/08/Hardware-4.jpg
+[debug] 17:34:00.015 Processed: images/2013/08/Hardware-5.png
+[debug] 17:34:00.016 Processed: images/2013/10/0.jpg
+[debug] 17:34:00.017 Processed: images/2013/10/1.jpg
+[debug] 17:34:00.023 Processed: images/2013/10/10.jpg
+[debug] 17:34:00.024 Processed: images/2013/10/11.jpg
+[debug] 17:34:00.025 Processed: images/2013/10/12.jpg
+[debug] 17:34:00.025 Processed: images/2013/10/13.jpg
+[debug] 17:34:00.026 Processed: images/2013/10/14.jpg
+[debug] 17:34:00.027 Processed: images/2013/10/15.jpg
+[debug] 17:34:00.027 Processed: images/2013/10/16.jpg
+[debug] 17:34:00.028 Processed: images/2013/10/17.jpg
+[debug] 17:34:00.029 Processed: images/2013/10/18.jpg
+[debug] 17:34:00.030 Processed: images/2013/10/19.jpg
+[debug] 17:34:00.030 Processed: images/2013/10/2.jpg
+[debug] 17:34:00.031 Processed: images/2013/10/20.jpg
+[debug] 17:34:00.032 Processed: images/2013/10/21.jpg
+[debug] 17:34:00.033 Processed: images/2013/10/22.jpg
+[debug] 17:34:00.034 Processed: images/2013/10/23.jpg
+[debug] 17:34:00.034 Processed: images/2013/10/24.jpg
+[debug] 17:34:00.035 Processed: images/2013/10/25.jpg
+[debug] 17:34:00.036 Processed: images/2013/10/26.jpg
+[debug] 17:34:00.037 Processed: images/2013/10/27.jpg
+[debug] 17:34:00.038 Processed: images/2013/10/28.jpg
+[debug] 17:34:00.039 Processed: images/2013/10/29.jpg
+[debug] 17:34:00.039 Processed: images/2013/10/3.jpg
+[debug] 17:34:00.040 Processed: images/2013/10/30.jpg
+[debug] 17:34:00.041 Processed: images/2013/10/31.jpg
+[debug] 17:34:00.042 Processed: images/2013/10/32.jpg
+[debug] 17:34:00.043 Processed: images/2013/10/33.jpg
+[debug] 17:34:00.044 Processed: images/2013/10/34.jpg
+[debug] 17:34:00.049 Processed: images/2013/10/35.jpg
+[debug] 17:34:00.050 Processed: images/2013/10/36.jpg
+[debug] 17:34:00.051 Processed: images/2013/10/37.jpg
+[debug] 17:34:00.052 Processed: images/2013/10/38.jpg
+[debug] 17:34:00.053 Processed: images/2013/10/39.jpg
+[debug] 17:34:00.053 Processed: images/2013/10/3d10.jpg
+[debug] 17:34:00.054 Processed: images/2013/10/3d3.jpg
+[debug] 17:34:00.059 Processed: images/2013/10/3d4.jpg
+[debug] 17:34:00.059 Processed: images/2013/10/3d5.jpg
+[debug] 17:34:00.063 Processed: images/2013/10/3d6.jpg
+[debug] 17:34:00.064 Processed: images/2013/10/4.jpg
+[debug] 17:34:00.067 Processed: images/2013/10/40.jpg
+[debug] 17:34:00.067 Processed: images/2013/10/41.jpg
+[debug] 17:34:00.069 Processed: images/2013/10/5.jpg
+[debug] 17:34:00.070 Processed: images/2013/10/6.jpg
+[debug] 17:34:00.071 Processed: images/2013/10/7.jpg
+[debug] 17:34:00.071 Processed: images/2013/10/8.jpg
+[debug] 17:34:00.073 Processed: images/2013/10/9.jpg
+[debug] 17:34:00.074 Processed: images/2013/10/art0.jpg
+[debug] 17:34:00.075 Processed: images/2013/10/art1.jpg
+[debug] 17:34:00.076 Processed: images/2013/10/art2.jpg
+[debug] 17:34:00.076 Processed: images/2013/10/3d.jpg
+[debug] 17:34:00.077 Processed: images/2013/10/bio.jpg
+[debug] 17:34:00.079 Processed: images/2013/10/bio11.jpg
+[debug] 17:34:00.080 Processed: images/2013/10/bio12.jpg
+[debug] 17:34:00.081 Processed: images/2013/10/bio2.jpg
+[debug] 17:34:00.082 Processed: images/2013/10/bio3.jpg
+[debug] 17:34:00.083 Processed: images/2013/10/bio4.jpg
+[debug] 17:34:00.084 Processed: images/2013/10/bio5.jpg
+[debug] 17:34:00.085 Processed: images/2013/10/bio6.jpg
+[debug] 17:34:00.086 Processed: images/2013/10/bio61.jpg
+[debug] 17:34:00.087 Processed: images/2013/10/bio7.jpg
+[debug] 17:34:00.088 Processed: images/2013/10/diy2.jpg
+[debug] 17:34:00.089 Processed: images/2013/10/MakerC_Ent12.jpg
+[debug] 17:34:00.090 Processed: images/2013/10/MakerC_Ent2.jpg
+[debug] 17:34:00.091 Processed: images/2013/10/music.jpg
+[debug] 17:34:00.093 Processed: images/2013/10/music2.jpg
+[debug] 17:34:00.094 Processed: images/2013/10/product.jpg
+[debug] 17:34:00.095 Processed: images/2013/10/product3.jpg
+[debug] 17:34:00.096 Processed: images/2013/10/product4.jpg
+[debug] 17:34:00.100 Processed: images/2013/10/product5.jpg
+[debug] 17:34:00.101 Processed: images/2013/10/robc.jpg
+[debug] 17:34:00.102 Processed: images/2013/10/robc1.jpg
+[debug] 17:34:00.103 Processed: images/2013/10/robc2.jpg
+[debug] 17:34:00.104 Processed: images/2013/10/robc4.jpg
+[debug] 17:34:00.105 Processed: images/2013/10/robo.jpg
+[debug] 17:34:00.107 Processed: images/2013/10/robo10.jpg
+[debug] 17:34:00.108 Processed: images/2013/10/robo11.jpg
+[debug] 17:34:00.109 Processed: images/2013/10/robo2.jpg
+[debug] 17:34:00.110 Processed: images/2013/10/robo3.jpg
+[debug] 17:34:00.112 Processed: images/2013/10/robo4.jpg
+[debug] 17:34:00.113 Processed: images/2013/10/robo5.jpg
+[debug] 17:34:00.114 Processed: images/2013/10/robo7.jpg
+[debug] 17:34:00.115 Processed: images/2013/10/robo8.jpg
+[debug] 17:34:00.116 Processed: images/2013/10/robo9.jpg
+[debug] 17:34:00.117 Processed: images/2013/10/s-s.jpg
+[debug] 17:34:00.119 Processed: images/2013/10/soft1.jpg
+[debug] 17:34:00.121 Processed: images/2013/10/soft2.jpg
+[debug] 17:34:00.122 Processed: images/2013/10/soft3.jpg
+[debug] 17:34:00.123 Processed: images/2013/10/soft4.jpg
+[debug] 17:34:00.124 Processed: images/2013/10/spee.jpg
+[debug] 17:34:00.126 Processed: images/2013/10/spee0.jpg
+[debug] 17:34:00.127 Processed: images/2013/10/spee10.jpg
+[debug] 17:34:00.128 Processed: images/2013/10/spee2.jpg
+[debug] 17:34:00.130 Processed: images/2013/10/spee3.jpg
+[debug] 17:34:00.131 Processed: images/2013/10/spee5.jpg
+[debug] 17:34:00.161 Processed: images/2013/10/spee6.jpg
+[debug] 17:34:00.162 Processed: images/2013/10/spee7.jpg
+[debug] 17:34:00.164 Processed: images/2013/10/spee8.jpg
+[debug] 17:34:00.165 Processed: images/2013/10/spee9.jpg
+[debug] 17:34:00.166 Processed: images/2013/10/tube1.jpg
+[debug] 17:34:00.168 Processed: images/2013/10/tube2.jpg
+[debug] 17:34:00.169 Processed: images/2013/10/tube3.jpg
+[debug] 17:34:00.169 Processed: images/2013/11/201311211.jpg
+[debug] 17:34:00.171 Processed: images/2013/11/2013112110.jpg
+[debug] 17:34:00.171 Processed: images/2013/11/2013112111.jpg
+[debug] 17:34:00.172 Processed: images/2013/11/2013112112.jpg
+[debug] 17:34:00.172 Processed: images/2013/11/2013112113.jpg
+[debug] 17:34:00.173 Processed: images/2013/11/2013112114.jpg
+[debug] 17:34:00.173 Processed: images/2013/11/2013112115.jpg
+[debug] 17:34:00.174 Processed: images/2013/11/2013112116.jpg
+[debug] 17:34:00.174 Processed: images/2013/11/2013112117.jpg
+[debug] 17:34:00.175 Processed: images/2013/11/2013112118.jpg
+[debug] 17:34:00.175 Processed: images/2013/11/201311212.jpg
+[debug] 17:34:00.176 Processed: images/2013/11/201311213.jpg
+[debug] 17:34:00.176 Processed: images/2013/11/201311214.jpg
+[debug] 17:34:00.177 Processed: images/2013/11/201311215.jpg
+[debug] 17:34:00.177 Processed: images/2013/11/201311216.jpg
+[debug] 17:34:00.178 Processed: images/2013/11/201311217.jpg
+[debug] 17:34:00.178 Processed: images/2013/11/201311218.jpg
+[debug] 17:34:00.179 Processed: images/2013/11/201311219.jpg
+[debug] 17:34:00.179 Processed: images/2013/11/700px-Meet_Arduino.png
+[debug] 17:34:00.180 Processed: images/2013/11/Arduino_Kit.jpg
+[debug] 17:34:00.181 Processed: images/2013/11/Arduino_UNO.jpg
+[debug] 17:34:00.181 Processed: images/2013/11/Thumbs.db
+[debug] 17:34:00.183 Processed: images/2013/12/prezi-logo.jpg
+[debug] 17:34:00.184 Processed: images/2013/12/Thumbs.db
+[debug] 17:34:00.186 Processed: images/2013/09/IMG_20130921_144132.jpg
+[debug] 17:34:00.187 Processed: images/2013/09/IMG_20130921_1441321.jpg
+[debug] 17:34:00.188 Processed: images/2013/09/IMG_20130921_144200.jpg
+[debug] 17:34:00.190 Processed: images/2013/09/IMG_20130921_1442001.jpg
+[debug] 17:34:00.191 Processed: images/2013/09/IMG_20130921_144638.jpg
+[debug] 17:34:00.192 Processed: images/2013/09/IMG_20130921_1446381.jpg
+[debug] 17:34:00.193 Processed: images/2013/09/IMG_20130921_145912.jpg
+[debug] 17:34:00.195 Processed: images/2013/09/IMG_20130921_1459121.jpg
+[debug] 17:34:00.196 Processed: images/2013/09/IMG_20130921_153622.jpg
+[debug] 17:34:00.197 Processed: images/2013/09/IMG_20130921_1536221.jpg
+[debug] 17:34:00.199 Processed: images/2013/09/IMG_20130921_161608.jpg
+[debug] 17:34:00.200 Processed: images/2013/09/IMG_20130921_1616081.jpg
+[debug] 17:34:00.202 Processed: images/2013/09/IMG_20130921_161907.jpg
+[debug] 17:34:00.203 Processed: images/2013/09/IMG_20130921_1619071.jpg
+[debug] 17:34:00.204 Processed: images/2013/09/IMG_20130921_162803.jpg
+[debug] 17:34:00.206 Processed: images/2013/09/IMG_20130921_163144.jpg
+[debug] 17:34:00.207 Processed: images/2013/09/Deepin-Disk.jpg
+[debug] 17:34:00.208 Processed: images/2013/09/IMG_20130921_1822291.jpg
+[debug] 17:34:00.210 Processed: images/2013/09/IMG_20130921_163243.jpg
+[debug] 17:34:00.210 Processed: images/2013/05/stirling-car.jpg
+[debug] 17:34:00.260 Processed: about/index.md
+[debug] 17:34:00.264 Processed: _posts/2013-05-08-hello-world.md
+[debug] 17:34:00.270 Processed: _posts/2013-05-10-my-taskbar-clock.md
+[debug] 17:34:00.274 Processed: _posts/2013-05-17-hack-led-povs.md
+[debug] 17:34:00.282 Processed: _posts/2013-05-29-cool-diys.md
+[debug] 17:34:00.449 Processed: _posts/2013-06-01-a-easier-way-to-make-a-makeymakey.md
+[debug] 17:34:00.452 Processed: _posts/2013-06-07-kindle-paperwhite-using-experience.md
+[debug] 17:34:00.515 Processed: _posts/2013-06-07-mcu-double-click-detect.md
+[debug] 17:34:00.518 Processed: _posts/2013-07-15-just-google-it.md
+[debug] 17:34:00.528 Processed: _posts/2013-07-25-lelianwang-hands-on.md
+[debug] 17:34:00.556 Processed: _posts/2013-07-27-arduino-task-scheduler-library.md
+[debug] 17:34:00.559 Processed: _posts/2013-08-24-some-interesting-hardware-related-products.md
+[debug] 17:34:00.563 Processed: _posts/2013-09-22-2013-software-freedom-day-ustc.md
+[debug] 17:34:00.565 Processed: _posts/2013-10-04-this-year.md
+[debug] 17:34:00.567 Processed: _posts/2013-10-10-maker-reading-notes.md
+[debug] 17:34:00.569 Processed: _posts/2013-10-11-shang-ke-ji-reading-notes.md
+[debug] 17:34:00.571 Processed: _posts/2013-10-12-something-new.md
+[debug] 17:34:00.579 Processed: _posts/2013-10-24-maker-carnival-2013.md
+[debug] 17:34:00.582 Processed: _posts/2013-10-25-visiting-xinchejian.md
+[debug] 17:34:00.585 Processed: _posts/2013-11-04-meet-arduino-0.md
+[debug] 17:34:00.587 Processed: _posts/2013-11-04-meet-arduino.md
+[debug] 17:34:00.589 Processed: _posts/2013-11-22-2013-shuangbai.md
+[debug] 17:34:00.594 Processed: _posts/2013-12-04-introducing-prezi.md
+[debug] 17:34:00.737 Cache saved
+[info] 17:34:00.737 Files loaded in 1.217s
+[debug] 17:34:00.777 Render archive: archives/
+[debug] 17:34:00.778 Render archive: archives/page/2/
+[debug] 17:34:00.778 Render archive: archives/page/3/
+[debug] 17:34:00.778 Render archive: archives/2013/
+[debug] 17:34:00.778 Render archive: archives/2013/page/2/
+[debug] 17:34:00.778 Render archive: archives/2013/page/3/
+[debug] 17:34:00.778 Render archive: archives/2013/05/
+[debug] 17:34:00.779 Render archive: archives/2013/06/
+[debug] 17:34:00.779 Render archive: archives/2013/07/
+[debug] 17:34:00.779 Render archive: archives/2013/08/
+[debug] 17:34:00.779 Render archive: archives/2013/09/
+[debug] 17:34:00.779 Render archive: archives/2013/10/
+[debug] 17:34:00.779 Render archive: archives/2013/11/
+[debug] 17:34:00.779 Render archive: archives/2013/12/
+[debug] 17:34:00.779 Render category: categories/日记/
+[debug] 17:34:00.779 Render category: categories/制作/
+[debug] 17:34:00.779 Render category: categories/学习笔记/
+[debug] 17:34:00.779 Render category: categories/软件/
+[debug] 17:34:00.779 Render category: categories/读书笔记/
+[debug] 17:34:00.779 Render index: 
+[debug] 17:34:00.780 Render index: page/2/
+[debug] 17:34:00.780 Render index: page/3/
+[debug] 17:34:00.780 Render page: about/index.html
+[debug] 17:34:00.780 Render post: introducing-prezi.html
+[debug] 17:34:00.780 Render post: 2013-shuangbai.html
+[debug] 17:34:00.780 Render post: meet-arduino-0.html
+[debug] 17:34:00.780 Render post: meet-arduino.html
+[debug] 17:34:00.780 Render post: visiting-xinchejian.html
+[debug] 17:34:00.780 Render post: maker-carnival-2013.html
+[debug] 17:34:00.780 Render post: something-new.html
+[debug] 17:34:00.780 Render post: shang-ke-ji-reading-notes.html
+[debug] 17:34:00.780 Render post: maker-reading-notes.html
+[debug] 17:34:00.781 Render post: this-year.html
+[debug] 17:34:00.781 Render post: 2013-software-freedom-day-ustc.html
+[debug] 17:34:00.781 Render post: some-interesting-hardware-related-products.html
+[debug] 17:34:00.781 Render post: arduino-task-scheduler-library.html
+[debug] 17:34:00.781 Render post: lelianwang-hands-on.html
+[debug] 17:34:00.781 Render post: just-google-it.html
+[debug] 17:34:00.781 Render post: mcu-double-click-detect.html
+[debug] 17:34:00.781 Render post: kindle-paperwhite-using-experience.html
+[debug] 17:34:00.781 Render post: a-easier-way-to-make-a-makeymakey.html
+[debug] 17:34:00.782 Render post: cool-diys.html
+[debug] 17:34:00.782 Render post: hack-led-povs.html
+[debug] 17:34:00.782 Render post: my-taskbar-clock.html
+[debug] 17:34:00.782 Render post: hello-world.html
+[debug] 17:34:00.782 Render tag: tags/生活/
+[debug] 17:34:00.782 Render tag: tags/LED/
+[debug] 17:34:00.782 Render tag: tags/单片机/
+[debug] 17:34:00.782 Render tag: tags/时钟/
+[debug] 17:34:00.782 Render tag: tags/电子/
+[debug] 17:34:00.782 Render tag: tags/POV/
+[debug] 17:34:00.782 Render tag: tags/创意/
+[debug] 17:34:00.782 Render tag: tags/摇摇棒/
+[debug] 17:34:00.782 Render tag: tags/Arduino/
+[debug] 17:34:00.782 Render tag: tags/LEGO/
+[debug] 17:34:00.782 Render tag: tags/工具/
+[debug] 17:34:00.782 Render tag: tags/MakeyMakey/
+[debug] 17:34:00.782 Render tag: tags/MIDI/
+[debug] 17:34:00.782 Render tag: tags/音乐/
+[debug] 17:34:00.782 Render tag: tags/Kindle/
+[debug] 17:34:00.782 Render tag: tags/电子书/
+[debug] 17:34:00.782 Render tag: tags/阅读/
+[debug] 17:34:00.783 Render tag: tags/51/
+[debug] 17:34:00.783 Render tag: tags/按键/
+[debug] 17:34:00.783 Render tag: tags/Google/
+[debug] 17:34:00.783 Render tag: tags/搜索/
+[debug] 17:34:00.783 Render tag: tags/学习/
+[debug] 17:34:00.783 Render tag: tags/物联网/
+[debug] 17:34:00.783 Render tag: tags/Arduino库/
+[debug] 17:34:00.783 Render tag: tags/多任务/
+[debug] 17:34:00.783 Render tag: tags/调度器/
+[debug] 17:34:00.783 Render tag: tags/创客/
+[debug] 17:34:00.783 Render tag: tags/硬件/
+[debug] 17:34:00.783 Render tag: tags/GNU/
+[debug] 17:34:00.783 Render tag: tags/Linux/
+[debug] 17:34:00.783 Render tag: tags/开源软件/
+[debug] 17:34:00.783 Render tag: tags/教育/
+[debug] 17:34:00.783 Render tag: tags/Blog/
+[debug] 17:34:00.784 Render tag: tags/DIY/
+[debug] 17:34:00.784 Render tag: tags/科协/
+[debug] 17:34:00.784 Render tag: tags/上海创客嘉年华/
+[debug] 17:34:00.784 Render tag: tags/创客空间/
+[debug] 17:34:00.784 Render tag: tags/新车间/
+[debug] 17:34:00.784 Render tag: tags/教程/
+[debug] 17:34:00.784 Render tag: tags/科普/
+[debug] 17:34:00.784 Render tag: tags/PPT/
+[debug] 17:34:00.784 Render tag: tags/演示文稿/
+[debug] 17:34:00.784 Render tag: tags/Prezi/
+[debug] 17:34:00.784 Render tag: tags/设计/
+[debug] 17:34:00.952 Public folder cleared: fancybox\blank.gif,fancybox\fancybox_loading.gif,fancybox\fancybox_loading@2x.gif,fancybox\fancybox_overlay.png,fancybox\fancybox_sprite.png,fancybox\fancybox_sprite@2x.png,fancybox\jquery.fancybox.css,fancybox\jquery.fancybox.pack.js,fancybox\Thumbs.db,js\gallery.js,js\jquery.imagesloaded.min.js,css\style.css,css\font\fontawesome-webfont.eot,css\font\fontawesome-webfont.svg,css\font\fontawesome-webfont.ttf,css\font\fontawesome-webfont.woff,CNAME,favicon.ico,images\Thumbs.db,images\2013\05\arduino-robot.jpg,images\2013\05\bicycle-generater.jpg,images\2013\05\bicycle-led.jpg,images\2013\05\fire-charger.jpg,images\2013\05\IMG_20130511_003748.jpg,images\2013\05\IMG_20130511_003832.jpg,images\2013\05\IMG_20130511_003931.jpg,images\2013\05\LEDPOV.jpg,images\2013\05\MyLogo.png,images\2013\05\plants.jpg,images\2013\05\point-cloud.jpg,images\2013\05\rplidar_interface.png,images\2013\05\smoking-machine.png,images\2013\05\theremin.jpg,images\2013\05\Thumbs.db,images\2013\05\time-twister.jpg,images\2013\05\vertibot-self-balancer.jpg,images\2013\06\IMG_20130607_183119.jpg,images\2013\06\makey.jpg,images\2013\07\Lelianwang.png,images\2013\08\Hardware-0.jpg,images\2013\08\Hardware-1.jpg,images\2013\08\Hardware-2.jpg,images\2013\08\Hardware-3.png,images\2013\08\Hardware-4.jpg,images\2013\08\Hardware-5.png,images\2013\10\0.jpg,images\2013\10\1.jpg,images\2013\10\10.jpg,images\2013\10\11.jpg,images\2013\10\12.jpg,images\2013\10\13.jpg,images\2013\10\14.jpg,images\2013\10\15.jpg,images\2013\10\16.jpg,images\2013\10\17.jpg,images\2013\10\18.jpg,images\2013\10\19.jpg,images\2013\10\2.jpg,images\2013\10\20.jpg,images\2013\10\21.jpg,images\2013\10\22.jpg,images\2013\10\23.jpg,images\2013\10\24.jpg,images\2013\10\25.jpg,images\2013\10\26.jpg,images\2013\10\27.jpg,images\2013\10\28.jpg,images\2013\10\29.jpg,images\2013\10\3.jpg,images\2013\10\30.jpg,images\2013\10\31.jpg,images\2013\10\32.jpg,images\2013\10\33.jpg,images\2013\10\34.jpg,images\2013\10\35.jpg,images\2013\10\36.jpg,images\2013\10\37.jpg,images\2013\10\38.jpg,images\2013\10\39.jpg,images\2013\10\3d10.jpg,images\2013\10\3d3.jpg,images\2013\10\3d4.jpg,images\2013\10\3d5.jpg,images\2013\10\3d6.jpg,images\2013\10\4.jpg,images\2013\10\40.jpg,images\2013\10\41.jpg,images\2013\10\5.jpg,images\2013\10\6.jpg,images\2013\10\7.jpg,images\2013\10\8.jpg,images\2013\10\9.jpg,images\2013\10\art0.jpg,images\2013\10\art1.jpg,images\2013\10\art2.jpg,images\2013\10\3d.jpg,images\2013\10\bio.jpg,images\2013\10\bio11.jpg,images\2013\10\bio12.jpg,images\2013\10\bio2.jpg,images\2013\10\bio3.jpg,images\2013\10\bio4.jpg,images\2013\10\bio5.jpg,images\2013\10\bio6.jpg,images\2013\10\bio61.jpg,images\2013\10\bio7.jpg,images\2013\10\diy2.jpg,images\2013\10\MakerC_Ent12.jpg,images\2013\10\MakerC_Ent2.jpg,images\2013\10\music.jpg,images\2013\10\music2.jpg,images\2013\10\product.jpg,images\2013\10\product3.jpg,images\2013\10\product4.jpg,images\2013\10\product5.jpg,images\2013\10\robc.jpg,images\2013\10\robc1.jpg,images\2013\10\robc2.jpg,images\2013\10\robc4.jpg,images\2013\10\robo.jpg,images\2013\10\robo10.jpg,images\2013\10\robo11.jpg,images\2013\10\robo2.jpg,images\2013\10\robo3.jpg,images\2013\10\robo4.jpg,images\2013\10\robo5.jpg,images\2013\10\robo7.jpg,images\2013\10\robo8.jpg,images\2013\10\robo9.jpg,images\2013\10\s-s.jpg,images\2013\10\soft1.jpg,images\2013\10\soft2.jpg,images\2013\10\soft3.jpg,images\2013\10\soft4.jpg,images\2013\10\spee.jpg,images\2013\10\spee0.jpg,images\2013\10\spee10.jpg,images\2013\10\spee2.jpg,images\2013\10\spee3.jpg,images\2013\10\spee5.jpg,images\2013\10\spee6.jpg,images\2013\10\spee7.jpg,images\2013\10\spee8.jpg,images\2013\10\spee9.jpg,images\2013\10\tube1.jpg,images\2013\10\tube2.jpg,images\2013\10\tube3.jpg,images\2013\11\201311211.jpg,images\2013\11\2013112110.jpg,images\2013\11\2013112111.jpg,images\2013\11\2013112112.jpg,images\2013\11\2013112113.jpg,images\2013\11\2013112114.jpg,images\2013\11\2013112115.jpg,images\2013\11\2013112116.jpg,images\2013\11\2013112117.jpg,images\2013\11\2013112118.jpg,images\2013\11\201311212.jpg,images\2013\11\201311213.jpg,images\2013\11\201311214.jpg,images\2013\11\201311215.jpg,images\2013\11\201311216.jpg,images\2013\11\201311217.jpg,images\2013\11\201311218.jpg,images\2013\11\201311219.jpg,images\2013\11\700px-Meet_Arduino.png,images\2013\11\Arduino_Kit.jpg,images\2013\11\Arduino_UNO.jpg,images\2013\11\Thumbs.db,images\2013\12\prezi-logo.jpg,images\2013\12\Thumbs.db,images\2013\09\IMG_20130921_144132.jpg,images\2013\09\IMG_20130921_1441321.jpg,images\2013\09\IMG_20130921_144200.jpg,images\2013\09\IMG_20130921_1442001.jpg,images\2013\09\IMG_20130921_144638.jpg,images\2013\09\IMG_20130921_1446381.jpg,images\2013\09\IMG_20130921_145912.jpg,images\2013\09\IMG_20130921_1459121.jpg,images\2013\09\IMG_20130921_153622.jpg,images\2013\09\IMG_20130921_1536221.jpg,images\2013\09\IMG_20130921_161608.jpg,images\2013\09\IMG_20130921_1616081.jpg,images\2013\09\IMG_20130921_161907.jpg,images\2013\09\IMG_20130921_1619071.jpg,images\2013\09\IMG_20130921_162803.jpg,images\2013\09\IMG_20130921_163144.jpg,images\2013\09\Deepin-Disk.jpg,images\2013\09\IMG_20130921_1822291.jpg,images\2013\09\IMG_20130921_163243.jpg,images\2013\05\stirling-car.jpg,atom.xml,sitemap.xml,archives\index.html,archives\page\2\index.html,archives\page\3\index.html,archives\2013\index.html,archives\2013\page\2\index.html,archives\2013\page\3\index.html,archives\2013\05\index.html,archives\2013\06\index.html,archives\2013\07\index.html,archives\2013\08\index.html,archives\2013\09\index.html,archives\2013\10\index.html,archives\2013\11\index.html,archives\2013\12\index.html,categories\日记\index.html,categories\制作\index.html,categories\学习笔记\index.html,categories\软件\index.html,categories\读书笔记\index.html,index.html,page\2\index.html,page\3\index.html,about\index.html,introducing-prezi.html,2013-shuangbai.html,meet-arduino-0.html,meet-arduino.html,visiting-xinchejian.html,maker-carnival-2013.html,something-new.html,shang-ke-ji-reading-notes.html,maker-reading-notes.html,this-year.html,2013-software-freedom-day-ustc.html,some-interesting-hardware-related-products.html,arduino-task-scheduler-library.html,lelianwang-hands-on.html,just-google-it.html,mcu-double-click-detect.html,kindle-paperwhite-using-experience.html,a-easier-way-to-make-a-makeymakey.html,cool-diys.html,hack-led-povs.html,my-taskbar-clock.html,hello-world.html,tags\生活\index.html,tags\LED\index.html,tags\单片机\index.html,tags\时钟\index.html,tags\电子\index.html,tags\POV\index.html,tags\创意\index.html,tags\摇摇棒\index.html,tags\Arduino\index.html,tags\LEGO\index.html,tags\工具\index.html,tags\MakeyMakey\index.html,tags\MIDI\index.html,tags\音乐\index.html,tags\Kindle\index.html,tags\电子书\index.html,tags\阅读\index.html,tags\51\index.html,tags\按键\index.html,tags\Google\index.html,tags\搜索\index.html,tags\学习\index.html,tags\物联网\index.html,tags\Arduino库\index.html,tags\多任务\index.html,tags\调度器\index.html,tags\创客\index.html,tags\硬件\index.html,tags\GNU\index.html,tags\Linux\index.html,tags\开源软件\index.html,tags\教育\index.html,tags\Blog\index.html,tags\DIY\index.html,tags\科协\index.html,tags\上海创客嘉年华\index.html,tags\创客空间\index.html,tags\新车间\index.html,tags\教程\index.html,tags\科普\index.html,tags\PPT\index.html,tags\演示文稿\index.html,tags\Prezi\index.html,tags\设计\index.html
+[error] 17:34:01.428 HexoError: Render failed: archives/index.html
+SyntaxError: C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\layout.ejs:11
+    9|   </div>
+    10|   <footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>
+ >> 11|   <%- partial('_partial/after_footer') %>
+    12| </body>
+    13| </html>
 
-[debug] 16:38:20.754 Configuration file load successfully
-[debug] 16:38:20.770 Version info checked successfully
-[debug] 16:38:20.770 Plugin loaded successfully: hexo-generator-feed
-[debug] 16:38:20.785 Plugin loaded successfully: hexo-generator-sitemap
-[debug] 16:38:20.785 Loading the database...
-[debug] 16:38:21.676 Theme layout loaded
-[debug] 16:38:21.707 Theme configuration loaded
-[debug] 16:38:21.754 Theme source loaded
-[debug] 16:38:21.754 Theme i18n loaded
-[debug] 16:38:22.161 Processed: about
-[debug] 16:38:22.161 Processed: CNAME
-[debug] 16:38:22.161 Processed: favicon.ico
-[debug] 16:38:22.161 Processed: images/Thumbs.db
-[debug] 16:38:22.161 Processed: images/2013/05/arduino-robot.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/bicycle-generater.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/bicycle-led.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/fire-charger.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/IMG_20130511_003748.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/IMG_20130511_003832.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/IMG_20130511_003931.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/LEDPOV.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/MyLogo.png
-[debug] 16:38:22.161 Processed: images/2013/05/plants.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/point-cloud.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/rplidar_interface.png
-[debug] 16:38:22.161 Processed: images/2013/05/smoking-machine.png
-[debug] 16:38:22.161 Processed: images/2013/05/stirling-car.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/theremin.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/Thumbs.db
-[debug] 16:38:22.161 Processed: images/2013/05/time-twister.jpg
-[debug] 16:38:22.161 Processed: images/2013/05/vertibot-self-balancer.jpg
-[debug] 16:38:22.176 Processed: images/2013/06/IMG_20130607_183119.jpg
-[debug] 16:38:22.176 Processed: images/2013/06/makey.jpg
-[debug] 16:38:22.176 Processed: images/2013/07/Lelianwang.png
-[debug] 16:38:22.176 Processed: images/2013/08/Hardware-0.jpg
-[debug] 16:38:22.176 Processed: images/2013/08/Hardware-1.jpg
-[debug] 16:38:22.176 Processed: images/2013/08/Hardware-2.jpg
-[debug] 16:38:22.176 Processed: images/2013/08/Hardware-3.png
-[debug] 16:38:22.176 Processed: images/2013/08/Hardware-4.jpg
-[debug] 16:38:22.176 Processed: images/2013/08/Hardware-5.png
-[debug] 16:38:22.176 Processed: images/2013/09/Deepin-Disk.jpg
-[debug] 16:38:22.176 Processed: images/2013/09/IMG_20130921_144132.jpg
-[debug] 16:38:22.176 Processed: images/2013/09/IMG_20130921_1441321.jpg
-[debug] 16:38:22.176 Processed: images/2013/09/IMG_20130921_144200.jpg
-[debug] 16:38:22.176 Processed: images/2013/09/IMG_20130921_1442001.jpg
-[debug] 16:38:22.176 Processed: images/2013/09/IMG_20130921_144638.jpg
-[debug] 16:38:22.176 Processed: images/2013/09/IMG_20130921_1446381.jpg
-[debug] 16:38:22.192 Processed: images/2013/09/IMG_20130921_145912.jpg
-[debug] 16:38:22.192 Processed: images/2013/09/IMG_20130921_1459121.jpg
-[debug] 16:38:22.192 Processed: images/2013/09/IMG_20130921_153622.jpg
-[debug] 16:38:22.192 Processed: images/2013/09/IMG_20130921_1536221.jpg
-[debug] 16:38:22.192 Processed: images/2013/09/IMG_20130921_161608.jpg
-[debug] 16:38:22.192 Processed: images/2013/09/IMG_20130921_1616081.jpg
-[debug] 16:38:22.192 Processed: images/2013/09/IMG_20130921_161907.jpg
-[debug] 16:38:22.207 Processed: images/2013/09/IMG_20130921_1619071.jpg
-[debug] 16:38:22.207 Processed: images/2013/09/IMG_20130921_162803.jpg
-[debug] 16:38:22.207 Processed: images/2013/09/IMG_20130921_163144.jpg
-[debug] 16:38:22.207 Processed: images/2013/09/IMG_20130921_163243.jpg
-[debug] 16:38:22.207 Processed: images/2013/09/IMG_20130921_1822291.jpg
-[debug] 16:38:22.207 Processed: images/2013/10/0.jpg
-[debug] 16:38:22.207 Processed: images/2013/10/1.jpg
-[debug] 16:38:22.207 Processed: images/2013/10/10.jpg
-[debug] 16:38:22.207 Processed: images/2013/10/11.jpg
-[debug] 16:38:22.207 Processed: images/2013/10/12.jpg
-[debug] 16:38:22.207 Processed: images/2013/10/13.jpg
-[debug] 16:38:22.207 Processed: images/2013/10/15.jpg
-[debug] 16:38:22.207 Processed: images/2013/10/16.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/17.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/18.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/19.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/2.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/20.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/21.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/22.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/23.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/24.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/25.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/26.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/27.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/28.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/29.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/3.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/30.jpg
-[debug] 16:38:22.223 Processed: images/2013/10/31.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/32.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/33.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/34.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/35.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/36.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/37.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/38.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/39.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/3d.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/3d10.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/3d3.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/3d4.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/3d5.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/3d6.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/4.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/40.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/41.jpg
-[debug] 16:38:22.239 Processed: images/2013/10/5.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/6.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/7.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/8.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/9.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/art0.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/art1.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/art2.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/bio.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/bio11.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/bio12.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/bio2.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/bio3.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/bio4.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/bio5.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/bio6.jpg
-[debug] 16:38:22.254 Processed: images/2013/10/bio61.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/bio7.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/diy2.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/MakerC_Ent12.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/MakerC_Ent2.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/music.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/music2.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/product.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/product3.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/product4.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/product5.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/robc.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/robc1.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/robc2.jpg
-[debug] 16:38:22.270 Processed: images/2013/10/robc4.jpg
-[debug] 16:38:22.286 Processed: images/2013/10/robo.jpg
-[debug] 16:38:22.286 Processed: images/2013/10/robo10.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/robo11.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/robo2.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/robo3.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/robo4.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/robo5.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/robo7.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/robo8.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/robo9.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/s-s.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/soft1.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/soft2.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/soft3.jpg
-[debug] 16:38:22.301 Processed: images/2013/10/soft4.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/spee.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/spee0.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/spee10.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/spee2.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/spee3.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/spee5.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/spee6.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/spee7.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/spee8.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/spee9.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/tube1.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/tube2.jpg
-[debug] 16:38:22.317 Processed: images/2013/10/tube3.jpg
-[debug] 16:38:22.332 Processed: images/2013/10/14.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/201311211.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/2013112110.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/2013112111.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/2013112112.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/2013112113.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/2013112114.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/2013112115.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/2013112116.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/2013112117.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/2013112118.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/201311212.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/201311213.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/201311214.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/201311215.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/201311216.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/201311217.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/201311218.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/201311219.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/700px-Meet_Arduino.png
-[debug] 16:38:22.332 Processed: images/2013/11/Arduino_Kit.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/Arduino_UNO.jpg
-[debug] 16:38:22.332 Processed: images/2013/11/Thumbs.db
-[debug] 16:38:22.379 Processed: _posts/2013-05-08-hello-world.md
-[debug] 16:38:22.395 Processed: _posts/2013-05-10-my-taskbar-clock.md
-[debug] 16:38:22.395 Processed: _posts/2013-05-17-hack-led-povs.md
-[debug] 16:38:22.411 Processed: _posts/2013-05-29-cool-diys.md
-[debug] 16:38:22.567 Processed: _posts/2013-06-01-a-easier-way-to-make-a-makeymakey.md
-[debug] 16:38:22.582 Processed: _posts/2013-06-07-kindle-paperwhite-using-experience.md
-[debug] 16:38:22.645 Processed: _posts/2013-06-07-mcu-double-click-detect.md
-[debug] 16:38:22.645 Processed: _posts/2013-07-15-just-google-it.md
-[debug] 16:38:22.645 Processed: _posts/2013-07-25-lelianwang-hands-on.md
-[debug] 16:38:22.692 Processed: _posts/2013-07-27-arduino-task-scheduler-library.md
-[debug] 16:38:22.692 Processed: _posts/2013-08-24-some-interesting-hardware-related-products.md
-[debug] 16:38:22.692 Processed: _posts/2013-09-22-2013-software-freedom-day-ustc.md
-[debug] 16:38:22.692 Processed: _posts/2013-10-04-this-year.md
-[debug] 16:38:22.692 Processed: _posts/2013-10-10-maker-reading-notes.md
-[debug] 16:38:22.707 Processed: _posts/2013-10-11-shang-ke-ji-reading-notes.md
-[debug] 16:38:22.707 Processed: _posts/2013-10-12-something-new.md
-[debug] 16:38:22.707 Processed: _posts/2013-10-24-maker-carnival-2013.md
-[debug] 16:38:22.707 Processed: _posts/2013-10-25-visiting-xinchejian.md
-[debug] 16:38:22.723 Processed: _posts/2013-11-04-meet-arduino-0.md
-[debug] 16:38:22.723 Processed: _posts/2013-11-04-meet-arduino.md
-[debug] 16:38:22.723 Processed: _posts/2013-11-22-2013-shuangbai.md
-[debug] 16:38:22.864 Cache saved
-[info] 16:38:22.864 Files loaded in 1.219s
-[debug] 16:38:22.895 Render archive: archives/
-[debug] 16:38:22.895 Render archive: archives/page/2/
-[debug] 16:38:22.895 Render archive: archives/page/3/
-[debug] 16:38:22.895 Render archive: archives/2013/
-[debug] 16:38:22.895 Render archive: archives/2013/page/2/
-[debug] 16:38:22.895 Render archive: archives/2013/page/3/
-[debug] 16:38:22.895 Render archive: archives/2013/05/
-[debug] 16:38:22.895 Render archive: archives/2013/06/
-[debug] 16:38:22.895 Render archive: archives/2013/07/
-[debug] 16:38:22.895 Render archive: archives/2013/08/
-[debug] 16:38:22.895 Render archive: archives/2013/09/
-[debug] 16:38:22.895 Render archive: archives/2013/10/
-[debug] 16:38:22.895 Render archive: archives/2013/11/
-[debug] 16:38:22.895 Render category: categories/日记/
-[debug] 16:38:22.895 Render category: categories/制作/
-[debug] 16:38:22.895 Render category: categories/学习笔记/
-[debug] 16:38:22.895 Render category: categories/软件/
-[debug] 16:38:22.895 Render category: categories/读书笔记/
-[debug] 16:38:22.895 Render index: 
-[debug] 16:38:22.895 Render index: page/2/
-[debug] 16:38:22.895 Render index: page/3/
-[debug] 16:38:22.895 Render post: 2013-shuangbai.html
-[debug] 16:38:22.895 Render post: meet-arduino-0.html
-[debug] 16:38:22.895 Render post: meet-arduino.html
-[debug] 16:38:22.895 Render post: visiting-xinchejian.html
-[debug] 16:38:22.895 Render post: maker-carnival-2013.html
-[debug] 16:38:22.895 Render post: something-new.html
-[debug] 16:38:22.895 Render post: shang-ke-ji-reading-notes.html
-[debug] 16:38:22.895 Render post: maker-reading-notes.html
-[debug] 16:38:22.895 Render post: this-year.html
-[debug] 16:38:22.895 Render post: 2013-software-freedom-day-ustc.html
-[debug] 16:38:22.895 Render post: some-interesting-hardware-related-products.html
-[debug] 16:38:22.895 Render post: arduino-task-scheduler-library.html
-[debug] 16:38:22.895 Render post: lelianwang-hands-on.html
-[debug] 16:38:22.895 Render post: just-google-it.html
-[debug] 16:38:22.895 Render post: mcu-double-click-detect.html
-[debug] 16:38:22.895 Render post: kindle-paperwhite-using-experience.html
-[debug] 16:38:22.895 Render post: a-easier-way-to-make-a-makeymakey.html
-[debug] 16:38:22.895 Render post: cool-diys.html
-[debug] 16:38:22.895 Render post: hack-led-povs.html
-[debug] 16:38:22.895 Render post: my-taskbar-clock.html
-[debug] 16:38:22.895 Render post: hello-world.html
-[debug] 16:38:22.895 Render tag: tags/生活/
-[debug] 16:38:22.895 Render tag: tags/LED/
-[debug] 16:38:22.895 Render tag: tags/单片机/
-[debug] 16:38:22.895 Render tag: tags/时钟/
-[debug] 16:38:22.895 Render tag: tags/电子/
-[debug] 16:38:22.895 Render tag: tags/POV/
-[debug] 16:38:22.895 Render tag: tags/创意/
-[debug] 16:38:22.895 Render tag: tags/摇摇棒/
-[debug] 16:38:22.895 Render tag: tags/Arduino/
-[debug] 16:38:22.895 Render tag: tags/LEGO/
-[debug] 16:38:22.895 Render tag: tags/工具/
-[debug] 16:38:22.895 Render tag: tags/MakeyMakey/
-[debug] 16:38:22.895 Render tag: tags/MIDI/
-[debug] 16:38:22.895 Render tag: tags/音乐/
-[debug] 16:38:22.895 Render tag: tags/Kindle/
-[debug] 16:38:22.895 Render tag: tags/电子书/
-[debug] 16:38:22.895 Render tag: tags/阅读/
-[debug] 16:38:22.895 Render tag: tags/51/
-[debug] 16:38:22.895 Render tag: tags/按键/
-[debug] 16:38:22.895 Render tag: tags/Google/
-[debug] 16:38:22.895 Render tag: tags/搜索/
-[debug] 16:38:22.895 Render tag: tags/学习/
-[debug] 16:38:22.895 Render tag: tags/物联网/
-[debug] 16:38:22.895 Render tag: tags/Arduino库/
-[debug] 16:38:22.895 Render tag: tags/多任务/
-[debug] 16:38:22.895 Render tag: tags/调度器/
-[debug] 16:38:22.895 Render tag: tags/创客/
-[debug] 16:38:22.895 Render tag: tags/硬件/
-[debug] 16:38:22.895 Render tag: tags/GNU/
-[debug] 16:38:22.895 Render tag: tags/Linux/
-[debug] 16:38:22.895 Render tag: tags/开源软件/
-[debug] 16:38:22.895 Render tag: tags/教育/
-[debug] 16:38:22.895 Render tag: tags/Blog/
-[debug] 16:38:22.895 Render tag: tags/DIY/
-[debug] 16:38:22.895 Render tag: tags/科协/
-[debug] 16:38:22.895 Render tag: tags/上海创客嘉年华/
-[debug] 16:38:22.895 Render tag: tags/创客空间/
-[debug] 16:38:22.895 Render tag: tags/新车间/
-[debug] 16:38:22.895 Render tag: tags/教程/
-[debug] 16:38:22.895 Render tag: tags/科普/
-[debug] 16:38:23.067 Public folder cleared: fancybox\blank.gif,fancybox\fancybox_loading.gif,fancybox\fancybox_loading@2x.gif,fancybox\fancybox_overlay.png,fancybox\fancybox_sprite.png,fancybox\fancybox_sprite@2x.png,fancybox\jquery.fancybox.css,fancybox\jquery.fancybox.pack.js,js\gallery.js,css\style.css,css\font\fontawesome-webfont.eot,css\font\fontawesome-webfont.svg,css\font\fontawesome-webfont.ttf,css\font\fontawesome-webfont.woff,js\jquery.imagesloaded.min.js,about,CNAME,favicon.ico,images\Thumbs.db,images\2013\05\arduino-robot.jpg,images\2013\05\bicycle-generater.jpg,images\2013\05\bicycle-led.jpg,images\2013\05\fire-charger.jpg,images\2013\05\IMG_20130511_003748.jpg,images\2013\05\IMG_20130511_003832.jpg,images\2013\05\IMG_20130511_003931.jpg,images\2013\05\LEDPOV.jpg,images\2013\05\MyLogo.png,images\2013\05\plants.jpg,images\2013\05\point-cloud.jpg,images\2013\05\rplidar_interface.png,images\2013\05\smoking-machine.png,images\2013\05\stirling-car.jpg,images\2013\05\theremin.jpg,images\2013\05\Thumbs.db,images\2013\05\time-twister.jpg,images\2013\05\vertibot-self-balancer.jpg,images\2013\06\IMG_20130607_183119.jpg,images\2013\06\makey.jpg,images\2013\07\Lelianwang.png,images\2013\08\Hardware-0.jpg,images\2013\08\Hardware-1.jpg,images\2013\08\Hardware-2.jpg,images\2013\08\Hardware-3.png,images\2013\08\Hardware-4.jpg,images\2013\08\Hardware-5.png,images\2013\09\Deepin-Disk.jpg,images\2013\09\IMG_20130921_144132.jpg,images\2013\09\IMG_20130921_1441321.jpg,images\2013\09\IMG_20130921_144200.jpg,images\2013\09\IMG_20130921_1442001.jpg,images\2013\09\IMG_20130921_144638.jpg,images\2013\09\IMG_20130921_1446381.jpg,images\2013\09\IMG_20130921_145912.jpg,images\2013\09\IMG_20130921_1459121.jpg,images\2013\09\IMG_20130921_153622.jpg,images\2013\09\IMG_20130921_1536221.jpg,images\2013\09\IMG_20130921_161608.jpg,images\2013\09\IMG_20130921_1616081.jpg,images\2013\09\IMG_20130921_161907.jpg,images\2013\09\IMG_20130921_1619071.jpg,images\2013\09\IMG_20130921_162803.jpg,images\2013\09\IMG_20130921_163144.jpg,images\2013\09\IMG_20130921_163243.jpg,images\2013\09\IMG_20130921_1822291.jpg,images\2013\10\0.jpg,images\2013\10\1.jpg,images\2013\10\10.jpg,images\2013\10\11.jpg,images\2013\10\12.jpg,images\2013\10\13.jpg,images\2013\10\15.jpg,images\2013\10\16.jpg,images\2013\10\17.jpg,images\2013\10\18.jpg,images\2013\10\19.jpg,images\2013\10\2.jpg,images\2013\10\20.jpg,images\2013\10\21.jpg,images\2013\10\22.jpg,images\2013\10\23.jpg,images\2013\10\24.jpg,images\2013\10\25.jpg,images\2013\10\26.jpg,images\2013\10\27.jpg,images\2013\10\28.jpg,images\2013\10\29.jpg,images\2013\10\3.jpg,images\2013\10\30.jpg,images\2013\10\31.jpg,images\2013\10\32.jpg,images\2013\10\33.jpg,images\2013\10\34.jpg,images\2013\10\35.jpg,images\2013\10\36.jpg,images\2013\10\37.jpg,images\2013\10\38.jpg,images\2013\10\39.jpg,images\2013\10\3d.jpg,images\2013\10\3d10.jpg,images\2013\10\3d3.jpg,images\2013\10\3d4.jpg,images\2013\10\3d5.jpg,images\2013\10\3d6.jpg,images\2013\10\4.jpg,images\2013\10\40.jpg,images\2013\10\41.jpg,images\2013\10\5.jpg,images\2013\10\6.jpg,images\2013\10\7.jpg,images\2013\10\8.jpg,images\2013\10\9.jpg,images\2013\10\art0.jpg,images\2013\10\art1.jpg,images\2013\10\art2.jpg,images\2013\10\bio.jpg,images\2013\10\bio11.jpg,images\2013\10\bio12.jpg,images\2013\10\bio2.jpg,images\2013\10\bio3.jpg,images\2013\10\bio4.jpg,images\2013\10\bio5.jpg,images\2013\10\bio6.jpg,images\2013\10\bio61.jpg,images\2013\10\bio7.jpg,images\2013\10\diy2.jpg,images\2013\10\MakerC_Ent12.jpg,images\2013\10\MakerC_Ent2.jpg,images\2013\10\music.jpg,images\2013\10\music2.jpg,images\2013\10\product.jpg,images\2013\10\product3.jpg,images\2013\10\product4.jpg,images\2013\10\product5.jpg,images\2013\10\robc.jpg,images\2013\10\robc1.jpg,images\2013\10\robc2.jpg,images\2013\10\robc4.jpg,images\2013\10\robo.jpg,images\2013\10\robo10.jpg,images\2013\10\robo11.jpg,images\2013\10\robo2.jpg,images\2013\10\robo3.jpg,images\2013\10\robo4.jpg,images\2013\10\robo5.jpg,images\2013\10\robo7.jpg,images\2013\10\robo8.jpg,images\2013\10\robo9.jpg,images\2013\10\s-s.jpg,images\2013\10\soft1.jpg,images\2013\10\soft2.jpg,images\2013\10\soft3.jpg,images\2013\10\soft4.jpg,images\2013\10\spee.jpg,images\2013\10\spee0.jpg,images\2013\10\spee10.jpg,images\2013\10\spee2.jpg,images\2013\10\spee3.jpg,images\2013\10\spee5.jpg,images\2013\10\spee6.jpg,images\2013\10\spee7.jpg,images\2013\10\spee8.jpg,images\2013\10\spee9.jpg,images\2013\10\tube1.jpg,images\2013\10\tube2.jpg,images\2013\10\tube3.jpg,images\2013\10\14.jpg,images\2013\11\201311211.jpg,images\2013\11\2013112110.jpg,images\2013\11\2013112111.jpg,images\2013\11\2013112112.jpg,images\2013\11\2013112113.jpg,images\2013\11\2013112114.jpg,images\2013\11\2013112115.jpg,images\2013\11\2013112116.jpg,images\2013\11\2013112117.jpg,images\2013\11\2013112118.jpg,images\2013\11\201311212.jpg,images\2013\11\201311213.jpg,images\2013\11\201311214.jpg,images\2013\11\201311215.jpg,images\2013\11\201311216.jpg,images\2013\11\201311217.jpg,images\2013\11\201311218.jpg,images\2013\11\201311219.jpg,images\2013\11\700px-Meet_Arduino.png,images\2013\11\Arduino_Kit.jpg,images\2013\11\Arduino_UNO.jpg,images\2013\11\Thumbs.db,atom.xml,sitemap.xml,archives\index.html,archives\page\2\index.html,archives\page\3\index.html,archives\2013\index.html,archives\2013\page\2\index.html,archives\2013\page\3\index.html,archives\2013\05\index.html,archives\2013\06\index.html,archives\2013\07\index.html,archives\2013\08\index.html,archives\2013\09\index.html,archives\2013\10\index.html,archives\2013\11\index.html,categories\日记\index.html,categories\制作\index.html,categories\学习笔记\index.html,categories\软件\index.html,categories\读书笔记\index.html,index.html,page\2\index.html,page\3\index.html,2013-shuangbai.html,meet-arduino-0.html,meet-arduino.html,visiting-xinchejian.html,maker-carnival-2013.html,something-new.html,shang-ke-ji-reading-notes.html,maker-reading-notes.html,this-year.html,2013-software-freedom-day-ustc.html,some-interesting-hardware-related-products.html,arduino-task-scheduler-library.html,lelianwang-hands-on.html,just-google-it.html,mcu-double-click-detect.html,kindle-paperwhite-using-experience.html,a-easier-way-to-make-a-makeymakey.html,cool-diys.html,hack-led-povs.html,my-taskbar-clock.html,hello-world.html,tags\生活\index.html,tags\LED\index.html,tags\单片机\index.html,tags\时钟\index.html,tags\电子\index.html,tags\POV\index.html,tags\创意\index.html,tags\摇摇棒\index.html,tags\Arduino\index.html,tags\LEGO\index.html,tags\工具\index.html,tags\MakeyMakey\index.html,tags\MIDI\index.html,tags\音乐\index.html,tags\Kindle\index.html,tags\电子书\index.html,tags\阅读\index.html,tags\51\index.html,tags\按键\index.html,tags\Google\index.html,tags\搜索\index.html,tags\学习\index.html,tags\物联网\index.html,tags\Arduino库\index.html,tags\多任务\index.html,tags\调度器\index.html,tags\创客\index.html,tags\硬件\index.html,tags\GNU\index.html,tags\Linux\index.html,tags\开源软件\index.html,tags\教育\index.html,tags\Blog\index.html,tags\DIY\index.html,tags\科协\index.html,tags\上海创客嘉年华\index.html,tags\创客空间\index.html,tags\新车间\index.html,tags\教程\index.html,tags\科普\index.html
-[error] 16:38:25.926 { errno: 28,
-  code: 'EISDIR',
-  path: 'c:\\Users\\Blanboom\\Documents\\MyFiles\\MyProjects\\MyBlog\\public\\about',
-  name: 'HexoError',
-  message: 'File generate failed: about',
-  stack: undefined }
-[create] 16:38:25.958 Public: atom.xml
-[create] 16:38:25.958 Public: sitemap.xml
-[create] 16:38:25.973 Public: archives\index.html
-[create] 16:38:25.973 Public: archives\page\2\index.html
+C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\_partial\after_footer.ejs:32
+    30|     var wumiiPermaLink = "<%- page.title %>"; 
+    31|     var wumiiTitle = "<%- page.permalink %>"; 
+ >> 32|     var wumiiTags = "<%- partial('post/wumii-tag') %>"; 
+    33|     var wumiiCategories = ; 
+    34|     var wumiiSitePrefix = "http://blanboom.org/";
+    35|     var wumiiParams = "&num=5&mode=3&pf=JAVASCRIPT";
+
+Unexpected token < in "C:\\Users\\Blanboom\\Documents\\MyFiles\\MyProjects\\MyBlog\\themes\\light\\layout\\_partial\\post\\wumii-tag.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14)
+    at Object.exports.render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:278:66)
+    at Object.module.exports [as ejs] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\render.js:143:29)
+    at render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:28:22)
+    at Object.module.exports [as partial] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:41:12)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1605)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2537)
+    at C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:249:15
+
+[error] 17:34:01.462 HexoError: Render failed: archives/page/2/index.html
+SyntaxError: C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\layout.ejs:11
+    9|   </div>
+    10|   <footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>
+ >> 11|   <%- partial('_partial/after_footer') %>
+    12| </body>
+    13| </html>
+
+C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\_partial\after_footer.ejs:32
+    30|     var wumiiPermaLink = "<%- page.title %>"; 
+    31|     var wumiiTitle = "<%- page.permalink %>"; 
+ >> 32|     var wumiiTags = "<%- partial('post/wumii-tag') %>"; 
+    33|     var wumiiCategories = ; 
+    34|     var wumiiSitePrefix = "http://blanboom.org/";
+    35|     var wumiiParams = "&num=5&mode=3&pf=JAVASCRIPT";
+
+Unexpected token < in "C:\\Users\\Blanboom\\Documents\\MyFiles\\MyProjects\\MyBlog\\themes\\light\\layout\\_partial\\post\\wumii-tag.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14)
+    at Object.exports.render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:278:66)
+    at Object.module.exports [as ejs] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\render.js:143:29)
+    at render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:28:22)
+    at Object.module.exports [as partial] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:41:12)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1605)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2537)
+    at C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:249:15
+
+[error] 17:34:01.494 HexoError: Render failed: archives/page/3/index.html
+SyntaxError: C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\layout.ejs:11
+    9|   </div>
+    10|   <footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>
+ >> 11|   <%- partial('_partial/after_footer') %>
+    12| </body>
+    13| </html>
+
+C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\_partial\after_footer.ejs:32
+    30|     var wumiiPermaLink = "<%- page.title %>"; 
+    31|     var wumiiTitle = "<%- page.permalink %>"; 
+ >> 32|     var wumiiTags = "<%- partial('post/wumii-tag') %>"; 
+    33|     var wumiiCategories = ; 
+    34|     var wumiiSitePrefix = "http://blanboom.org/";
+    35|     var wumiiParams = "&num=5&mode=3&pf=JAVASCRIPT";
+
+Unexpected token < in "C:\\Users\\Blanboom\\Documents\\MyFiles\\MyProjects\\MyBlog\\themes\\light\\layout\\_partial\\post\\wumii-tag.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14)
+    at Object.exports.render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:278:66)
+    at Object.module.exports [as ejs] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\render.js:143:29)
+    at render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:28:22)
+    at Object.module.exports [as partial] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:41:12)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1605)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2537)
+    at C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:249:15
+
+[error] 17:34:01.525 HexoError: Render failed: archives/2013/index.html
+SyntaxError: C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\layout.ejs:11
+    9|   </div>
+    10|   <footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>
+ >> 11|   <%- partial('_partial/after_footer') %>
+    12| </body>
+    13| </html>
+
+C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\_partial\after_footer.ejs:32
+    30|     var wumiiPermaLink = "<%- page.title %>"; 
+    31|     var wumiiTitle = "<%- page.permalink %>"; 
+ >> 32|     var wumiiTags = "<%- partial('post/wumii-tag') %>"; 
+    33|     var wumiiCategories = ; 
+    34|     var wumiiSitePrefix = "http://blanboom.org/";
+    35|     var wumiiParams = "&num=5&mode=3&pf=JAVASCRIPT";
+
+Unexpected token < in "C:\\Users\\Blanboom\\Documents\\MyFiles\\MyProjects\\MyBlog\\themes\\light\\layout\\_partial\\post\\wumii-tag.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14)
+    at Object.exports.render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:278:66)
+    at Object.module.exports [as ejs] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\render.js:143:29)
+    at render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:28:22)
+    at Object.module.exports [as partial] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:41:12)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1605)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2537)
+    at C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:249:15
+
+[error] 17:34:01.566 HexoError: Render failed: archives/2013/page/2/index.html
+SyntaxError: C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\layout.ejs:11
+    9|   </div>
+    10|   <footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>
+ >> 11|   <%- partial('_partial/after_footer') %>
+    12| </body>
+    13| </html>
+
+C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\_partial\after_footer.ejs:32
+    30|     var wumiiPermaLink = "<%- page.title %>"; 
+    31|     var wumiiTitle = "<%- page.permalink %>"; 
+ >> 32|     var wumiiTags = "<%- partial('post/wumii-tag') %>"; 
+    33|     var wumiiCategories = ; 
+    34|     var wumiiSitePrefix = "http://blanboom.org/";
+    35|     var wumiiParams = "&num=5&mode=3&pf=JAVASCRIPT";
+
+Unexpected token < in "C:\\Users\\Blanboom\\Documents\\MyFiles\\MyProjects\\MyBlog\\themes\\light\\layout\\_partial\\post\\wumii-tag.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14)
+    at Object.exports.render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:278:66)
+    at Object.module.exports [as ejs] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\render.js:143:29)
+    at render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:28:22)
+    at Object.module.exports [as partial] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:41:12)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1605)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2537)
+    at C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:249:15
+
+[error] 17:34:01.606 HexoError: Render failed: archives/2013/page/3/index.html
+SyntaxError: C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\layout.ejs:11
+    9|   </div>
+    10|   <footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>
+ >> 11|   <%- partial('_partial/after_footer') %>
+    12| </body>
+    13| </html>
+
+C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\_partial\after_footer.ejs:32
+    30|     var wumiiPermaLink = "<%- page.title %>"; 
+    31|     var wumiiTitle = "<%- page.permalink %>"; 
+ >> 32|     var wumiiTags = "<%- partial('post/wumii-tag') %>"; 
+    33|     var wumiiCategories = ; 
+    34|     var wumiiSitePrefix = "http://blanboom.org/";
+    35|     var wumiiParams = "&num=5&mode=3&pf=JAVASCRIPT";
+
+Unexpected token < in "C:\\Users\\Blanboom\\Documents\\MyFiles\\MyProjects\\MyBlog\\themes\\light\\layout\\_partial\\post\\wumii-tag.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14)
+    at Object.exports.render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:278:66)
+    at Object.module.exports [as ejs] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\render.js:143:29)
+    at render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:28:22)
+    at Object.module.exports [as partial] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:41:12)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1605)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2537)
+    at C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:249:15
+
+[error] 17:34:01.636 HexoError: Render failed: archives/2013/05/index.html
+SyntaxError: C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\layout.ejs:11
+    9|   </div>
+    10|   <footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>
+ >> 11|   <%- partial('_partial/after_footer') %>
+    12| </body>
+    13| </html>
+
+C:\Users\Blanboom\Documents\MyFiles\MyProjects\MyBlog\themes\light\layout\_partial\after_footer.ejs:32
+    30|     var wumiiPermaLink = "<%- page.title %>"; 
+    31|     var wumiiTitle = "<%- page.permalink %>"; 
+ >> 32|     var wumiiTags = "<%- partial('post/wumii-tag') %>"; 
+    33|     var wumiiCategories = ; 
+    34|     var wumiiSitePrefix = "http://blanboom.org/";
+    35|     var wumiiParams = "&num=5&mode=3&pf=JAVASCRIPT";
+
+Unexpected token < in "C:\\Users\\Blanboom\\Documents\\MyFiles\\MyProjects\\MyBlog\\themes\\light\\layout\\_partial\\post\\wumii-tag.ejs"
+    at Object.Function (<anonymous>)
+    at exports.compile (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14)
+    at Object.exports.render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:278:66)
+    at Object.module.exports [as ejs] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\renderer\ejs.js:5:14)
+    at Object.exports.renderSync (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\render.js:143:29)
+    at render (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:28:22)
+    at Object.module.exports [as partial] (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\lib\plugins\helper\partial.js:41:12)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:1605)
+    at eval (eval at <anonymous> (C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:236:14), <anonymous>:29:2537)
+    at C:\Users\Blanboom\AppData\Roaming\npm\node_modules\hexo\node_modules\ejs\lib\ejs.js:249:15

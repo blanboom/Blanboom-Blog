@@ -1,0 +1,8 @@
+<% if (page.tags && page.tags.length){ %><%
+  var tags = [];
+  page.tags.forEach(function(tag){
+    tags.push(tag.name);
+  });
+  %><%-
+    tags.join(',') %><% 
+  } %>
