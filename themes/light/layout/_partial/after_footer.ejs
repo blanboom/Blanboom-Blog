@@ -26,17 +26,6 @@ var disqus_shortname = '<%= config.disqus_shortname %>';
 </script>
 <% } %>
 
-<script type="text/javascript">
-    var wumiiPermaLink = "<%- page.permalink %>"; 
-    var wumiiTitle = "<%- page.title %>"; 
-    var wumiiTags = "<%- partial('post/wumii-tag') %>"; 
-    var wumiiCategories = [<%- partial('post/wumii-category') %>]; 
-    var wumiiSitePrefix = "http://blanboom.org/";
-    var wumiiParams = "&num=5&mode=3&pf=JAVASCRIPT";
-</script>
-<script type="text/javascript" src="http://widget.wumii.cn/ext/relatedItemsWidget"></script>
-
-
 <% if (theme.google_analytics){ %>
 <script type="text/javascript">
   var _gaq = _gaq || [];

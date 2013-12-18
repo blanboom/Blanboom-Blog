@@ -1,8 +1,0 @@
-<% if (page.categories && page.categories.length){ %><%
-  var cats = [];
-  page.categories.forEach(function(cat){
-    cats.push('"' + cat.name + '"');
-  });
-  %><%- 
-  cats.join(", ") %><% 
-  } %>
