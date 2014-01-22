@@ -1,6 +1,7 @@
 menu:
-  首页: /
-  关于: /about
+  Blog: /
+  Wiki: /wiki
+  About: /about
 
 widgets:
 - search

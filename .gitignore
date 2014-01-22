@@ -4,9 +4,15 @@ db.json
 public
 .deploy
 
-# Windows image file caches
-Thumbs.db
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 ehthumbs.db
+Thumbs.db
 
 # Folder config file
 Desktop.ini
