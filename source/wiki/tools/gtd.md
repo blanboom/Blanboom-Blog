@@ -10,12 +10,14 @@ title: 时间管理
 # GTD
 
 - [OmniFocus](https://www.omnigroup.com/omnifocus) - 我的主力时间管理工具
-	- [工具控的福音——Omnifocus使用心得总结Part 1【基础设置】](http://www.douban.com/note/271699848/)
-	- [工具控的福音——Omnifocus使用心得总结Part 2 【项目与情境】](http://www.douban.com/note/272217302/)
-	- [工具控的福音——Omnifocus使用心得总结Part 3【透视】](http://www.douban.com/note/274170127/)
-	- [工具控的福音——Omnifocus使用心得总结 Part 4【Applescript】](http://www.douban.com/note/276135892/)
-	- [工具控的福音——Omnifocus使用心得总结 Part 5【External Support】](http://www.douban.com/note/280089999/)
-	- [工具控的福音——Omnifocus使用心得总结 Part 6【Workflow & Case Study】](http://www.douban.com/note/283986271/)
+	- 工具控的福音——Omnifocus使用心得总结
+		- [Part 1【基础设置】](http://www.douban.com/note/271699848/)
+		- [Part 2 【项目与情境】](http://www.douban.com/note/272217302/)
+		- [Part 3【透视】](http://www.douban.com/note/274170127/)
+		- [Part 4【Applescript】](http://www.douban.com/note/276135892/)
+		- [Part 5【External Support】](http://www.douban.com/note/280089999/)
+		- [Part 6【Workflow & Case Study】](http://www.douban.com/note/283986271/)
+	- [Asian Efficiency](http://www.asianefficiency.com) - 关于 Onmifocus 的一套入门文章
 	- 我刚刚开始使用，只是按照自己的想法用，还没有严格遵守 GTD
 - 同类软件：[Things](http://culturedcode.com/things/) | [Doit.im](http://doit.im/cn/)
 - 轻量级待办事项软件：[Any.do](http://www.any.do) | [Wunderlist](http://www.wunderlist.com)

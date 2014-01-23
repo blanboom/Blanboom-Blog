@@ -35,6 +35,7 @@ title: 基础知识与其他内容
 - [9个自制信息图的免费利器](http://picsays.com/2013/08/05/9-awesome-powerful-free-infographic-tools/)
 - [OmniGraffle](http://www.omnigroup.com/omnigraffle) - 制作流程图等
 - OmniGraphSketcher - 制作图表的工具，已经停止更新，在 GitHub 上能找到源代码
+- [Hype 2](http://tumult.com/hype/) - HTML5 动画制作 [中文介绍](http://www.appinn.com/hype-2-for-osx/)
 
 # 其他
 
