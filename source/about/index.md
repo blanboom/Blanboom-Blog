@@ -52,4 +52,4 @@ DIY, 互联网, 开源, 分布式, TED, 折腾各种芯片和电路板, 创意, 
 
 **Links:**
 
-[DramaTea](http://dowell.miclove.cn/)  |  [dowell的博客](http://dowell.miclove.cn/)  |  [FreeMeepo](http://www.freemeepo.com/blog/)  |  [101开放空间](http://site.douban.com/174634/)
+[NodeWee](http://dramatea.github.io)  |  [dowell的博客](http://dowell.miclove.cn/)  |  [FreeMeepo](http://www.freemeepo.com/blog/)  |  [101开放空间](http://site.douban.com/174634/) | [Xiao3d](http://xiao3d.org)
