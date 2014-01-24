@@ -18,6 +18,7 @@ title: 其他工具
           ask-in-omnifocus-inbox/) - 快速收集待办事项
         - [有道翻译](https://github.com/dalang/alfred-workflows) - 随时查单词、翻译
         - [PM2.5](https://github.com/wahyd4/PM2.5-Alfred) - 查看中国 PM 2.5
+        - [Alfredlytics](http://www.alfredforum.com/topic/2488-alfredlytics-google-analytics-workflow/) - 随时访问 Google Analytics 数据
 - [Eudic欧路词典](http://www.eudic.net/eudic/mac_dictionary.aspx) - OS X 和
   iOS 下方便好用的词典 App，最新版也开始支持 Windows 和 Android
 - [OS X Best App](https://github.com/dearmark/Best-App)
