@@ -19,8 +19,8 @@ title: 其他工具
         - [有道翻译](https://github.com/dalang/alfred-workflows) - 随时查单词、翻译
         - [PM2.5](https://github.com/wahyd4/PM2.5-Alfred) - 查看中国 PM 2.5
         - [Alfredlytics](http://www.alfredforum.com/topic/2488-alfredlytics-google-analytics-workflow/) - 随时访问 Google Analytics 数据
-- [Eudic欧路词典](http://www.eudic.net/eudic/mac_dictionary.aspx) - OS X 和
-  iOS 下方便好用的词典 App，最新版也开始支持 Windows 和 Android
+- [Eudic欧路词典](http://www.eudic.net/eudic/mac_dictionary.aspx) - OS X 和 iOS 下方便好用的词典 App，最新版也开始支持 Windows 和 Android
+- [Entropy](http://www.eigenlogik.com/entropy/) - OS X 第三方压缩工具
 - [OS X Best App](https://github.com/dearmark/Best-App)
 - [粉碎棱镜](https://prism-break.org/zh-CN/) - 常用软件的开源替代 
 - [新工具](http://www.macdang.com) - 一个关于工具的论坛
