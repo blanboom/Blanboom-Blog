@@ -15,6 +15,7 @@ title: Web 设计
 - [互动简历](http://www.rleonardi.com/interactive-resume/)
 - [QQ 浏览器](http://browser.qq.com/index_m.html)
 - [QQ 浏览器 for MAC](http://browser.qq.com/mac/)
+- [那些我认为逼格很高或者很有趣的网页](http://quant67.com/design/best-pages/)
 - 漂亮的项目主页
 	- [BonsaiJS](http://bonsaijs.org)
 	- [Laravel](http://laravel.com)
@@ -26,4 +27,10 @@ title: Web 设计
 # 其他
 
 - [foru17 - 前端收集](https://github.com/foru17/front-end-collect)
+- [前端观察](http://www.qianduan.net)
+- [GBin1](http://www.gbin1.com)
+
+
+
+
 - [CSS3 Side Navigation Menu](http://www.cssreflex.com/2014/01/css3-side-navigation-menu.html/)

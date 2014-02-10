@@ -17,6 +17,8 @@ title: 算法与其他内容
 # 技术博客
 - [酷壳](http://coolshell.cn)
 - [当然我在扯淡](http://www.yinwang.org)
-- [增强视觉](http://www.cvchina.info) - 计算机视觉 增强现实
-- [折腾来折腾去](http://pikipity.github.io)
+- [增强视觉](http://www.cvchina.info) - 计算机视觉 增强- 现实
 - [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+- [刘未鹏 | MIND HACKS](http://mindhacks.cn)
+- [折腾来折腾去](http://pikipity.github.io)
+

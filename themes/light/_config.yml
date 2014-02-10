@@ -4,11 +4,13 @@ menu:
   Projects: /projects
   About: /about
 
+
 widgets:
 - search
 - category
 - tagcloud
 - recent_posts
+
 
 excerpt_link: 继续阅读
 

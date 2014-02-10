@@ -30,6 +30,7 @@ title: 知识管理与生产力工具
 # 文献管理与学术研究
 - [Papers](http://www.papersapp.com/mac/) - OS X 与 iOS 下强大的文献管理软件，新版也支持 Windows，不过功能没有 OS X 版的强大
 	- 整合 Papers 与 DEVONthink: [方法一(更简便)](http://victor.barger.us/2009/04/25/seamless-integration-of-papers-and-devonthink/)  [方法二(功能更丰富)](http://blog.devontechnologies.com/2011/03/1651/)
+	- [用 MAC 搞学术之 PAPERS](http://haohailong.net/mac-app-papers)
 - [EndNote](http://endnote.com) - 经典文献管理文件，支持 Windows，OS X，iPad
 - 关于数字化学术研究的博客
 	- [A Digital Workflow for Academic Research](http://www.organognosi.com)

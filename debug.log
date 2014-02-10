@@ -1,5 +1,5 @@
-date: 2014-01-22 15:12:00.609
-argv: node /usr/local/bin/hexo deploy
+date: 2014-02-06 15:30:06.732
+argv: node /usr/local/bin/hexo generate
 os: Darwin 13.0.0 darwin x64
 version:
   hexo: 2.4.5
@@ -13,17 +13,3 @@ version:
   openssl: 1.0.1e
 ---
 
-[debug] 15:12:00.232 Configuration file load successfully
-[debug] 15:12:00.245 Version info checked successfully
-[debug] 15:12:00.452 Loading database.
-[debug] 15:12:00.535 Plugin loaded successfully: hexo-generator-feed
-[debug] 15:12:00.553 Plugin loaded successfully: hexo-generator-sitemap
-[info] 15:12:00.557 Start deploying: blanboom.github.io
-[error] 15:12:00.581 TypeError: Property 'blanboom.github.io' of object #<Object> is not a function
-TypeError: Property 'blanboom.github.io' of object #<Object> is not a function
-    at /usr/local/lib/node_modules/hexo/lib/plugins/console/deploy.js:47:21
-    at iterate (/usr/local/lib/node_modules/hexo/node_modules/async/lib/async.js:131:13)
-    at Object.async.eachSeries (/usr/local/lib/node_modules/hexo/node_modules/async/lib/async.js:147:9)
-    at /usr/local/lib/node_modules/hexo/lib/plugins/console/deploy.js:42:11
-    at /usr/local/lib/node_modules/hexo/lib/plugins/console/deploy.js:32:27
-    at Object.cb [as oncomplete] (fs.js:168:19)
