@@ -13,6 +13,9 @@ title: 算法与其他内容
 	- 了解不同语言的思维方式
 	- 知乎问答：[为什么现在会有这么多种编程语言？](http://www.zhihu.com/question/20104312)
 	
+# 工具
+- [能还原成C语言的在线反汇编器](http://decompiler.fit.vutbr.cz/decompilation-run/) （ [简介](http://www.lijingquan.net/online-decompile-to-clang.html) ）
+- [在线编译器](http://ideone.com), 支持多种语言
 	
 # 技术博客
 - [酷壳](http://coolshell.cn)
