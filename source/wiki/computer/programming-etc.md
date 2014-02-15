@@ -4,7 +4,7 @@ comments: true
 date: 2014-01-20 14:20:49+00:00
 layout: page
 slug: programming-etc
-title: 算法与其他内容
+title: 编程方面的其他内容
 ---
 
 # 书单
@@ -12,6 +12,10 @@ title: 算法与其他内容
 - [《七周七语言--理解多种编程范型》](http://book.douban.com/subject/10555435/)
 	- 了解不同语言的思维方式
 	- 知乎问答：[为什么现在会有这么多种编程语言？](http://www.zhihu.com/question/20104312)
+
+<br />
+
+- [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN)
 	
 # 工具
 - [能还原成C语言的在线反汇编器](http://decompiler.fit.vutbr.cz/decompilation-run/) （ [简介](http://www.lijingquan.net/online-decompile-to-clang.html) ）

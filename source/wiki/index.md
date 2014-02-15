@@ -10,7 +10,7 @@ title: Wiki
 这是我的个人 Wiki，用来整理自己学习和上网过程中遇到的有用资料。
 
 # 计算机
-* 程序设计语言: [C/C++](computer/c-and-cpp.html) | [Python](computer/python.html) | [算法与其他内容](computer/programming-etc.html)
+* 程序设计语言: [C/C++](computer/c-and-cpp.html) | [Python](computer/python.html) | [编程方面的其他内容](computer/programming-etc.html)
 * 操作系统: [Linux](computer/linux.html) | [OS X 与 iOS](computer/OSX.html)
 * [单片机与嵌入式](computer/mcu.html) | [计算机科学-其他内容](computer/computer-etc.html)
 * [Git](computer/git.html) | [Sublime Text](computer/sublime.html)
