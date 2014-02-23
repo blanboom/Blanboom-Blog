@@ -11,3 +11,4 @@ title: 暂未分类
 - [代码、文本分享](http://pastebin.com)
 - [国内外有哪些比较权威的统计数据网站？](http://www.zhihu.com/question/20033475)
 - [若想学 HTML，应从哪里入手？](http://www.zhihu.com/question/19753196/answer/13366018)
+- [在 Markdown 中添加脚注，并优化脚注位置](http://lanielstudio.net/?p=1821#fnref:1)

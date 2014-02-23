@@ -17,7 +17,7 @@ tags:
 
 一般情况下，处理 Arduino 的多个任务，是把所有任务放在 void loop() 里，然后用 delay() 控制时间。不过，任务一多，这种方法就不太方便了。
 
-最近刚刚看了一本书：《[时间触发嵌入式系统模式设计](http://book.douban.com/subject/1168618/)》，里面介绍的调度器，可以以特定的周期执行特定的任务，值得在 Arduinio 项目中借鉴。我也刚刚把这个调度器移植到 Arduino 中：[https://github.com/blanboom/Arduino-Task-Scheduler](https://github.com/blanboom/Arduino-Task-Scheduler)
+最近刚刚看了一本书：《[时间触发嵌入式系统设计模式](http://book.douban.com/subject/1168618/)》，里面介绍的调度器，可以以特定的周期执行特定的任务，值得在 Arduinio 项目中借鉴。我也刚刚把这个调度器移植到 Arduino 中：[https://github.com/blanboom/Arduino-Task-Scheduler](https://github.com/blanboom/Arduino-Task-Scheduler)
 
 
 # 基本使用方法

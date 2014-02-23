@@ -27,5 +27,3 @@ title: 编程方面的其他内容
 - [增强视觉](http://www.cvchina.info) - 计算机视觉 增强- 现实
 - [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
 - [刘未鹏 | MIND HACKS](http://mindhacks.cn)
-- [折腾来折腾去](http://pikipity.github.io)
-

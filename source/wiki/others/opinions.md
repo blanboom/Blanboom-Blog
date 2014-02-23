@@ -7,7 +7,7 @@ slug: opinions
 title: 一些观点
 ---
 
-- [我为什么不喜欢看新闻](http://blog.shuoyangdesign.com/?p=862)
+- [我为什么不喜欢看新闻](http://blog.shuoyangdesign.com/?p=862) · [我为什么喜欢看新闻](http://jianshu.io/p/RkobCH)
 - [电视引领“低智商社会”](http://www.williamlong.info/archives/2290.html)
 - [不带套，狠狠操](http://luolei.org/2013/06/needless/) (内容与标题无关，别乱想~)
 - [大学的浮躁](http://www.wdk.pw/275.html) - 跟我的情况有点像......
