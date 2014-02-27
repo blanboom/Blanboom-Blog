@@ -32,7 +32,7 @@ tags:
     // 2013.7.27
     // http://blanboom.org
     
-    #include "Scheduler.h"  //包含此头文件，才能使用调度器
+    #include "TaskScheduler.h"  //包含此头文件，才能使用调度器
     
     // 用于储存 LED 状态
     boolean g_led1State=1;
@@ -130,7 +130,7 @@ Sch.addTask(任务名称,开始时间,执行周期,1)
 
 **4. 调整被调度的任务数量**
 
-打开 Scheduler.h，找到 #define MAX_TASKS (10) ，将 10 修改为需要被调度的任务的数量。
+打开 TaskScheduler.h，找到 #define MAX_TASKS (10) ，将 10 修改为需要被调度的任务的数量。
 
 **5. 自动进入空闲模式**
 
@@ -138,7 +138,7 @@ Sch.addTask(任务名称,开始时间,执行周期,1)
 
 **6. 错误报告**
 
-打开 Scheduler.h，找到
+打开 TaskScheduler.h，找到
 
 //#define REPORT_ERRORS // Remove "//" to enable error report，
 
@@ -146,6 +146,6 @@ Sch.addTask(任务名称,开始时间,执行周期,1)
 
 然后，这条语句的下面，定义了相关错误代码，可根据情况修改。
 
-最后，打开 Scheduler.cpp，找到函数 void Schedule::_reportStatus(void)，在里面添加合适的错误报告代码即可。
+最后，打开 TaskScheduler.cpp，找到函数 void Schedule::_reportStatus(void)，在里面添加合适的错误报告代码即可。
 
 欢迎大家对这个调度器进行测试，找出 bug 和需要优化的地方。

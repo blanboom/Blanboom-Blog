@@ -31,5 +31,5 @@ title: Wiki
 
 # 其他
 * 书单与读书笔记 | 基础知识与课堂笔记
-* 网站收藏: [DIY](others/diy.html) | 互联网
+* 网站收藏: [DIY](others/diy.html) | [互联网](others/internet.html)
 * 文章收藏: [一些观点](others/opinions.html) | [经验](others/experience.html)
