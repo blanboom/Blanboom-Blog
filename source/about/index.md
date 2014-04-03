@@ -19,7 +19,7 @@ wordpress_id: 9
 
 **Mail**：
 
-blanboom[AT]blanboom.org
+i[AT]blanboom.org
 
 <br/>
 
