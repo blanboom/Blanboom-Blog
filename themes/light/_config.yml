@@ -27,10 +27,9 @@ addthis:
   google: true
   pinterest: true
 
-fancybox: true
+fancybox: false
 
-google_analytics: UA-40682162-1
-rss:
+rss: http://blanboom.org/atom.xml
 
 comment_provider: disqus
 # Facebook comment

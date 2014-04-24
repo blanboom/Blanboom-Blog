@@ -58,6 +58,7 @@ tags:
 	
   1. 杜洋的《能者自答》，讲了提问的坏处以及如何自己解决问题。建议大家看一看：[http://www.doyoung.net/articles/QAbyyourself/](http://www.doyoung.net/articles/QAbyyourself/)
   2. 这张信息图《从谷歌搜获更多》，可以帮助大家更高效、精准地找到所需内容：[http://dramatea.com/a/145](http://dramatea.com/a/145)	
-  3. 《提问的智慧》，一篇经典、值得一读的文章：[http://www.wapm.cn/smart-questions/smart-questions-zh.html ](http://www.wapm.cn/smart-questions/smart-questions-zh.html)思维导图：[http://www.wapm.cn/smart-questions/smart-questions-zh.png](http://www.wapm.cn/smart-questions/smart-questions-zh.png)
+  3. 《提问的智慧》：[http://www.wapm.cn/smart-questions/smart-questions-zh.html ](http://www.wapm.cn/smart-questions/smart-questions-zh.html)思维导图：[http://www.wapm.cn/smart-questions/smart-questions-zh.png](http://www.wapm.cn/smart-questions/smart-questions-zh.png)
+  4. 另一种观点：《黑客文化的精髓》：[http://www.yinwang.org/blog-cn/2014/04/11/hacker-culture/](http://www.yinwang.org/blog-cn/2014/04/11/hacker-culture/)
 
 
