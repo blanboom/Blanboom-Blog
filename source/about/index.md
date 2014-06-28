@@ -21,6 +21,8 @@ wordpress_id: 9
 
 i[AT]blanboom.org
 
+GPG Key ID: 1ABF8AA9
+
 <br/>
 
 **Social**：
