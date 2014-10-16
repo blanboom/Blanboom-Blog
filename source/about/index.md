@@ -11,9 +11,9 @@ wordpress_id: 9
 
 <br/>
 
-**This is Blanboom**
+**Blanboom**
 
-安徽大学学生 / 2012级 / 电气信息类 / DIYer / 半个Geek
+安徽大学学生 / 2012级 / 通信工程 / 电子 DIY 爱好者 / 半个 Geek
 
 <br/>
 
@@ -35,13 +35,7 @@ Google+: [https://google.com/+XZBlanboom](https://google.com/+XZBlanboom)
 
 腾讯微博: [http://t.qq.com/blanboom](http://t.qq.com/blanboom)
 
-<br/>
-<br/>
 
-
-**喜欢:**
-
-DIY, 互联网, 开源, 分布式, TED, 折腾各种芯片和电路板, 创意, 设计, 简洁, 世界史, 教育与教育技术, 生物与生态系统, 与生态有关的小制作, 各个学科的入门书籍, 牛津通识读本, 简单有趣的小玩意儿, Arduino, ArchLinux, Mac, Sublime Text, Google, Markdown, Cubieboard, Firefox, Wikipedia, 纯音乐, MayDay, 自然科学, 数码产品, Kindle, 果壳, GitHub, LED, RSS, BOINC, 公开课和MOOC... **不喜欢修电脑**、刷机、重装系统等
 
 <br/>
 <br/>
