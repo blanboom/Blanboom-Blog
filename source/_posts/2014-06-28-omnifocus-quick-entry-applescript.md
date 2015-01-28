@@ -15,6 +15,8 @@ tags:
 
 <!-- more -->
 
+**Update: [OmniFocus 快速收集脚本 v2](http://blanboom.org/omnifocus-quick-entry-applescript-v2.html)**
+
 AppleScript 代码如下：
 
     set isRunning to false
@@ -46,6 +48,8 @@ AppleScript 代码如下：
 顺便推荐下 [cd to...](https://github.com/jbtule/cdto)，这个 App 可以**在 Finder 的当前目录中打开终端**。和键盘上的快速启动按键一起使用，更加方便。
 
 对于 Alfred 2 用户，也可以直接使用 [OmniFocus Inbox Task Workflow](http://www.alfredforum.com/topic/1041-create-new-task-in-omnifocus-inbox/)，功能与本脚本类似。
+
+
 
  <br />
  <br />

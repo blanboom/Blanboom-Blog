@@ -20,11 +20,11 @@ tags:
 
 程序源代码和 PCB 图都已上传至 GitHub：[https://github.com/blanboom/NixieClock](https://github.com/blanboom/NixieClock)
 
-![辉光管时钟照片](http://blanboom.org/images/2014/08/NixieClock.jpg)
+![辉光管时钟照片](images/2014/08/NixieClock.jpg)
 
 <!-- more -->
 
-![辉光管时钟照片 2](http://blanboom.org/images/2014/08/NixieClock_2.jpg)
+![辉光管时钟照片 2](images/2014/08/NixieClock_2.jpg)
 
-![辉光管时钟照片 3](http://blanboom.org/images/2014/08/NixieClock_4.jpg)
+![辉光管时钟照片 3](images/2014/08/NixieClock_4.jpg)
 
