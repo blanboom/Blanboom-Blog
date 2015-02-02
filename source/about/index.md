@@ -21,7 +21,6 @@ wordpress_id: 9
 
 i[AT]blanboom.org
 
-GPG Key ID: 1ABF8AA9
 
 <br/>
 
@@ -35,7 +34,19 @@ Google+: [https://google.com/+XZBlanboom](https://google.com/+XZBlanboom)
 
 腾讯微博: [http://t.qq.com/blanboom](http://t.qq.com/blanboom)
 
+<br/>
 
+**More**:
+
+GPG Key ID: 1ABF8AA9
+
+Bitcoin: 1JBQsapyrJta3v5kdP5C22dAM6WyFhMyur
+
+[二维码](http://blanboom.org/d/bitcoin.png)
+
+Litecoin: Li8FTWR14uN97DLQmmk3pKdoL8aQVEdnJW
+
+[二维码](http://blanboom.org/d/litecoin.png)
 
 <br/>
 <br/>
