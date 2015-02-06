@@ -1,14 +1,14 @@
 # Hexo Configuration
-## Docs: http://zespia.tw/hexo/docs/configure.html
-## Source: https://github.com/tommy351/hexo/
+## Docs: http://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
 
 # Site
 title: Blanboom
 subtitle:
-description: My personal blog
+description:
 author: Blanboom
-email: blanboom@blanboom.org
-language: zh-CN
+email:
+language: zh_CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -19,17 +19,21 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
 
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
-auto_spacing: false # Add spaces between asian characters and western characters
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
-max_open_file: 100
-multi_thread: true
 filename_case: 0
 render_drafts: false
+post_asset_folder: false
+relative_link: false
 highlight:
   enable: true
   line_number: true
@@ -53,14 +57,15 @@ tag: 2
 ## You can customize the logger format as defined in
 ## http://www.senchalabs.org/connect/logger.html
 port: 4000
+server_ip: localhost
 logger: false
-logger_format:
+logger_format: dev
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY MMM Do
+date_format: MMM D YYYY
 time_format: H:mm:ss
 
 # Pagination
@@ -69,20 +74,15 @@ per_page: 10
 pagination_dir: page
 
 # Disqus
-disqus_shortname: blanboom 
+disqus_shortname:
 
 # Extensions
-## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
-## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: light
+## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
+## Themes: https://github.com/hexojs/hexo/wiki/Themes
+theme: landscape
 exclude_generator:
 
 # Deployment
-## Docs: http://zespia.tw/hexo/docs/deploy.html
-deploy:
-  type: github
-  repo: https://github.com/blanboom/blanboom.github.io.git
-
-plugins:
-- hexo-generator-feed
-- hexo-generator-sitemap
+## Docs: http://hexo.io/docs/deployment.html
+deploy: github
+  type: https://github.com/blanboom/blanboom.github.io.git

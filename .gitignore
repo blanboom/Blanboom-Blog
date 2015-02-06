@@ -1,18 +1,7 @@
 .DS_Store
-node_modules
-db.json
-public
-.deploy
-
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-
-# Folder config file
-Desktop.ini
+db.json
+debug.log
+node_modules/
+public/
+.deploy/
