@@ -7,7 +7,7 @@ slug: my-taskbar-clock
 title: '[我的DIY]进度条时钟'
 wordpress_id: 12
 categories:
-- 制作
+- 电子与制作
 tags:
 - LED
 - 单片机

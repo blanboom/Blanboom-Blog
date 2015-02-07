@@ -7,9 +7,8 @@ slug: some-interesting-hardware-related-products
 title: 几个有意思的硬件类产品
 wordpress_id: 43
 categories:
-- 制作
+- 电子与制作
 tags:
-- 创客
 - 硬件
 ---
 

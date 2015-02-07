@@ -51,6 +51,11 @@
   h1, h2, h3, h4, h5, h6
     line-height: line-height-title
     margin: line-height-title 0
+  h1
+    padding: 7px 6px 7px 0px;
+    background: #dddddd;
+  h2
+    border-bottom: 1px #d8d8d8 solid;
   a
     color: color-link
     text-decoration: none
@@ -78,10 +83,10 @@
     border-bottom: 1px solid color-border
     padding: 10px 0
   blockquote
-    font-family: font-serif
-    font-size: 1.4em
-    margin: line-height 20px
-    text-align: center
+    font-family: font-sans
+    border-left: 5px solid #DDD
+    margin: 15px 0 0 2px
+    padding-left: 20px
     footer
       font-size: font-size
       margin: line-height 0
@@ -270,37 +275,37 @@ $article-share-link
   &:hover
     color: #fff
 
-.article-share-twitter
+.article-share-sina
   @extend $article-share-link
   &:before
-    content: "\f099"
+    content: "\f18a"
   &:hover
-    background: color-twitter
-    text-shadow: 0 1px darken(color-twitter, 20%)
+    background: color-sina
+    text-shadow: 0 1px darken(color-sina, 20%)
 
-.article-share-facebook
+.article-share-qq
   @extend $article-share-link
   &:before
-    content: "\f09a"
+    content: "\f1d6"
   &:hover
-    background: color-facebook
-    text-shadow: 0 1px darken(color-facebook, 20%)
+    background: color-qq
+    text-shadow: 0 1px darken(color-qq, 20%)
 
-.article-share-pinterest
+.article-share-renren
   @extend $article-share-link
   &:before
-    content: "\f0d2"
+    content: "\f18b"
   &:hover
-    background: color-pinterest
-    text-shadow: 0 1px darken(color-pinterest, 20%)
+    background: color-renren
+    text-shadow: 0 1px darken(color-renren, 20%)
 
-.article-share-google
+.article-share-tencent
   @extend $article-share-link
   &:before
-    content: "\f0d5"
+    content: "\f1d5"
   &:hover
-    background: color-google
-    text-shadow: 0 1px darken(color-google, 20%)
+    background: color-tencent
+    text-shadow: 0 1px darken(color-tencent, 20%)
 
 .article-gallery
   background: #000

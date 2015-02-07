@@ -7,9 +7,8 @@ slug: visiting-xinchejian
 title: 夜访新车间
 wordpress_id: 153
 categories:
-- 制作
+- 电子与制作
 tags:
-- 创客
 - 创客空间
 - 新车间
 ---

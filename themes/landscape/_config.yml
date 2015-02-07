@@ -1,26 +1,24 @@
 # Header
 menu:
   Home: /
-  Archives: /archives
+  About: /about
 rss: /atom.xml
 
 # Content
-excerpt_link: Read More
+excerpt_link: 继续阅读
 fancybox: true
 
 # Sidebar
 sidebar: right
 widgets:
 - category
-- tag
 - tagcloud
-- archive
 - recent_posts
+- archive
 
 # Miscellaneous
-google_analytics:
-favicon: /favicon.png
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:
+favicon: /favicon.ico
+
+switch_banner: true
+
+google_analytics: UA-40682162-1

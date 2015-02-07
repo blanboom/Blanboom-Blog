@@ -6,7 +6,7 @@ title: PPT的替代品：Prezi
 wordpress_id: 543
 date: 2013-12-04 19:46:59 +0800
 comments: true
-categories: 软件
+categories: 软件与工具
 tags:
 - PPT
 - 演示文稿

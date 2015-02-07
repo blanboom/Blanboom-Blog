@@ -7,7 +7,7 @@ slug: just-google-it
 title: '知之为知之，不知Google之'
 wordpress_id: 30
 categories:
-- 软件
+- 软件与工具
 tags:
 - Google
 - 搜索

@@ -7,7 +7,7 @@ slug: a-easier-way-to-make-a-makeymakey
 title: 自制 MakeyMakey：更简单的方法
 wordpress_id: 20
 categories:
-- 制作
+- 电子与制作
 tags:
 - Arduino
 - MakeyMakey

@@ -5,7 +5,7 @@ slug: some-ui-designs
 title: 一些反人类的界面设计
 date: 2014-08-01 23:05:00 +0800
 comments: true
-categories: 软件
+categories: 软件与工具
 tags:
 - 设计
 - UI

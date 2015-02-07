@@ -5,7 +5,7 @@ slug: qs30-1-nixie-clock
 title: QS30-1 辉光管时钟
 date: 2014-08-20 23:46:00 +0800
 comments: true
-categories: 制作
+categories: 电子与制作
 tags:
 - 辉光管
 - 时钟

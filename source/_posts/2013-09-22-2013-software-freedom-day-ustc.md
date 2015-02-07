@@ -7,7 +7,7 @@ slug: 2013-software-freedom-day-ustc
 title: 2013软件自由日科大站活动小记
 wordpress_id: 53
 categories:
-- 软件
+- 软件与工具
 tags:
 - GNU
 - Linux

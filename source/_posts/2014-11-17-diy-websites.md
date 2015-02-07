@@ -5,7 +5,7 @@ slug: diy-websites
 title: 我常去的 DIY 网站
 date: 2014-11-17 16:14:00 +0800
 comments: true
-categories: 制作
+categories: 电子与制作
 tags:
 - DIY
 ---

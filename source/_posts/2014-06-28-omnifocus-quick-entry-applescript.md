@@ -5,7 +5,7 @@ slug: omnifocus-quick-entry-applescript
 title: OmniFocus 快速收集脚本
 date: 2014-06-28 23:21:00 +0800
 comments: true
-categories: 软件
+categories: 软件与工具
 tags:
 - OmniFocus
 - AppleScript

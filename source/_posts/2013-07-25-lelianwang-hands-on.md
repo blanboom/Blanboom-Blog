@@ -7,7 +7,7 @@ slug: lelianwang-hands-on
 title: 初试乐联网
 wordpress_id: 32
 categories:
-- 制作
+- 电子与制作
 tags:
 - Arduino
 - 物联网

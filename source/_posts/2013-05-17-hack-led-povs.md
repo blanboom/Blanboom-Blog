@@ -7,7 +7,7 @@ slug: hack-led-povs
 title: 摇摇棒的更多玩法
 wordpress_id: 16
 categories:
-- 制作
+- 电子与制作
 tags:
 - LED
 - POV

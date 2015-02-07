@@ -7,10 +7,9 @@ slug: maker-carnival-2013
 title: 2013上海创客嘉年华
 wordpress_id: 141
 categories:
-- 制作
+- 电子与制作
 tags:
 - 上海创客嘉年华
-- 创客
 ---
 
 ![MakerC_Ent2](http://blanboom.org/images/2013/10/MakerC_Ent2.jpg)

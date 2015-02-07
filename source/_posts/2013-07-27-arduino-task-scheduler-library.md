@@ -7,7 +7,7 @@ slug: arduino-task-scheduler-library
 title: '[Arduino库]任务调度器，更好地处理多任务'
 wordpress_id: 33
 categories:
-- 制作
+- 电子与制作
 tags:
 - Arduino
 - Arduino库
