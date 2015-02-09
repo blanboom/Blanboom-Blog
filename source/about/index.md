@@ -11,20 +11,19 @@ wordpress_id: 9
 
 <br/>
 
-**Blanboom**
+## Blanboom
 
-安徽大学学生 / 2012级 / 通信工程 / 电子 DIY 爱好者 / 半个 Geek
+安徽大学学生 / 2012级 / 通信工程 / 电子 DIY 爱好者
 
 <br/>
 
-**Mail**：
+## Mail
 
 i[AT]blanboom.org
 
-
 <br/>
 
-**Social**：
+## Social
 
 GitHub: [http://github.com/blanboom](http://github.com/blanboom)
 
@@ -36,22 +35,22 @@ Google+: [https://google.com/+XZBlanboom](https://google.com/+XZBlanboom)
 
 <br/>
 
-**More**:
+## More
 
 GPG Key ID: 1ABF8AA9
 
-Bitcoin: 1JBQsapyrJta3v5kdP5C22dAM6WyFhMyur
+Bitcoin: [1JBQsapyrJta3v5kdP5C22dAM6WyFhMyur](http://blanboom.org/d/bitcoin.png)
 
-[二维码](http://blanboom.org/d/bitcoin.png)
-
-Litecoin: Li8FTWR14uN97DLQmmk3pKdoL8aQVEdnJW
-
-[二维码](http://blanboom.org/d/litecoin.png)
+Litecoin: [Li8FTWR14uN97DLQmmk3pKdoL8aQVEdnJW](http://blanboom.org/d/litecoin.png)
 
 <br/>
 <br/>
-<br/>
 
-**Links:**
+## Friends
 
-[NodeWee](http://nodewee.me)  |  [Ptbsare](http://ptbsare.org)  |  [FreeMeepo](http://www.freemeepo.com/blog/)  |  [101开放空间](http://site.douban.com/174634/) | [Xiao3d](http://xiao3d.org)
+- [NodeWee](http://nodewee.me)
+- [匆匆那年 - ptbsare 的博客](http://ptbsare.org)
+- [FreeMeepo](http://www.freemeepo.com/blog/)
+- [101开放空间](http://site.douban.com/174634/)
+- [Xiao3d](http://xiao3d.me)
+- [The Bloom of Youth | 锦瑟华年](http://kuangqi.me/)

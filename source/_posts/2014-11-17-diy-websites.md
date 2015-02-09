@@ -40,15 +40,13 @@ tags:
 
 ** DIY 爱好者的个人博客：**
 
-[杜洋工作室](http://doyoung.net/)：电子 DIY 爱好者杜洋的网站，追求作品的简洁与美感
-
-[Ningpanda工作室](http://bbs.21ic.com/home.php?mod=space&amp;uid=41512)：另一个电子爱好者的博客
+[杜洋工作室](http://doyoung.net/)：光立方、LED 点阵时钟、自制手表等。作品都比较精致
 
 [做做AI，造造人](http://www.diy-robots.com/)：动力老男孩的博客，LEGO 爱好者，制作过魔方机器人
 
-[老薛的博客](http://blog.sina.com.cn/u/1907350525)：分享有趣的科学小实验
+[老薛的博客](http://blog.sina.com.cn/u/1907350525)：一些科学小实验
 
-[Agu's Mill 古作坊](http://aguegu.net/)：DIY爱好者，做过光立方等
+[Agu's Mill 古作坊](http://aguegu.net/)：aGuegu 的 DIY 作品
 
 [云飞的机器人实验室](http://www.yfworld.com/)：「让机器充满智慧」，关注机器人和嵌入式技术
 
