@@ -55,6 +55,6 @@ AppleScript 代码如下：
  <br />
  <br />
 
-参考资料：
+#### 参考资料：
 
 1. [用AppleScript在Mac系统下实现按键精灵的功能以及在游戏中的运用](http://blog.xcodev.com/archives/auto-key-press-using-appscript/)

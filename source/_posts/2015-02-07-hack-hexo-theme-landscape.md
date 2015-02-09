@@ -15,7 +15,7 @@ tags:
 
 昨晚更新 Hexo 后，发现新版 Hexo 自带的主题 [Landscape](https://github.com/hexojs/hexo-theme-landscape) 不错，就决定使用这一款主题。同时，对 Landscape 中一些不太符合自己使用习惯的地方进行了修改。
 
-**目录**:
+#### 目录：
 
 1. [自动切换 banner 图片](#toc_0)
 2. [更改引文样式](#toc_1)
@@ -71,7 +71,7 @@ Hexo 默认的引文样式为大字号居中显示，但是对我来说，`block
 
 ![标题样式](http://blanboom.org/images/2015/02/hexo_theme_title.png)
 
-**参考资料**：
+#### 参考资料：
 
 * [关于可能吧排版的一些分享](http://www.windson.in/?p=573)
 * [再谈博客文章排版](http://wangyueblog.com/2010/08/27/blog-post-layout/)
@@ -84,7 +84,7 @@ Hexo 默认的引文样式为大字号居中显示，但是对我来说，`block
 
 通过上述代码，可以在 OS X 操作系统下默认显示 Hiragino Sans GB （冬青黑体简体中文），Windows 操作系统下默认显示微软雅黑，Linux 操作系统下默认显示思源黑体或文泉驿微米黑。但在 iOS 等系统里，默认只能以 黑体-简 显示中文，显示效果不太理想（尤其是显示粗体文本时）。
 
-**参考资料**:
+#### 参考资料:
 
 * [如何保证网页的字体在各平台都尽量显示为最高质量的黑体？](http://www.zhihu.com/question/19911793)
 * [谈谈网页设计中的字体设定](http://ptbsare.org/2014/09/24/谈谈网页设计中的字体设定/)
@@ -147,7 +147,7 @@ Landscape 主题提供了分享功能，可以将文章分享到 Facebook，Twit
 
 ![分享按钮](http://blanboom.org/images/2015/02/hexo_theme_share.png)
 
-**参考资料**：
+#### 参考资料：
 
 * [Font Awesome Cheatsheet](http://fortawesome.github.io/Font-Awesome/cheatsheet/)
 
@@ -157,6 +157,6 @@ Landscape 主题提供了分享功能，可以将文章分享到 Facebook，Twit
 
 找到 `layout/_partial/after-footer.ejs` 和 `layout/_partial/head.ejs` 两个文件，将其中的 `googleapis` 替换为 `useso` 即可。
 
-**参考资料**:
+#### 参考资料:
 
 * [国内有哪些靠谱的 Javascript 库 CDN 可用？](http://www.zhihu.com/question/20227463)

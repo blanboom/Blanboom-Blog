@@ -16,6 +16,13 @@ widgets:
 - tagcloud
 - recent_posts
 - archive
+- links
+
+links:
+  Xiao3d: http://xiao3d.me
+  NodeWee: http://nodewee.me
+  "匆匆那年：ptbsare's blog": http://ptbsare.org
+  "The Bloom of Youth | 锦瑟华年": http://kuangqi.me
 
 # Miscellaneous
 favicon: /favicon.ico

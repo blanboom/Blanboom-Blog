@@ -19,9 +19,9 @@ tags:
 * 在一些任务中大量使用 delay() 等函数进行软件延时，这些**延时函数占用过多时间**，影响其他任务的执行
 * 一些复杂任务的程序**逻辑不清晰**，不便于以后对程序进行维护，或添加新功能
 
-本文介绍的有限状态机，可以做到**将一个耗时较多的复杂任务分解为多个简单任务**，同时**使代码逻辑更加清晰**，从而解决上述问题。
+本文介绍的有限状态机，可以做到将一个耗时较长的复杂任务**分解为多个简单任务**，同时使代码**逻辑更加清晰**，从而解决上述问题。
 
-**目录**：
+#### 目录：
 
 
 * <a href="#toc_0">1. 什么是有限状态机</a>
@@ -67,7 +67,7 @@ tags:
 
 另外，Programming Basics<sup id="fnref3"><a href="#fn3" rel="footnote">3</a></sup> 网站上也提供了状态机相关的教程，用形象化的图片解释了什么是有限状态机，可[通过此链接访问](http://www.programmingbasics.org/zh/beginner/fsm.html)。
 
-在嵌入式程序设计中，如果一个系统需要**处理一系列连续发生的任务**，或**在不同的模式下对输入进行不同的处理**，常常使用有限状态机实现。例如测量、监测、控制等控制逻辑型应用。<sup id="fnref4"><a href="#fn4" rel="footnote">4</a></sup>
+在嵌入式程序设计中，如果一个系统需要处理**一系列连续发生的任务**，或在**不同的模式**下对输入进行不同的处理，常常使用有限状态机实现。例如测量、监测、控制等控制逻辑型应用。<sup id="fnref4"><a href="#fn4" rel="footnote">4</a></sup>
 
 <h1 id="toc_1">2. 有限状态机的作用</h1>
 
@@ -84,7 +84,7 @@ tags:
 
 <h2 id="toc_3">2.2 避免软件延时对 CPU 资源造成浪费</h2>
 
-对于一些简单的程序，可通过 delay(), delay_ms() 之类的函数进行软件延时。这些延时函数，一般是通过将某个变量循环递加或递加，递加或递减到一定值后跳出循环，从而**通过消耗 CPU 时间实现了延时**。
+对于一些简单的程序，可通过 delay(), delay_ms() 之类的函数进行软件延时。这些延时函数，一般是通过将某个变量循环递加或递加，到达一定值后跳出循环，从而**通过消耗 CPU 时间实现了延时**。
 
 这种方式虽然简单，但在延时函数执行的过程中，其他程序无法运行，消耗了大量 CPU 资源。而通过状态机，**有助于减少软件延时的使用，提高 CPU 利用率**。
 
@@ -431,6 +431,6 @@ tags:
 
 </br></br>
 
-**备注**：
+#### 备注：
 
 <div class="footnotes"><ol><li id="fn1">来源：<a href="http://zh.wikipedia.org/zh-cn/%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA">http://zh.wikipedia.org/zh-cn/有限状态机</a>&nbsp;<a href="#fnref1" rev="footnote">&#8617;</li><li id="fn2">为了便于理解，此处描述的状态机及状态转移图省略了一些内容，例如没有标明开始状态&nbsp;<a href="#fnref2" rev="footnote">&#8617;</li><li id="fn3">Programming Basics 针对初学者的互动编程学习网站，网址为：<a href="http://programmingbasics.org">http://programmingbasics.org</a>&nbsp;<a href="#fnref3" rev="footnote">&#8617;</li><li id="fn4">根据 <a href="http://www.ti.com/mcu/docs/litabsmultiplefilelist.tsp?sectionId=96&amp;tabId=1502&amp;literatureNumber=slaa402a&amp;docCategoryId=1&amp;familyId=342">Finite State Machines for MSP430 (Rev. A)</a> 翻译&nbsp;<a href="#fnref4" rev="footnote">&#8617;</li><li id="fn5">改编自<a href="http://book.douban.com/subject/3413850/">《新概念51单片机C语言教程》</a>中相关内容&nbsp;<a href="#fnref5" rev="footnote">&#8617;</li><li id="fn6">其实 MP3 播放程序也可以通过有限状态机实现，因为为了实现 MP3 播放持续时间较长（一首歌的时间），而且需要完成多个步骤（打开文件、读取文件、将数据发送到 MP3 解码芯片、告诉 MP3 解码芯片音乐播放完毕等）&nbsp;<a href="#fnref6" rev="footnote">&#8617;</li></ol></div>

@@ -48,5 +48,6 @@ AppleScript 代码如下，可以在 Automator 中保存为服务，用快捷键
     end if
 
 
-参考资料：
+#### 参考资料：
+
 1. [Create new task in OmniFocus inbox](http://www.alfredforum.com/topic/1041-create-new-task-in-omnifocus-inbox/)
