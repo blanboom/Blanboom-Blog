@@ -130,8 +130,8 @@ tags:
 		case STATUS_B:  /* 状态 B */
 			doThingsForStatusB(); /* 执行状态 B 中需要执行的任务 */
 			/* 若满足状态转换的条件，则转换到另一个状态 */
-			if(condition_2){ currentStatus = STATUE_A; }
-			if(condition_3){ currentStatus = STATUE_C; }
+			if(condition_2){ currentStatus = STATUE_C; }
+			if(condition_3){ currentStatus = STATUE_A; }
 			break;
 		case STATUS_C:  /* 状态 C */
 			doThingsForStatusB(); /* 执行状态 B 中需要执行的任务 */

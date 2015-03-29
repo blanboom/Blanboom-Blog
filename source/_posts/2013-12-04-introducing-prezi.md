@@ -2,7 +2,7 @@
 author: Blanboom
 layout: post
 slug: introducing-prezi
-title: PPT的替代品：Prezi
+title: "Prezi: 有特色的演示文稿工具"
 wordpress_id: 543
 date: 2013-12-04 19:46:59 +0800
 comments: true
