@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>etc.md</string>
+		</array>
+		<array>
+			<string>gtd.md</string>
+		</array>
+		<array>
+			<string>kindle.md</string>
+		</array>
+		<array>
+			<string>phone.md</string>
+		</array>
+		<array>
+			<string>pim-for-students.md</string>
+		</array>
+		<array>
+			<string>pkm.md</string>
+		</array>
+		<array>
+			<string>study-and-resources.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

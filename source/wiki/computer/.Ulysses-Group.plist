@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>createMarkedFile</key>
+	<false/>
+	<key>sheetClusters</key>
+	<array>
+		<array>
+			<string>c-and-cpp.md</string>
+		</array>
+		<array>
+			<string>computer-etc.md</string>
+		</array>
+		<array>
+			<string>etc.md</string>
+		</array>
+		<array>
+			<string>git.md</string>
+		</array>
+		<array>
+			<string>linux.md</string>
+		</array>
+		<array>
+			<string>mcu.md</string>
+		</array>
+		<array>
+			<string>OSX.md</string>
+		</array>
+		<array>
+			<string>programming-etc.md</string>
+		</array>
+		<array>
+			<string>python.md</string>
+		</array>
+		<array>
+			<string>sublime.md</string>
+		</array>
+	</array>
+</dict>
+</plist>

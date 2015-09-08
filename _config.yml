@@ -85,9 +85,9 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repo: git@gitcafe.com:Blanboom/Blanboom.git
-  branch: gitcafe-pages
+  type: git
+  repo: git@github.com:blanboom/blanboom.github.io.git
+  branch: master
 
 plugins:
 - hexo-generator-feed
