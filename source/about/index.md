@@ -32,13 +32,3 @@ Google+: [https://google.com/+XZBlanboom](https://google.com/+XZBlanboom)
 新浪微博: [http://weibo.com/blanboom](http://weibo.com/blanboom)
 
 腾讯微博: [http://t.qq.com/blanboom](http://t.qq.com/blanboom)
-
-<br/>
-
-## More
-
-GPG Key ID: 1ABF8AA9
-
-Bitcoin: [1JBQsapyrJta3v5kdP5C22dAM6WyFhMyur](http://blanboom.org/d/bitcoin.png)
-
-Litecoin: [Li8FTWR14uN97DLQmmk3pKdoL8aQVEdnJW](http://blanboom.org/d/litecoin.png)

@@ -5,7 +5,7 @@ slug: wind-pendulum
 title: "2015 电赛风力摆题：我的方案"
 date: 2015-08-27 14:14:40 +0800
 comments: true
-categories: 日记
+categories: 学习笔记
 tags:
 - 风力摆
 - MPU-6050
