@@ -79,6 +79,10 @@ disqus_shortname: blanboom
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
+plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
 theme: landscape
 exclude_generator:
 
@@ -89,18 +93,10 @@ deploy:
   repo: git@github.com:blanboom/blanboom.github.io.git
   branch: master
 
-plugins:
-- hexo-generator-feed
-- hexo-generator-sitemap
-- hexo-generator-baidu-sitemap
-
 feed:
   type: atom
   path: atom.xml
   limit: 20
-
-baidusitemap:
-    path: baidusitemap.xml
 
 sitemap:
     path: sitemap.xml
