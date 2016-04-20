@@ -2,7 +2,7 @@
 author: Blanboom
 layout: post
 slug: nes-emulator
-title: "使用 C 和 Allegro 完成的 NES 模拟器"
+title: "使用 C 和 Allegro 实现的 NES 模拟器"
 date: 2016-04-20 20:39:00 +0800
 comments: true
 categories: 软件与工具
@@ -13,13 +13,13 @@ tags:
 - Allegro
 ---
 
-# 什么是 NES
-
 NES (Nintendo Entertainment System, [Wikipedia](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System)) 是历史上一款著名的游戏机，又被称作 FC (Family Computer) 或红白机，由任天堂于 1983 年推出。在国内，或许大家对「小霸王学习机」这个名字更加熟悉，应该有不少人就是在这台学习机上第一次接触了电子游戏。其实，「小霸王学习机」就是 NES 的山寨版，兼容 NES 游戏，在硬件上与 NES 基本相同。
 
 即使对游戏不感兴趣的人，听到「超级马里奥」（超级玛丽）等，也应该不会陌生。而这些游戏角色，正是由于 NES 的普及，才变得更加知名。
 
 在 NES 推出的时候，计算机多媒体技术并不是十分发达。而且不论是 NES，还是当时流行的 Apple II，其内存只有几 KB 到几百 KB. 为了能够流畅地显示游戏画面、播放游戏声音，NES 采用了不少巧妙的技术。
+
+<!-- more -->
 
 # 我的 NES 模拟器
 
