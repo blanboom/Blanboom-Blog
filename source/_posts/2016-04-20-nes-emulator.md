@@ -13,7 +13,7 @@ tags:
 - Allegro
 ---
 
-NES (Nintendo Entertainment System, [Wikipedia](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System)) 是历史上一款著名的游戏机，又被称作 FC (Family Computer) 或红白机，由任天堂于 1983 年推出。在国内，或许大家对「小霸王学习机」这个名字更加熟悉，应该有不少人就是在这台学习机上第一次接触了电子游戏。其实，「小霸王学习机」就是 NES 的山寨版，兼容 NES 游戏，在硬件上与 NES 基本相同。
+NES (Nintendo Entertainment System, [Wikipedia](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System)) 是历史上一款著名的游戏机，由任天堂于 1983 年推出，又被称做 FC (Family Computer) 或红白机。在国内，或许大家对「小霸王学习机」这个名字更加熟悉，应该有不少人就是在这台学习机上第一次接触了电子游戏。其实，「小霸王学习机」就是 NES 的山寨版，兼容 NES 游戏，在硬件上与 NES 基本相同。
 
 即使对游戏不感兴趣的人，听到「超级马里奥」（超级玛丽）等，也应该不会陌生。而这些游戏角色，正是由于 NES 的普及，才变得更加知名。
 
@@ -33,7 +33,7 @@ NES (Nintendo Entertainment System, [Wikipedia](https://en.wikipedia.org/wiki/Ni
 4.  显示 NES ROM 的相关信息
 5.  在模拟器运行的过程中，显示 CPU 和 PPU 寄存器上的数值
 
-一些较为复杂的程序，在其卡带中，除了 ROM 和 RAM 之外，还内置有内存控制器等芯片。还有一些软件使用了未在 NES CPU (6502) 中公开的特殊指令。这些游戏在本模拟器中无法运行。
+一些较为复杂的游戏，在其卡带中，除了 ROM 和 RAM 之外，还内置有内存控制器等芯片，或者使用了未在 NES CPU (6502) 文档中公开的特殊指令。这些游戏在本模拟器中无法运行。
 
 模拟器的源代码、使用方法、编译方法已经放在 GitHub: https://github.com/blanboom/bEMU
 
@@ -56,14 +56,15 @@ NES (Nintendo Entertainment System, [Wikipedia](https://en.wikipedia.org/wiki/Ni
 -   [NES EMULATION by Tom Gowing and Brian Pescatore](https://courses.cit.cornell.edu/ee476/FinalProjects/s2009/bhp7_teg25/bhp7_teg25/)  
     使用 AVR 单片机的 NES 模拟器
 -   [6502CPU以及NES游戏机系统](http://49.212.183.201/6502/6502_report.htm)
+-   [NES 光枪的工作原理](https://www.zhihu.com/question/32899950)
 
 # 调试与优化
 
 ## NES 测试程序
 
-在完成 NES 模拟器后，需要对 CPU 的各个指令、PPU 的各项功能进行测试，确定模拟器是否运行正常。这时候，通过测试程序，能够更方便地完成这些功能。
+完成 NES 模拟器后，需要对 CPU 的各个指令、PPU 的各项功能进行测试，确定模拟器是否运行正常。这时候，通过测试程序，能够更方便地完成这些功能。
 
-我使用了 NEStress 和 nestest 两个测试程序。其中，NEStress 可以对 CPU、PPU、APU、IO 等进行测试，而 nestest 仅仅用于对 CPU 的测试，但比 NEStress 测试得更全面。
+在调试模拟器的过程中，我使用了 NEStress 和 nestest 两个测试程序。其中，NEStress 可以对 CPU、PPU、APU、IO 等进行测试，而 nestest 仅仅用于对 CPU 的测试，但比 NEStress 覆盖更多的指令。
 
 这些测试程序的下载地址可从这里找到：http://wiki.nesdev.com/w/index.php/Emulator_tests
 

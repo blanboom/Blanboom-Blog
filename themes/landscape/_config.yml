@@ -7,13 +7,14 @@ rss: /atom.xml
 
 # Content
 excerpt_link: 继续阅读
-fancybox: true
+fancybox: false
 
 # Sidebar
 sidebar: right
 widgets:
 - category
 - tagcloud
+- myapps
 - recent_posts
 - archive
 - links
@@ -24,6 +25,7 @@ links:
   "匆匆那年：ptbsare's blog": http://ptbsare.org
   "The Bloom of Youth | 锦瑟华年": http://kuangqi.me
   "Hakale's note": http://hakale.cn
+  Hacer: http://hacer.cc
 
 
 # Miscellaneous
