@@ -17,7 +17,7 @@ tags:
 2015 年全国大学生电子设计竞赛刚刚结束。我们组选择了 B 题：风力摆控制系统。题目要求如下：
 
 > 一长约 60cm~70cm 的细管上端用万向节 固定在支架上,下方悬挂一组(2~4 只)直流 风机,构成一风力摆,如图 1 所示。风力摆上 安装一向下的激光笔,静止时,激光笔的下端 距地面不超过 20cm。设计一测控系统,控制 驱动各风机使风力摆按照一定规律运动,激光 笔在地面画出要求的轨迹。
- 
+
 趁这段时间，整理一下我们组的方案。
 
 <!-- more -->
@@ -47,7 +47,7 @@ MPU-6050 固定在摆杆上，传感器 X, Y 轴的方向与两组电机轴的�
 
 程序如下：
 
-```
+``` c
 void app_mode1(void) {
     initMPU_NoDMP();        // 初始化 MPU-6050
     Serial.println("App mode1 initialized!");
@@ -74,7 +74,7 @@ void app_mode1(void) {
 
 对于摆动幅度的获取，首先通过 MPU-6050 读取角速度，角速度为 0 时，说明风力摆已到达最高点。此时，可通过 MPU-6050 的 DMP 读取四元数，并换算为摆幅角度。
 
-```
+``` c
 void app_mode2(void) {
     float theta_in, theta_out, theta_set, theta_last = 0;
     PID theta_pid(&theta_in, &theta_out, &theta_set, 5.0, 1.3, 2.0, DIRECT);
@@ -84,10 +84,10 @@ void app_mode2(void) {
     theta_pid.SetMode(AUTOMATIC);
     theta_pid.SetOutputLimits(-255, 255);
     theta_pid.SetSampleTime(1500);
-    
+
     Serial.println("App mode2 initialized!");
     theta_set = interface_input_length();   // 输入长度
-    
+
     if(theta_set <= 35) { theta_pid.SetTunings(1.0, 0.7, 1.0); }
     else if(theta_set <= 45) { theta_pid.SetTunings(8.0, 7.0, 2.0); }
     else { theta_pid.SetTunings(5.0, 7.0, 2.0); }  // 设置 PID 参数
@@ -102,7 +102,7 @@ void app_mode2(void) {
 
     initMPU();
     beep();
-    
+
     for(;;) {
         if (gx == 0 || (gx > 0 && gx_last < 0) || (gx < 0 && gx_last > 0)) {   
             // 角速度为 0，摆动到最高点，获取此时摆动幅度
@@ -126,7 +126,7 @@ void app_mode2(void) {
         Serial.println(theta_in);
         Serial.println(", ");
         Serial.println(theta_out);
-        
+
         if(abs(theta_out) < 2) { theta_out = 100; } // 保证在静止的时候依旧能摆起来
         if(gx > 0) {
             motorOutput13(theta_out);
@@ -149,7 +149,7 @@ void app_mode2(void) {
 
 根据力的合成与分解，控制两对电机的转速，即可做到按照指定方向摆动。其余部分与基础要求一类似。
 
-```
+``` c
 void app_mode3(void) {
     uint16_t angle_input = 0;
     int16_t motor_val1, motor_val2;
@@ -187,9 +187,9 @@ void app_mode3(void) {
 
 本要求刚好与基本要求一相反，在风力摆运动的过程中，给风力摆一个与运动方向相反的力，即可消耗其能量，使风力摆快速停下。这个力的大小，应该根据摆的运动速度实时调整，防止在摆在接近停止时来回振荡。
 
-```
+``` c
 void app_mode4(void) {
-    float kp_x = -0.1, kp_y = -0.1; 
+    float kp_x = -0.1, kp_y = -0.1;
     int16_t output_x = 0, output_y = 0;
     initMPU_NoDMP();
     delay(400);
@@ -229,15 +229,15 @@ void app_mode4(void) {
 
 由于在完成本要求时，已经是比赛的最后一天，参数没调好，再加上程序应该还有更多优化的空间，在实验室调试时，算是勉强完成题目的要求。但在正式比赛的过程中，画出的圆有了较大的变形，再加上参数没调好，出现了振荡的现象，最终成绩不是太好。
 
-```
+``` c
 void app_mode5(void) {
     const uint8_t delayTime = 120; // 电机转速更新周期，应根据摆的周期，结合实测结果进行微调，否则画出的圆会出现变形
     float currentAngle = 0.0;
     float i;
 
-    unsigned long lastTime = 0, currentTime = 0; 
-    float theta_in,   theta_out,   theta_set,   theta_last   = 0; 
-    float theta_in_2, theta_out_2, theta_set_2, theta_last_2 = 0; 
+    unsigned long lastTime = 0, currentTime = 0;
+    float theta_in,   theta_out,   theta_set,   theta_last   = 0;
+    float theta_in_2, theta_out_2, theta_set_2, theta_last_2 = 0;
     PID theta_pid(  &theta_in, &theta_out, &theta_set, 6.0, 1.2, 5.1, DIRECT); // X 方向 PID
     PID theta_pid_2(&theta_in_2, &theta_out_2, &theta_set_2, 8.0, 1.5, 3.5, DIRECT);  // Y 方向 PID
     int16_t gx_last = 0, gy_last = 0;
@@ -250,7 +250,7 @@ void app_mode5(void) {
     theta_pid_2.SetOutputLimits(-255, 255);
     theta_pid_2.SetSampleTime(1500);
 
-    
+
     Serial.println("App mode5 initialized!");
     theta_set = interface_input_radius() * 2.0 + 1.0; // 输入半径，换算为直径。1.0 为人工误差修正
     theta_set_2 = theta_set;

@@ -32,15 +32,17 @@ tags:
 
 上网搜索了一下，刚好有人有同样的想法。使用 Javascript 即可实现：
 
-	<script>
-	    <% if (theme.switch_banner){ %>
-	    var number_of_banners = 6;
-	    var randnum = Math.floor(Math.random() * number_of_banners + 1);
-	    document.getElementById("banner").style.backgroundImage = "url(/css/images/banner" + randnum + ".jpg)";
-	    <% } else { %>
-	    document.getElementById("banner").style.backgroundImage = "url(/css/images/banner.jpg)";
-	    <% } %>
-	</script>
+``` javascript
+<script>
+    <% if (theme.switch_banner){ %>
+    var number_of_banners = 6;
+    var randnum = Math.floor(Math.random() * number_of_banners + 1);
+    document.getElementById("banner").style.backgroundImage = "url(/css/images/banner" + randnum + ".jpg)";
+    <% } else { %>
+    document.getElementById("banner").style.backgroundImage = "url(/css/images/banner.jpg)";
+    <% } %>
+</script>
+```
 
 详细的操作步骤请参考：[自动随机切换Hexo博客的banner图片](http://kuangqi.me/tricks/hexo-banner-auto-switcher/)
 
@@ -48,10 +50,12 @@ tags:
 
 Hexo 默认的引文样式为大字号居中显示，但是对我来说，`blockquote` 被更多地用来展示内容的层级关系。所以，我对 `blockquote` 的样式进行了简单的修改：
 
-    font-family: font-sans
-    border-left: 5px solid #DDD
-    margin: 15px 0 0 2px
-    padding-left: 20px
+``` css
+font-family: font-sans
+border-left: 5px solid #DDD
+margin: 15px 0 0 2px
+padding-left: 20px
+```
 
 效果如图所示：
 
@@ -61,11 +65,13 @@ Hexo 默认的引文样式为大字号居中显示，但是对我来说，`block
 
 在一级标题下加上浅色背景，二级标题下加浅色下划线，能使文章层次更加清晰，便于阅读。可在 `article.styl` 的 `.article-entry` 合适位置添加如下内容：
 
-	 h1
-	   padding: 7px 6px 7px 0px;
-	   background: #dddddd;
-	 h2
-	   border-bottom: 1px #d8d8d8 solid;
+``` css
+ h1
+   padding: 7px 6px 7px 0px;
+   background: #dddddd;
+ h2
+   border-bottom: 1px #d8d8d8 solid;
+```
 
 显示效果如下：
 
@@ -80,7 +86,9 @@ Hexo 默认的引文样式为大字号居中显示，但是对我来说，`block
 
 为了是网页在各个操作系统中都能显示出高质量的中英文字体，对默认的字体方案稍作修改：
 
-	font-sans = "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif
+``` css
+font-sans = "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif
+```
 
 通过上述代码，可以在 OS X 操作系统下默认显示 Hiragino Sans GB （冬青黑体简体中文），Windows 操作系统下默认显示微软雅黑，Linux 操作系统下默认显示思源黑体或文泉驿微米黑。但在 iOS 等系统里，默认只能以 黑体-简 显示中文，显示效果不太理想（尤其是显示粗体文本时）。
 
@@ -95,53 +103,59 @@ Landscape 主题提供了分享功能，可以将文章分享到 Facebook，Twit
 
 在 `source/js/script.js` 中，可以找到 `'<div class="article-share-links">',`，下面的四个链接就是 Facebook 等社交网站的分享链接。将其替换成如下代码，即可实现分享到国内社交网站：
 
-	'<a href="http://service.weibo.com/share/share.php?&title=' + encodedUrl + '" class="article-share-sina" target="_blank" title="微博"></a>',
-	'<a href="http://share.renren.com/share/buttonshare.do?link=' + encodedUrl + '" class="article-share-renren" target="_blank" title="人人"></a>',
-	'<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + encodedUrl + '" class="article-share-qq" target="_blank" title="QQ 空间"></a>',
-	'<a href="http://v.t.qq.com/share/share.php?url=' + encodedUrl + '" class="article-share-tencent" target="_blank" title="腾讯微博"></a>',
+``` html
+'<a href="http://service.weibo.com/share/share.php?&title=' + encodedUrl + '" class="article-share-sina" target="_blank" title="微博"></a>',
+'<a href="http://share.renren.com/share/buttonshare.do?link=' + encodedUrl + '" class="article-share-renren" target="_blank" title="人人"></a>',
+'<a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + encodedUrl + '" class="article-share-qq" target="_blank" title="QQ 空间"></a>',
+'<a href="http://v.t.qq.com/share/share.php?url=' + encodedUrl + '" class="article-share-tencent" target="_blank" title="腾讯微博"></a>',
+```
 
 同时，还需要替换四个网站的图标。本主题使用 Font Awesome 来显示图标，但内置的 Fone Awesome 版本较旧，无法显示 QQ、腾讯微博等图标，所以，需要[下载最新版 Font Awesome](http://fortawesome.github.io/Font-Awesome/)，替换掉 `source/fonts` 中相关文件，并在 `source/css/_variables.styl` 中的 `font-icon-version` 修改为最新的 Font Awesome 版本号。
 
 然后，在 `source/css/_partial/article.styl` 中，找到四段以 `.article-share-***` 开头的代码，替换为如下内容：
 
-	.article-share-sina
-	  @extend $article-share-link
-	  &:before
-	    content: "\f18a"
-	  &:hover
-	    background: color-sina
-	    text-shadow: 0 1px darken(color-sina, 20%)
+``` css
+.article-share-sina
+  @extend $article-share-link
+  &:before
+    content: "\f18a"
+  &:hover
+    background: color-sina
+    text-shadow: 0 1px darken(color-sina, 20%)
 
-	.article-share-qq
-	  @extend $article-share-link
-	  &:before
-	    content: "\f1d6"
-	  &:hover
-	    background: color-qq
-	    text-shadow: 0 1px darken(color-qq, 20%)
+.article-share-qq
+  @extend $article-share-link
+  &:before
+    content: "\f1d6"
+  &:hover
+    background: color-qq
+    text-shadow: 0 1px darken(color-qq, 20%)
 
-	.article-share-renren
-	  @extend $article-share-link
-	  &:before
-	    content: "\f18b"
-	  &:hover
-	    background: color-renren
-	    text-shadow: 0 1px darken(color-renren, 20%)
+.article-share-renren
+  @extend $article-share-link
+  &:before
+    content: "\f18b"
+  &:hover
+    background: color-renren
+    text-shadow: 0 1px darken(color-renren, 20%)
 
-	.article-share-tencent
-	  @extend $article-share-link
-	  &:before
-	    content: "\f1d5"
-	  &:hover
-	    background: color-tencent
-	    text-shadow: 0 1px darken(color-tencent, 20%)
+.article-share-tencent
+  @extend $article-share-link
+  &:before
+    content: "\f1d5"
+  &:hover
+    background: color-tencent
+    text-shadow: 0 1px darken(color-tencent, 20%)
+```
 
 最后，找到 `source/css/_variables.styl` 中 `Colors` 部分，最后四行分别为四个社交网站图标的背景色，可根据这些网站的主题色修改。这是我的修改结果：
 
-	color-sina = #ea0020
-	color-qq = #518adb
-	color-renren = #406ccb
-	color-tencent = #33b5eb
+```css
+color-sina = #ea0020
+color-qq = #518adb
+color-renren = #406ccb
+color-tencent = #33b5eb
+```
 
 修改后的效果如下：
 

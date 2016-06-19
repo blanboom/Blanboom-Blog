@@ -58,7 +58,7 @@ tags:
 >>**如果** 感觉不再瞌睡，**则** 开始复习
 
 >>**如果** 感觉依旧瞌睡，**则** 继续睡觉
-		
+
 也可通过一幅简单的示意图（也叫「状态转移图」）表示出来：
 
 ![图 1  复习与小睡](http://blanboom.org/images/2015/02/fsm_sleep.jpg)
@@ -107,41 +107,43 @@ tags:
 
 如果使用 C 语言，switch - case 语句，即可简单地实现有限状态机。
 
-	/* 定义各个状态所对应的数值 */
-	#define STATUS_A 0
-	#define STATUS_B 1
-	#define STATUS_C 2
-	
-	/* 该变量的值即为当前状态机所处的状态 */
-	uint8_t currentStatus = STATUS_A; 
-	
-	/* 通过状态机实现的某个任务，
-	 * 需要放入 while(1) 等地方循环执行
-	 * /
-	void fsm_app(void) 
+``` c
+/* 定义各个状态所对应的数值 */
+#define STATUS_A 0
+#define STATUS_B 1
+#define STATUS_C 2
+
+/* 该变量的值即为当前状态机所处的状态 */
+uint8_t currentStatus = STATUS_A;
+
+/* 通过状态机实现的某个任务，
+ * 需要放入 while(1) 等地方循环执行
+ * /
+void fsm_app(void)
+{
+	switch(currentStatus) /* 根据现在的状态执行相应的程序 */
 	{
-		switch(currentStatus) /* 根据现在的状态执行相应的程序 */
-		{
-		case STATUS_A:  /* 状态 A */
-			doThingsForStatusA(); /* 执行状态 A 中需要执行的任务 */
-			/* 若满足状态转换的条件，则转换到另一个状态 */
-			if(condition_1){ currentStatus = STATUE_B; }
-			break;
-		case STATUS_B:  /* 状态 B */
-			doThingsForStatusB(); /* 执行状态 B 中需要执行的任务 */
-			/* 若满足状态转换的条件，则转换到另一个状态 */
-			if(condition_2){ currentStatus = STATUE_C; }
-			if(condition_3){ currentStatus = STATUE_A; }
-			break;
-		case STATUS_C:  /* 状态 C */
-			doThingsForStatusB(); /* 执行状态 B 中需要执行的任务 */
-			/* 若满足状态转换的条件，则转换到另一个状态 */
-			if(condition_4){ currentStatus = STATUE_A; }
-			break;
-		default:
-			currentStatus = STATUE_A;
-		}
+	case STATUS_A:  /* 状态 A */
+		doThingsForStatusA(); /* 执行状态 A 中需要执行的任务 */
+		/* 若满足状态转换的条件，则转换到另一个状态 */
+		if(condition_1){ currentStatus = STATUE_B; }
+		break;
+	case STATUS_B:  /* 状态 B */
+		doThingsForStatusB(); /* 执行状态 B 中需要执行的任务 */
+		/* 若满足状态转换的条件，则转换到另一个状态 */
+		if(condition_2){ currentStatus = STATUE_C; }
+		if(condition_3){ currentStatus = STATUE_A; }
+		break;
+	case STATUS_C:  /* 状态 C */
+		doThingsForStatusB(); /* 执行状态 B 中需要执行的任务 */
+		/* 若满足状态转换的条件，则转换到另一个状态 */
+		if(condition_4){ currentStatus = STATUE_A; }
+		break;
+	default:
+		currentStatus = STATUE_A;
 	}
+}
+```
 
 通过这段程序，即可实现一个具有三个状态的状态机。状态转移图如下图所示：
 
@@ -163,19 +165,21 @@ tags:
 
 初学单片机时，我们接触的按键去抖动程序一般是这样的<sup id="fnref5"><a href="#fn5" rel="footnote">5</a></sup>：
 
-	void keyscan()
+``` c
+void keyscan()
+{
+	if(key1 == 0)         // 如果按键 1 按下
 	{
-		if(key1 == 0)         // 如果按键 1 按下
-		{
-			delayms(10);      // 延时 10ms，消除因干扰产生的抖动
-				if(key1 == 0) // 再次检测按键 1，如果依旧按下
-				{
-					doSomething(); //此时说明按键 1 已按下，执行按键 1 需要执行的任务
-					while(!key1);  // 等待按键释放
-				}
-		}
+		delayms(10);      // 延时 10ms，消除因干扰产生的抖动
+			if(key1 == 0) // 再次检测按键 1，如果依旧按下
+			{
+				doSomething(); //此时说明按键 1 已按下，执行按键 1 需要执行的任务
+				while(!key1);  // 等待按键释放
+			}
 	}
-	
+}
+```
+
 对应的流程图如下：
 
 ![图 6  传统的按键去抖动程序](http://blanboom.org/images/2015/02/psm_keyscan_1.jpg)
@@ -189,72 +193,73 @@ tags:
 ![图 7  用状态机实现的按键去抖动程序](http://blanboom.org/images/2015/02/fsm_keyscan_2.jpg)
 
 该状态机有三个状态，分别是**按键未按下**，**等待**，**按键按下**。当按键按下时，则会进入等待状态，若在等待状态中按键一直保持按下，说明按键已经稳定地按下，进入按键按下的状态，等待按键释放。程序代码如下：
+``` c
+/* 按键去抖动状态机中的三个状态 */
+#define KEY_STATE_RELEASE    // 按键未按下
+#define KEY_STATE_WAITING    // 等待（消抖）
+#define KEY_STATE_PRESSED    // 按键按下（等待释放）
 
-	/* 按键去抖动状态机中的三个状态 */
-	#define KEY_STATE_RELEASE    // 按键未按下
-	#define KEY_STATE_WAITING    // 等待（消抖）
-	#define KEY_STATE_PRESSED    // 按键按下（等待释放）
-	
-	/* 等待状态持续时间
-	 * 需要根据单片机速度和按键消抖程序被调用的速度来进行调整 
-	 */
-	#define DURIATION_TIME 40
-	
-	/* 按键检测函数的返回值，按下为 1，未按下为 0 */
-	#define PRESSED 1
-	#define NOT_PRESSED 0
-	
-	/* 按键扫描程序所处的状态
-	 * 初始状态为：按键按下（KEY_STATE_RELEASE）
-	 */
-	uint8_t keyState = KEY_STATE_RELEASE;
-	
-	/* 按键检测函数，通过有限状态机实现
-	 * 函数在从等待状态转换到按键按下状态时返回 PRESSED，代表按键已被触发
-	 * 其他情况返回 NOT_PRESSED
-	 */
-	uint8_t keyDetect(void)
+/* 等待状态持续时间
+ * 需要根据单片机速度和按键消抖程序被调用的速度来进行调整
+ */
+#define DURIATION_TIME 40
+
+/* 按键检测函数的返回值，按下为 1，未按下为 0 */
+#define PRESSED 1
+#define NOT_PRESSED 0
+
+/* 按键扫描程序所处的状态
+ * 初始状态为：按键按下（KEY_STATE_RELEASE）
+ */
+uint8_t keyState = KEY_STATE_RELEASE;
+
+/* 按键检测函数，通过有限状态机实现
+ * 函数在从等待状态转换到按键按下状态时返回 PRESSED，代表按键已被触发
+ * 其他情况返回 NOT_PRESSED
+ */
+uint8_t keyDetect(void)
+{
+	static uint8_t duriation;  // 用于在等待状态中计数
+	switch(keyState)
 	{
-		static uint8_t duriation;  // 用于在等待状态中计数
-		switch(keyState)
+	case KEY_STATE_RELEASE:
+		if(readKey() == 1)     // 如果按键按下
 		{
-		case KEY_STATE_RELEASE:
-			if(readKey() == 1)     // 如果按键按下
-			{
-				keyState = KEY_STATE_WAITING;  // 转换至下一个状态
+			keyState = KEY_STATE_WAITING;  // 转换至下一个状态
+		}
+		return NOT_PRESSED;    // 返回：按键未按下
+		break;
+	case KEY_STATE_WAITING:
+		if(readKey() == 1)     // 如果按键按下
+		{
+			duriation++;
+			if(duriation >= DURIATION_TIME)    // 如果经过多次检测，按键仍然按下
+			{	// 说明没有抖动了，可以确定按键已按下
+				duriation = 0;
+				keyState = KEY_STATE_PRESSED;  // 转换至下一个状态
+				return PRESSED;
 			}
-			return NOT_PRESSED;    // 返回：按键未按下
-			break;
-		case KEY_STATE_WAITING:
-			if(readKey() == 1)     // 如果按键按下
-			{
-				duriation++;
-				if(duriation >= DURIATION_TIME)    // 如果经过多次检测，按键仍然按下
-				{	// 说明没有抖动了，可以确定按键已按下
-					duriation = 0;
-					keyState = KEY_STATE_PRESSED;  // 转换至下一个状态
-					return PRESSED;
-				}
-			}
-			else  // 如果此时按键松开
-			{	// 可能存在抖动或干扰
-				duriation = 0;  // 清零的目的是便于下次重新计数
-				keyState = KEY_STATE_RELEASE;  // 重新返回按键松开的状态
-				return NOT_PRESSED; 
-			}
-			break;
-		case KEY_STATE_PRESSED:
-			if(readKey() == 0)       // 如果按键松开
-			{
-				keyState = KEY_STATE_RELEASE;  // 回到按键松开的状态
-			}
-			return NOT_PRESSED;
-			break;
-		default:
-			keyState = KEY_STATE_RELEASE;
+		}
+		else  // 如果此时按键松开
+		{	// 可能存在抖动或干扰
+			duriation = 0;  // 清零的目的是便于下次重新计数
+			keyState = KEY_STATE_RELEASE;  // 重新返回按键松开的状态
 			return NOT_PRESSED;
 		}
+		break;
+	case KEY_STATE_PRESSED:
+		if(readKey() == 0)       // 如果按键松开
+		{
+			keyState = KEY_STATE_RELEASE;  // 回到按键松开的状态
+		}
+		return NOT_PRESSED;
+		break;
+	default:
+		keyState = KEY_STATE_RELEASE;
+		return NOT_PRESSED;
 	}
+}
+```
 
 该程序也可经过扩展，实现判断按键双击、长按等功能。只需增加相应的状态和转移条件即可。
 
@@ -264,159 +269,160 @@ tags:
 
 为了使程序逻辑更加清晰，也为了更方便地添加新功能，我打算采用有限状态机实现。相关程序如下：
 
-	#include "App_Alarm.h"
-	#include "USART1.h"
-	#include <stdio.h>
-	#include "diag/Trace.h"
+``` c
+#include "App_Alarm.h"
+#include "USART1.h"
+#include <stdio.h>
+#include "diag/Trace.h"
 
-	/* 相关常量定义 */
-	#define ALARM_MUSIC_END 0      // 闹钟音乐播放完毕
-	#define FORMAT_OK		0	   // 格式正确
-	#define FORMAT_ERROR	(-1)   // 格式错误
+/* 相关常量定义 */
+#define ALARM_MUSIC_END 0      // 闹钟音乐播放完毕
+#define FORMAT_OK		0	   // 格式正确
+#define FORMAT_ERROR	(-1)   // 格式错误
 
-	/* 输入信息定义
-	 * 作为函数的返回值供函数 getInput() 使用
-	 * getInput() 将获取并返回键盘或触摸屏等设备中输入的控制命令或闹钟时间值
-	 */
-	#define INPUT_ERROR    (-1)    // 输入格式错误
-	#define INPUT_CANCEL   (-2)    // 输入了「取消」命令
-	#define INPUT_SNOOZE   (-3)    // 输入了「小睡」命令
-	#define INPUT_ALARM_ON (-4)    // 输入了「打开闹钟」命令
-	#define NO_INPUT	   (-10)   // 没有输入
+/* 输入信息定义
+ * 作为函数的返回值供函数 getInput() 使用
+ * getInput() 将获取并返回键盘或触摸屏等设备中输入的控制命令或闹钟时间值
+ */
+#define INPUT_ERROR    (-1)    // 输入格式错误
+#define INPUT_CANCEL   (-2)    // 输入了「取消」命令
+#define INPUT_SNOOZE   (-3)    // 输入了「小睡」命令
+#define INPUT_ALARM_ON (-4)    // 输入了「打开闹钟」命令
+#define NO_INPUT	   (-10)   // 没有输入
 
-	/* 输出信息定义
-	 * 作为为函数的参数供函数 displayMessege() 使用
-	 * displayMessege() 用于在显示屏上显示相关的提示信息
-	 */
-	#define MESSEGE_SET_ALARM_TIME 	(0)  // 提示：设置闹钟时间
-	#define MESSEGE_CLEAR			(1)  // 提示：已取消
-	#define MESSEGE_ALARM_IS_ON		(2)  // 提示：闹钟已打开
-	#define MESSEGE_WAITING			(3)  // 提示：等待闹钟响起
-	#define MESSEGE_SET_SNOOZE_TIME	(4)  // 提示：设置小睡时间
-	#define MESSEGE_GET_UP			(5)  // 提示：该起床了
+/* 输出信息定义
+ * 作为为函数的参数供函数 displayMessege() 使用
+ * displayMessege() 用于在显示屏上显示相关的提示信息
+ */
+#define MESSEGE_SET_ALARM_TIME 	(0)  // 提示：设置闹钟时间
+#define MESSEGE_CLEAR			(1)  // 提示：已取消
+#define MESSEGE_ALARM_IS_ON		(2)  // 提示：闹钟已打开
+#define MESSEGE_WAITING			(3)  // 提示：等待闹钟响起
+#define MESSEGE_SET_SNOOZE_TIME	(4)  // 提示：设置小睡时间
+#define MESSEGE_GET_UP			(5)  // 提示：该起床了
 
-	/* 闹钟的状态 */
-	enum alarmStates
+/* 闹钟的状态 */
+enum alarmStates
+{
+	ALARM_OFF,				// 闹钟关闭
+	SET_ALARM_TIME,			// 设置闹钟时间
+	WATING_FOR_ALARM,		// 等待闹钟响起
+	PLAY_ALARM_MUSIC,		// 播放闹钟音乐
+	SET_SNOOZE_TIME			// 设置贪睡时间
+} alarmState = ALARM_OFF;	// 默认状态：闹钟关闭
+
+/* 相关函数的定义 */
+int16_t getInput(void);
+void displayMessege(uint8_t);
+void setAlarm(int16_t);
+int16_t alarmTimeDiff(void);
+int8_t playAlarmMusic(void);
+void setSnooze(int16_t);
+uint8_t checkAlarmFormat(int16_t);
+uint8_t checkSnoozeFormat(int16_t);
+
+/*
+ * 闹钟主程序，需要放入 while(1) 中循环调用
+ */
+void alarmApp(void)
+{
+	int16_t input;		// 输入值暂存在这个变量中
+	switch (alarmState) // 获取闹钟状态，下面程序将根据闹钟的状态执行相应的任务
 	{
-		ALARM_OFF,				// 闹钟关闭
-		SET_ALARM_TIME,			// 设置闹钟时间
-		WATING_FOR_ALARM,		// 等待闹钟响起
-		PLAY_ALARM_MUSIC,		// 播放闹钟音乐
-		SET_SNOOZE_TIME			// 设置贪睡时间
-	} alarmState = ALARM_OFF;	// 默认状态：闹钟关闭
-
-	/* 相关函数的定义 */
-	int16_t getInput(void);
-	void displayMessege(uint8_t);
-	void setAlarm(int16_t);
-	int16_t alarmTimeDiff(void);
-	int8_t playAlarmMusic(void);
-	void setSnooze(int16_t);
-	uint8_t checkAlarmFormat(int16_t);
-	uint8_t checkSnoozeFormat(int16_t);
-
-	/*
-	 * 闹钟主程序，需要放入 while(1) 中循环调用
+	/* 状态：闹钟关闭
+	 * 在此状态中，将会不断检查是否打开闹钟，如果打开了闹钟，则会进入下一个状态：设置闹钟时间
 	 */
-	void alarmApp(void)
-	{
-		int16_t input;		// 输入值暂存在这个变量中
-		switch (alarmState) // 获取闹钟状态，下面程序将根据闹钟的状态执行相应的任务
+	case ALARM_OFF:
+		if (getInput() == INPUT_ALARM_ON)  // 检查是否打开了闹钟
+		{   // 如果打开了闹钟
+			displayMessege(MESSEGE_SET_ALARM_TIME);	// 在屏幕或串口上提示：请设置闹钟时间
+			alarmState = SET_ALARM_TIME;			// 进入下一个状态：设置闹钟时间
+		}
+		break;
+	/* 状态：设置闹钟时间
+	 * 在此状态中，将会检查输入值，
+	 * 如果
+	 * 		输入“取消”命令，则取消闹钟设置，返回到闹钟关闭的状态
+	 * 		输入闹钟时间格式错误，则状态不变，等待下一次重新输入
+	 * 		输入了正确的闹钟时间，则设置闹钟，显示闹钟设置成功，并进入下一状态：等待闹钟响起
+	 */
+	case SET_ALARM_TIME:
+		input = getInput();  		// 获取输入值
+		if(input == INPUT_CANCEL)	// 如果输入了“取消”
 		{
-		/* 状态：闹钟关闭
-		 * 在此状态中，将会不断检查是否打开闹钟，如果打开了闹钟，则会进入下一个状态：设置闹钟时间
-		 */
-		case ALARM_OFF:
-			if (getInput() == INPUT_ALARM_ON)  // 检查是否打开了闹钟
-			{   // 如果打开了闹钟
-				displayMessege(MESSEGE_SET_ALARM_TIME);	// 在屏幕或串口上提示：请设置闹钟时间
-				alarmState = SET_ALARM_TIME;			// 进入下一个状态：设置闹钟时间
-			}
-			break;
-		/* 状态：设置闹钟时间
-		 * 在此状态中，将会检查输入值，
-		 * 如果
-		 * 		输入“取消”命令，则取消闹钟设置，返回到闹钟关闭的状态
-		 * 		输入闹钟时间格式错误，则状态不变，等待下一次重新输入
-		 * 		输入了正确的闹钟时间，则设置闹钟，显示闹钟设置成功，并进入下一状态：等待闹钟响起
-		 */
-		case SET_ALARM_TIME:
-			input = getInput();  		// 获取输入值
-			if(input == INPUT_CANCEL)	// 如果输入了“取消”
-			{
-				displayMessege(MESSEGE_CLEAR);  // 显示“已取消”
-				alarmState = ALARM_OFF;			// 进入状态：关闭闹钟
-			}
-			else if(checkAlarmFormat(input) == FORMAT_OK)	// 如果输入格式正确
-			{
-				displayMessege(MESSEGE_ALARM_IS_ON); // 显示“成功设置闹钟，闹钟已启动”
-				setAlarm(input); // 根据输入值设置闹钟
-				alarmState = WATING_FOR_ALARM; // 进入下一状态：等待闹钟响起
-			}
-			break;
-		/* 状态：等待闹钟响起
-		 * 在此状态中，将会检查是否到达闹钟时间，如果到达，则进入下一状态：播放闹钟音乐
-		 * 同时，在此状态中也会检查输入，如果输入了“取消”的命令，则进入闹钟关闭的状态
-		 */
-		case WATING_FOR_ALARM:
-			displayMessege(MESSEGE_WAITING); // 显示等待闹钟响起的信息，例如离闹钟响起还有多长时间
-			if (alarmTimeDiff() <= 0) // 检查离闹钟响起还有多少时间，如果时间小于等于零（到达闹钟时间）
-			{
-				alarmState = PLAY_ALARM_MUSIC;  // 进入下一个状态：播放闹钟音乐
-			}
-			if(getInput() == INPUT_CANCEL) // 如果输入了“取消”命令
-			{
-				displayMessege(MESSEGE_CLEAR);
-				alarmState = ALARM_OFF;      // 进入闹钟关闭的状态
-			}
-			break;
-		/* 状态：播放闹钟音乐
-		 * 在此状态中，将播放闹钟音乐，若播放完毕，进入闹钟关闭的状态
-		 * 同时，在此状态中也会检查输入，
-		 * 		如果输入了“小睡”的命令，则进入状态：设置小睡时间
-		 * 		如果输入了“取消”的命令，则进入状态：闹钟关闭
-		 */
-		case PLAY_ALARM_MUSIC:
-			displayMessege(MESSEGE_GET_UP);  // 显示消息：“该起床了”
-			if(playAlarmMusic() == ALARM_MUSIC_END) // 播放闹钟音乐
-			{ // 若音乐播放完毕
-				displayMessege(MESSEGE_CLEAR);
-				alarmState = ALARM_OFF; // 进入状态：闹钟关闭
-			}
-			input = getInput();
-			if(input == INPUT_SNOOZE) // 若输入了“小睡”的命令
-			{
-				displayMessege(MESSEGE_SET_SNOOZE_TIME); // 显示消息：“请设置小睡时间”
-				alarmState = SET_SNOOZE_TIME; // 进入状态：设置小睡时间
-			}
-			if(input == INPUT_CANCEL) // 若输入了“取消”命令
-			{
-				displayMessege(MESSEGE_CLEAR);
-				alarmState = ALARM_OFF;   // 进入状态：闹钟关闭
-			}
-			break;
-		/* 状态：设置小睡时间
-		 * 在此状态中，将从输入获取小睡时间，并将闹钟时间加上小睡时间，进入状态：等待闹钟响起
-		 */
-		case SET_SNOOZE_TIME:
-			input = getInput(); // 获取输入
-			if(input == INPUT_CANCEL)
-			{   // 若输入“取消”，则进入“闹钟关闭”的状态
-				displayMessege(MESSEGE_CLEAR);
-				alarmState = ALARM_OFF;
-			}
-			else if(checkSnoozeFormat(input) == FORMAT_OK)
-			{   // 若输入格式正确
-				setSnooze(input);  // 设置新的闹钟时间
-				alarmState = WATING_FOR_ALARM;  // 进入状态：等待闹钟响起
-			}
-			break;
-		default:
+			displayMessege(MESSEGE_CLEAR);  // 显示“已取消”
+			alarmState = ALARM_OFF;			// 进入状态：关闭闹钟
+		}
+		else if(checkAlarmFormat(input) == FORMAT_OK)	// 如果输入格式正确
+		{
+			displayMessege(MESSEGE_ALARM_IS_ON); // 显示“成功设置闹钟，闹钟已启动”
+			setAlarm(input); // 根据输入值设置闹钟
+			alarmState = WATING_FOR_ALARM; // 进入下一状态：等待闹钟响起
+		}
+		break;
+	/* 状态：等待闹钟响起
+	 * 在此状态中，将会检查是否到达闹钟时间，如果到达，则进入下一状态：播放闹钟音乐
+	 * 同时，在此状态中也会检查输入，如果输入了“取消”的命令，则进入闹钟关闭的状态
+	 */
+	case WATING_FOR_ALARM:
+		displayMessege(MESSEGE_WAITING); // 显示等待闹钟响起的信息，例如离闹钟响起还有多长时间
+		if (alarmTimeDiff() <= 0) // 检查离闹钟响起还有多少时间，如果时间小于等于零（到达闹钟时间）
+		{
+			alarmState = PLAY_ALARM_MUSIC;  // 进入下一个状态：播放闹钟音乐
+		}
+		if(getInput() == INPUT_CANCEL) // 如果输入了“取消”命令
+		{
+			displayMessege(MESSEGE_CLEAR);
+			alarmState = ALARM_OFF;      // 进入闹钟关闭的状态
+		}
+		break;
+	/* 状态：播放闹钟音乐
+	 * 在此状态中，将播放闹钟音乐，若播放完毕，进入闹钟关闭的状态
+	 * 同时，在此状态中也会检查输入，
+	 * 		如果输入了“小睡”的命令，则进入状态：设置小睡时间
+	 * 		如果输入了“取消”的命令，则进入状态：闹钟关闭
+	 */
+	case PLAY_ALARM_MUSIC:
+		displayMessege(MESSEGE_GET_UP);  // 显示消息：“该起床了”
+		if(playAlarmMusic() == ALARM_MUSIC_END) // 播放闹钟音乐
+		{ // 若音乐播放完毕
+			displayMessege(MESSEGE_CLEAR);
+			alarmState = ALARM_OFF; // 进入状态：闹钟关闭
+		}
+		input = getInput();
+		if(input == INPUT_SNOOZE) // 若输入了“小睡”的命令
+		{
+			displayMessege(MESSEGE_SET_SNOOZE_TIME); // 显示消息：“请设置小睡时间”
+			alarmState = SET_SNOOZE_TIME; // 进入状态：设置小睡时间
+		}
+		if(input == INPUT_CANCEL) // 若输入了“取消”命令
+		{
+			displayMessege(MESSEGE_CLEAR);
+			alarmState = ALARM_OFF;   // 进入状态：闹钟关闭
+		}
+		break;
+	/* 状态：设置小睡时间
+	 * 在此状态中，将从输入获取小睡时间，并将闹钟时间加上小睡时间，进入状态：等待闹钟响起
+	 */
+	case SET_SNOOZE_TIME:
+		input = getInput(); // 获取输入
+		if(input == INPUT_CANCEL)
+		{   // 若输入“取消”，则进入“闹钟关闭”的状态
 			displayMessege(MESSEGE_CLEAR);
 			alarmState = ALARM_OFF;
 		}
+		else if(checkSnoozeFormat(input) == FORMAT_OK)
+		{   // 若输入格式正确
+			setSnooze(input);  // 设置新的闹钟时间
+			alarmState = WATING_FOR_ALARM;  // 进入状态：等待闹钟响起
+		}
+		break;
+	default:
+		displayMessege(MESSEGE_CLEAR);
+		alarmState = ALARM_OFF;
 	}
-
+}
+```
 状态转移图如图所示：
 
 ![图 8  用状态机实现的闹钟](http://blanboom.org/images/2015/02/fsm_alarm.jpg)

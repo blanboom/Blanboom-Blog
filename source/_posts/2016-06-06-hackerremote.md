@@ -15,7 +15,7 @@ tags:
 
 这是我前段时间学习 Swift 时的练手作品，也是我的第一个 iOS App. 
 
-HackerRemote 是一个游戏手柄形状的蓝牙 (BLE) 遥控器，可搭配 DFRobot Bluno 或蓝牙转串口模块，用于各种需要手机遥控的电子制作。
+HackerRemote 是一个游戏手柄形状的蓝牙 (BLE) 遥控器，可搭配 [DFRobot Bluno](http://www.dfrobot.com.cn/goods-823.html) 或蓝牙转串口模块，用于各种需要手机遥控的电子制作。
 
 除了能将数据发送至蓝牙设备，该 App 还可以从设备中接收数据（例如电池电量、飞行器飞行高度等），并显示在界面上，方便查看设备信息，对设备进行调试。
 
@@ -24,8 +24,6 @@ HackerRemote 是一个游戏手柄形状的蓝牙 (BLE) 遥控器，可搭配 DF
 App 的界面还比较简陋，在功能上，还有一些想法尚未实现。我会在空闲时间，根据情况对其进行进一步完善。
 
 下载链接：
-
-<a href="https://itunes.apple.com/cn/app/id1120243546"><img src="http://blanboom.org/images/2016/06/appstore.png" align="left"></a></br>
 
 [https://itunes.apple.com/cn/app/id1120243546](https://itunes.apple.com/cn/app/id1120243546)
 

@@ -7,7 +7,7 @@ rss: /atom.xml
 
 # Content
 excerpt_link: 继续阅读
-fancybox: false
+fancybox: true
 
 # Sidebar
 sidebar: right
@@ -33,3 +33,5 @@ links:
 switch_banner: true
 
 google_analytics: UA-40682162-1
+
+disqus_shortname: blanboom

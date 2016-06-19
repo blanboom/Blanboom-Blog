@@ -74,18 +74,20 @@ NES (Nintendo Entertainment System, [Wikipedia](https://en.wikipedia.org/wiki/Ni
 
 相关程序如下：
 
-    static void sig_info() {
-        /* 显示时间 */
-        static time_t timer;
-        static struct tm * timeinfo;
-        time(&timer);
-        timeinfo = localtime(&timer);
-        printf("%s\n", asctime(timeinfo));
-    
-        cpu_debugger();
-        ppu_debugger();
-        printf("--------------------------------------------\n\n");
-    }
+``` c
+static void sig_info() {
+    /* 显示时间 */
+    static time_t timer;
+    static struct tm * timeinfo;
+    time(&timer);
+    timeinfo = localtime(&timer);
+    printf("%s\n", asctime(timeinfo));
+ 
+    cpu_debugger();
+    ppu_debugger();
+    printf("--------------------------------------------\n\n");
+ }
+ ```
 
 ## CPU 模拟器的优化技巧
 
