@@ -93,7 +93,6 @@ def is_dangerous(x):
 for x in range(0, 256):
     if is_dangerous(x):      # 判断 x 的状态是否危险 
         continue 
-
     for y in range(0, 256):
         if is_dangerous(y):  # 判断 y 的状态是否危险
             continue
