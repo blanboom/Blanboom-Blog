@@ -48,7 +48,7 @@ tags:
 总之，Kindle 已经能够基本代替纸质书。
 
 我的 Kindle 显示效果：
-![](http://blanboom.org/images/2013/06/IMG_20130607_183119.jpg)
+![](/images/2013/06/IMG_20130607_183119.jpg)
 
 
 # Kindle 的 PDF 阅读效果怎么样？

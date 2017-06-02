@@ -17,7 +17,7 @@ title: Projects
 ## 已完成
 
 - **Arduino 任务调度器** ([GitHub](https://github.com/blanboom/Arduino-Task-Scheduler))</br>用于 Arduino 的任务管理程序，可以使 Arduino 更好地处理多个任务。</br></br>
-- **QS30-1 蓝牙辉光管时钟** ([简介](http://blanboom.org/qs30-1-nixie-clock.html) | [GitHub](https://github.com/blanboom/NixieClock))</br>能够通过蓝牙设置时间、控制灯光效果的辉光管时钟</br></br>
+- **QS30-1 蓝牙辉光管时钟** ([简介](https://blanboom.org/2014/qs30-1-nixie-clock) | [GitHub](https://github.com/blanboom/NixieClock))</br>能够通过蓝牙设置时间、控制灯光效果的辉光管时钟</br></br>
 - **交互式 LED 感应餐桌** ([视频](http://v.youku.com/v_show/id_XNjYzMjQ4ODEy.html) | [GitHub](https://github.com/blanboom/LED-Interactive-Desk))</br>能够根据红外和电磁波强度与人「互动」的 LED 点阵，可进行拼接做成餐桌，或做为科普/艺术展品安装于墙面。（与 [Xiao3d](http://weibo.com/xiao3d) 合作完成。） </br></br>
 - **迷你四旋翼飞行器**</br>使用 STM32F103RET6, MPU-9250, MS5611 制作的迷你 PCB 四轴飞行器，PCB 面积限制在 10cm * 10cm, 方便以较低的成本进行打样。</br></br>
 - **互动音乐墙** ([视频](http://v.youku.com/v_show/id_XNjYzMjM0NTUy.html))</br>利用压电陶瓷、Arduino 和 MIDI 音源制作的音乐装置，可做为玩具和音乐教学用具。现在安装在合肥的一家幼儿园。（与 [Xiao3d](http://weibo.com/xiao3d) 合作完成。） </br></br>
@@ -32,8 +32,7 @@ title: Projects
 - **2015 年电子设计竞赛作品** （练手作品 & 比赛作品）</br></br>
     - **红外聚光装置**</br>通过限制数量的一组光照传感器上的光线变化情况，引导手电筒发出的光线照射到指定位置。</br></br>
     - **旋转倒立摆**</br>2013 年国赛 C 题。完成题目的部分要求。</br></br>
-    - **风力摆控制系统** ([简介](http://blanboom.org/wind-pendulum.html))</br>2015 年国赛 B 题。通过 MPU-6050 采集风力摆的运动状态。采用四个空心杯电机，依靠风力使摆做出各种动作。完成题目全部要求。</br></br>
+    - **风力摆控制系统** ([简介](https://blanboom.org/2015/wind-pendulum))</br>2015 年国赛 B 题。通过 MPU-6050 采集风力摆的运动状态。采用四个空心杯电机，依靠风力使摆做出各种动作。完成题目全部要求。</br></br>
 - **其他**</br></br>
     - **微型 FM 收音机** ([GitHub](https://github.com/blanboom/TinyFM))</br>采用 QN8035 设计的微型 FM 收音机。</br></br>
-    - **2048 化学元素版** ([作品页面](http://blanboom.org/2048/))
     

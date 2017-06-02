@@ -59,7 +59,9 @@ tags:
   1. 杜洋的《能者自答》，讲了提问的坏处以及如何自己解决问题。建议大家看一看：[http://www.doyoung.net/articles/QAbyyourself/](http://www.doyoung.net/articles/QAbyyourself/)
   2. 这张信息图《从谷歌搜获更多》，可以帮助大家更高效、精准地找到所需内容：[http://dramatea.com/a/145](http://dramatea.com/a/145)	
   3. 《提问的智慧》：[http://www.wapm.cn/smart-questions/smart-questions-zh.html ](http://www.wapm.cn/smart-questions/smart-questions-zh.html)思维导图：[http://www.wapm.cn/smart-questions/smart-questions-zh.png](http://www.wapm.cn/smart-questions/smart-questions-zh.png)
-  4. 另一种观点：《黑客文化的精髓》：[http://www.yinwang.org/blog-cn/2014/04/11/hacker-culture/](http://www.yinwang.org/blog-cn/2014/04/11/hacker-culture/)
-  5. 网络常识菜鸟笔记 (2) 菜鸟的3G是Google, Google, 再Google : [http://wordpress.lixiaolai.com/archives/7572.html](http://wordpress.lixiaolai.com/archives/7572.html)
+  4. 网络常识菜鸟笔记 (2) 菜鸟的3G是Google, Google, 再Google : [http://wordpress.lixiaolai.com/archives/7572.html](http://wordpress.lixiaolai.com/archives/7572.html)
+  5. 真的，再这样提问就没人理你了：[https://kenengba.com/post/3559.html](https://kenengba.com/post/3559.html)
+  6. 另一种观点：《黑客文化的精髓》：[http://www.yinwang.org/blog-cn/2014/04/11/hacker-culture/](http://www.yinwang.org/blog-cn/2014/04/11/hacker-culture/)
+ 
 
 

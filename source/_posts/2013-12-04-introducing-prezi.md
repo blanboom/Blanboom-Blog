@@ -14,7 +14,7 @@ tags:
 - 设计
 ---
 
-![](http://blanboom.org/images/2013/12/prezi-logo.jpg)
+![](/images/2013/12/prezi-logo.jpg)
 
 除了 PPT、Keynote 之类的幻灯片软件，或者像 [利用Markdown自动生成幻灯片](http://www.soimort.org/posts/165/) 这样比较 Geek 和高效的方式，最近发现的 [Prezi](http://prezi.com/) 是又一个具有特色的演示文稿工具。
 
@@ -26,4 +26,4 @@ tags:
 <br/><br/>
 在之前的班级评优中，我们就使用了 Prezi，虽然由于时间比较紧，风格上没做到统一（尤其是背景和配色），一大堆细节都没来得及处理，但跟其他班的 PPT 相比，还是能给人耳目一新的感觉：
 
-<iframe height=498 width=510 src="http://player.youku.com/embed/XNjQyNDAzMzEy" frameborder=0 allowfullscreen> </iframe>
+<iframe height=498 width=510 src="https://player.youku.com/embed/XNjQyNDAzMzEy" frameborder=0 allowfullscreen> </iframe>

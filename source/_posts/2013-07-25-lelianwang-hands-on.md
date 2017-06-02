@@ -67,5 +67,5 @@ tags:
 
 这是我的寝室的温度曲线图：
 
-[![](http://blanboom.org/images/2013/07/Lelianwang.png)](http://www.lewei50.com/home/gatewaystatus/1415)
+[![](/images/2013/07/Lelianwang.png)](http://www.lewei50.com/home/gatewaystatus/1415)
 总之，有了乐联网，实现智能家居，远程监控实验数据，或者做一个小型室内气象站，就会更加方便了。

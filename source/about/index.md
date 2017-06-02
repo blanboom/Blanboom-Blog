@@ -8,13 +8,6 @@ title: 关于
 wordpress_id: 9
 ---
 
-
-<br/>
-
-## Blanboom
-
-安徽大学学生 / 2012级 / 通信工程 / 电子 DIY 爱好者
-
 <br/>
 
 ## Mail

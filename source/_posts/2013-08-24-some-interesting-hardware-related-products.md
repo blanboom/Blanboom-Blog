@@ -18,7 +18,7 @@ tags:
 
 
 
-![](http://blanboom.org/images/2013/08/Hardware-0.jpg)
+![](/images/2013/08/Hardware-0.jpg)
 
 
 _[核心提示] 在互联网发展、社会进步的前提下，硬件才能得以复兴。软件、硬件、互联网，三者相互促进，将使我们享受到更加智能的生活。那么哪些硬件相关的产品，能给我们带来的一些启示？_
@@ -36,7 +36,7 @@ _[核心提示] 在互联网发展、社会进步的前提下，硬件才能得�
 
 [Arduino](http://www.arduino.cc/) 是目前最火的一款开源控制板，受到了大量创客的喜爱，甚至连 Google 也发布了基于 Arduino 的 Android Open Accessory 标准与 ADK 开发工具，使 Android 能更好地与外围设备互动。这块控制板可以连接不同的传感器、显示屏、LED、按键等，并通过串口、USB，或者外接的以太网、蓝牙、Wi-Fi、射频模块与其他设备相连，同时通过编程让 Arduino 拥有不同功能。
 
-![](http://blanboom.org/images/2013/08/Hardware-1.jpg)
+![](/images/2013/08/Hardware-1.jpg)
 
 [【图片来源】](http://hackedgadgets.com/2013/07/10/bidirectional-bluetooth-based-android-controller-for-arduino/)
 
@@ -61,7 +61,7 @@ _[核心提示] 在互联网发展、社会进步的前提下，硬件才能得�
 
 
 
-![](http://blanboom.org/images/2013/08/Hardware-2.jpg)
+![](/images/2013/08/Hardware-2.jpg)
 
 
 
@@ -80,7 +80,7 @@ _[核心提示] 在互联网发展、社会进步的前提下，硬件才能得�
 
 [乐联网](http://www.lewei50.com/)和 [Yeelink](http://www.yeelink.net/)，都是我比较喜欢的两个物联网开放平台，也是国内具有知名度的两个物联网开放平台。简单说，硬件设备，例如传感器、开关、摄像头、小灯等，都可以通过简单的方式接入这个平台。同时，互联网服务，例如微博、微信，也能连接该平台，再加上网页控制界面和手机 APP，身边的一切，都连接在一起了。通过预先设置的一些规则，就可以让这些设备和服务智能地工作。
 
-![](http://blanboom.org/images/2013/08/Hardware-3.png)
+![](/images/2013/08/Hardware-3.png)
 
 [【图片来源】](http://www.lewei50.com/home/gatewaystatus/586)
 
@@ -92,7 +92,7 @@ _[核心提示] 在互联网发展、社会进步的前提下，硬件才能得�
 
 [Sphero](http://www.gosphero.com/) 是一款手机控制的球形机器人玩具。在手机的控制下，可以以不同的花样在地面滚动。目前，已经有超过 25 个 APP 和游戏支持 Sphero. 同时，这款小球还支持「多人对战」，不同人控制不同小球在相互撞击中分出胜负。我想，配上 Google Glass，Sphero 一定会更加好玩。
 
-![](http://blanboom.org/images/2013/08/Hardware-4.jpg)
+![](/images/2013/08/Hardware-4.jpg)
 
 [【图片来源】](http://www.gosphero.com/sphero-sports/)
 
@@ -106,7 +106,7 @@ _[核心提示] 在互联网发展、社会进步的前提下，硬件才能得�
 
 [T-Tok 番茄闹钟](http://www.demohour.com/projects/321860)是点名时间上的一个众筹项目。由于我也在做一个类似的制作，这一项目也吸引了我。
 
-![](http://blanboom.org/images/2013/08/Hardware-5.png)
+![](/images/2013/08/Hardware-5.png)
 
 [【图片来源】](http://www.demohour.com/projects/321860)
 

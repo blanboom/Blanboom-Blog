@@ -15,6 +15,6 @@ tags:
 
 作为一个之前很少接触历史的工科生，不知道是否完全理解了葛兆光先生的观点。
 
-[单击此处查看完整笔记](http://blanboom.org/images/2014/04/zhai-zi-zhong-guo-mindmap-large.png)
+[单击此处查看完整笔记](/images/2014/04/zhai-zi-zhong-guo-mindmap-large.png)
 
-<a href="http://blanboom.org/images/2014/04/zhai-zi-zhong-guo-mindmap.png-large"><img src="http://blanboom.org/images/2014/04/zhai-zi-zhong-guo-mindmap-preview.jpg" ></a>
+<a href="/images/2014/04/zhai-zi-zhong-guo-mindmap.png-large"><img src="/images/2014/04/zhai-zi-zhong-guo-mindmap-preview.jpg" ></a>

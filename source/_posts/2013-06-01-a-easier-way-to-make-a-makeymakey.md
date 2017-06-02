@@ -20,7 +20,7 @@ tags:
 
 对于有 Arduino 的人来说，完全可以自制 MakeyMakey。但是，网上的许多方法都需要把 Arduino 模拟成 USB 键盘。这样的话就增加了复杂程度。而直接使用串口向电脑发送数据，同时用串口转键盘的软件，制作难度会小很多（几只电阻，若干根屏蔽线即可），另外还可以实现 MIDI 输出等更多功能。
 
-<iframe width="510" height="498" src="http://player.youku.com/embed/XNDE5MTcwNzg4" allowfullscreen="" frameborder="0"> </iframe>
+<iframe width="510" height="498" src="https://player.youku.com/embed/XNDE5MTcwNzg4" allowfullscreen="" frameborder="0"> </iframe>
 
 <!-- more -->
 
@@ -173,4 +173,4 @@ tags:
 # 我的 MakeyMakey
 
 
-![](http://blanboom.org/images/2013/06/makey.jpg)
+![](/images/2013/06/makey.jpg)

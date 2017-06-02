@@ -35,7 +35,7 @@ Update(2013.8.3): 最近看了 [从单片机初学者迈向单片机工程师](h
     //51单片机的键盘双击检测，简易版
     //程序功能：单击按键灭灯，双击亮灯
     //By Blanboom
-    //http://blanboom.org
+    //https://blanboom.org
     //2013.6.6
     
     #include <reg52.h>
@@ -93,7 +93,7 @@ Update(2013.8.3): 最近看了 [从单片机初学者迈向单片机工程师](h
     //51单片机的键盘双击检测，定时器版
     //程序功能：单击按键灭灯，双击亮灯
     //By Blanboom
-    //http://blanboom.org
+    //https://blanboom.org
     //晶振频率：11.0592M
     //2013.6.7
     

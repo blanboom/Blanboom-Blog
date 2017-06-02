@@ -23,9 +23,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <%- open_graph({twitter_id: theme.twitter, google_plus: theme.google_plus, fb_admins: theme.fb_admins, fb_app_id: theme.fb_app_id}) %>
   <% if (theme.rss){ %>
-    <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+  <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
   <% } %>
-
+  <% if (is_post() && config.generator_amp){ %>
+  <link rel="amphtml" href="<%= config.url %>/<%= page.path %>amp/index.html">
+  <% } %>
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
@@ -44,7 +46,8 @@
   <meta name="msapplication-TileImage" content="/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   
-  <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link href="//fonts.geekzu.org/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+
   <%- css('css/style') %>
   <%- partial('google-analytics') %>
 </head>

@@ -1,4 +1,4 @@
-# Hexo Configuration
+#Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -12,9 +12,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blanboom.org
+url: https://blanboom.org
 root: /
-permalink: :title.html
+permalink: :year/:title/
 permalink_defaults:
 
 # Directory
@@ -71,7 +71,7 @@ disqus_shortname: blanboom
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:blanboom/blanboom.github.io.git
+  repo: https://github.com/blanboom/blanboom.github.io
   branch: master
 
 feed:
@@ -79,3 +79,18 @@ feed:
   path: atom.xml
   limit: 20
   hub:
+
+generator_amp:
+  templateDir:  amp-template
+  assetDistDir: amp-dist
+  logo:
+    path:   sample/sample-logo.png
+    width:  600
+    height: 60
+  substituteTitleImage: 
+    path:   sample/sample-substituteTitleImage.png
+    width:  1024
+    height: 800
+  google_analytics: UA-40682162-1
+  validateAMP: true
+  warningLog: false   # To display warning, please set true.

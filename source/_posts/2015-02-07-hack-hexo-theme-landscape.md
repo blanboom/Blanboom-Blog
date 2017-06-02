@@ -59,7 +59,7 @@ padding-left: 20px
 
 效果如图所示：
 
-![引文样式](http://blanboom.org/images/2015/02/hexo_theme_blockquote.png)
+![引文样式](/images/2015/02/hexo_theme_blockquote.png)
 
 <h1 id="toc_2">3. 更改标题样式</h1>
 
@@ -75,7 +75,7 @@ padding-left: 20px
 
 显示效果如下：
 
-![标题样式](http://blanboom.org/images/2015/02/hexo_theme_title.png)
+![标题样式](/images/2015/02/hexo_theme_title.png)
 
 #### 参考资料：
 
@@ -159,7 +159,7 @@ color-tencent = #33b5eb
 
 修改后的效果如下：
 
-![分享按钮](http://blanboom.org/images/2015/02/hexo_theme_share.png)
+![分享按钮](/images/2015/02/hexo_theme_share.png)
 
 #### 参考资料：
 

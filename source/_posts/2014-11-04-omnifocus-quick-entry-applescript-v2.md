@@ -15,7 +15,7 @@ tags:
 
 刚刚对这个脚本进行了一点改进，执行脚本时，会弹出一个简单的对话框，在对话框中输入要保存的内容即可，无需等待 OmniFocus 启动。
 
-![脚本运行截图](images/2014/11/OmniFocus-Script.png)
+![脚本运行截图](/images/2014/11/OmniFocus-Script.png)
 
 <!-- more -->
 

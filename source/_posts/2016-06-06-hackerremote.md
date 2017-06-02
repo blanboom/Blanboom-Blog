@@ -19,7 +19,7 @@ HackerRemote 是一个游戏手柄形状的蓝牙 (BLE) 遥控器，可搭配 [D
 
 除了能将数据发送至蓝牙设备，该 App 还可以从设备中接收数据（例如电池电量、飞行器飞行高度等），并显示在界面上，方便查看设备信息，对设备进行调试。
 
-![HackerRemote 截图](http://blanboom.org/images/2016/06/hackerremote.jpg)
+![HackerRemote 截图](/images/2016/06/hackerremote.jpg)
 
 App 的界面还比较简陋，在功能上，还有一些想法尚未实现。我会在空闲时间，根据情况对其进行进一步完善。
 

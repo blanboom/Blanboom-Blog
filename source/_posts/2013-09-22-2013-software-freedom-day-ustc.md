@@ -21,26 +21,26 @@ tags:
 
 
 活动开始（随手拍的，而且摄像头还有问题，拍照效果很烂）
-![](http://blanboom.org/images/2013/09/IMG_20130921_1441321.jpg)<!-- more -->
+![](/images/2013/09/IMG_20130921_1441321.jpg)<!-- more -->
 上海 [LUG](http://en.wikipedia.org/wiki/Linux_user_group) 会长向大家推荐 [Git](http://git-scm.com/)
-![](http://blanboom.org/images/2013/09/IMG_20130921_1446381.jpg)
-![](http://blanboom.org/images/2013/09/IMG_20130921_1459121.jpg)
+![](/images/2013/09/IMG_20130921_1446381.jpg)
+![](/images/2013/09/IMG_20130921_1459121.jpg)
 杨国鑫同学在讲 [OpenSUSE](http://www.opensuse.org/zh-cn/) 的特性
-![](http://blanboom.org/images/2013/09/IMG_20130921_1536221.jpg)
+![](/images/2013/09/IMG_20130921_1536221.jpg)
 很有 Geek 范的抽奖环节
-![](http://blanboom.org/images/2013/09/IMG_20130921_1616081.jpg)
+![](/images/2013/09/IMG_20130921_1616081.jpg)
 
-![](http://blanboom.org/images/2013/09/IMG_20130921_1619071.jpg)
+![](/images/2013/09/IMG_20130921_1619071.jpg)
 
-![](http://blanboom.org/images/2013/09/IMG_20130921_1442001.jpg)
+![](/images/2013/09/IMG_20130921_1442001.jpg)
 讲座结束，上台拿贴纸、光盘等纪念品，同时在前面的 5 个展台向大家展示不同的自由软件
-![Deepin-Disk](http://blanboom.org/images/2013/09/Deepin-Disk.jpg)
+![Deepin-Disk](/images/2013/09/Deepin-Disk.jpg)
 [Vim](http://www.vim.org/) 展示处，一个强大、高效的编辑器，本来用于编写代码，不过现在用途正在变广，甚至一些作家开始用 Vim 写文章（不过我现在用的是 [Sublime Text](http://www.sublimetext.com/)）
-![](http://blanboom.org/images/2013/09/IMG_20130921_162803.jpg)
+![](/images/2013/09/IMG_20130921_162803.jpg)
 还是 Vim，不过这个是 Windows 版的 [gVim](http://blog.sina.com.cn/s/blog_46dac66f010005kw.html) （小心 [emacs](http://www.gnu.org/software/emacs/) 粉[上来围攻 ](http://www.guokr.com/post/64003/)^_^）
-![](http://blanboom.org/images/2013/09/IMG_20130921_163144.jpg)
+![](/images/2013/09/IMG_20130921_163144.jpg)
 在 Linux 或 OS X 上运行 Windows 软件: [Wine](http://www.winehq.org/) 展示区
-![](http://blanboom.org/images/2013/09/IMG_20130921_163243.jpg)
+![](/images/2013/09/IMG_20130921_163243.jpg)
 另外还展示了 mplayer，LaTeX 等，没有一一拍照。最后是 Linux User Dinner 环节，我是外校学生，不好意思去蹭饭，就直接回学校了。
 
 

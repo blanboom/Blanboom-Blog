@@ -15,7 +15,7 @@ tags:
 
 <!-- more -->
 
-**Update: [OmniFocus 快速收集脚本 v2](http://blanboom.org/omnifocus-quick-entry-applescript-v2.html)**
+**Update: [OmniFocus 快速收集脚本 v2](https://blanboom.org/2014/omnifocus-quick-entry-applescript-v2)**
 
 AppleScript 代码如下：
 

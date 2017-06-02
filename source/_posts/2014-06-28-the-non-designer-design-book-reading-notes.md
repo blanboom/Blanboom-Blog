@@ -16,5 +16,5 @@ tags:
 
 <!-- more -->
 
-![《写给大家看的设计书》读书笔记](images/2014/06/the-non-designer-design-book-reading-notes-mindmap.png)
+![《写给大家看的设计书》读书笔记](/images/2014/06/the-non-designer-design-book-reading-notes-mindmap.png)
 

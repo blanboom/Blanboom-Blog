@@ -61,7 +61,7 @@ tags:
 
 也可通过一幅简单的示意图（也叫「状态转移图」）表示出来：
 
-![图 1  复习与小睡](http://blanboom.org/images/2015/02/fsm_sleep.jpg)
+![图 1  复习与小睡](/images/2015/02/fsm_sleep.jpg)
 
 这个例子其实就是一个简单的有限状态机，其中，复习和小睡是两个**状态**，感觉瞌睡和感觉清醒这两个**条件**可以使状态发生**转换**。<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup>
 
@@ -79,7 +79,7 @@ tags:
 
 对于一些需要长时间执行的任务，例如按键去除抖动、读取和播放 MP3 文件等，采用有限状态机的方式，**将任务划分为多个小的步骤（状态），每次只执行其中的一步**。这样，其他任务就有机会「插入」到这个任务之中，确保了各个任务都能按时执行。
 
-![图 2  状态机用于分解耗时过长的任务](http://blanboom.org/images/2015/02/fsm_adv_1.jpg)
+![图 2  状态机用于分解耗时过长的任务](/images/2015/02/fsm_adv_1.jpg)
 
 
 <h2 id="toc_3">2.2 避免软件延时对 CPU 资源造成浪费</h2>
@@ -88,7 +88,7 @@ tags:
 
 这种方式虽然简单，但在延时函数执行的过程中，其他程序无法运行，消耗了大量 CPU 资源。而通过状态机，**有助于减少软件延时的使用，提高 CPU 利用率**。
 
-![图 3  用状态机避免软件延时](http://blanboom.org/images/2015/02/fsm_adv_2.jpg)
+![图 3  用状态机避免软件延时](/images/2015/02/fsm_adv_2.jpg)
 
 请参考下文中的 **示例一：按键去抖动程序的优化**，这一例子展示了如何通过软件延时分解耗时较长的任务，同时减少软件延时的使用。
 
@@ -97,7 +97,7 @@ tags:
 
 通过状态机，将一个复杂任务划分为多个状态，可以使程序清晰易懂，便于维护。以后想要添加、删除程序中的功能，都会变得非常容易。
 
-![图 4  用状态机优化程序逻辑](http://blanboom.org/images/2015/02/fsm_adv_3.jpg)
+![图 4  用状态机优化程序逻辑](/images/2015/02/fsm_adv_3.jpg)
 
 下文中的 **示例二：通过状态机实现的闹钟** 展示了如何通过状态机优化程序逻辑。
 
@@ -147,7 +147,7 @@ void fsm_app(void)
 
 通过这段程序，即可实现一个具有三个状态的状态机。状态转移图如下图所示：
 
-![图 5  通过 switch - case 语句实现的状态机](http://blanboom.org/images/2015/02/fsm_example.jpg)
+![图 5  通过 switch - case 语句实现的状态机](/images/2015/02/fsm_example.jpg)
 
 <h2 id="toc_7">3.2 通过 Arduino 库实现</h2>
 
@@ -182,7 +182,7 @@ void keyscan()
 
 对应的流程图如下：
 
-![图 6  传统的按键去抖动程序](http://blanboom.org/images/2015/02/psm_keyscan_1.jpg)
+![图 6  传统的按键去抖动程序](/images/2015/02/psm_keyscan_1.jpg)
 
 从流程图中可知，delayms() 延时函数和最后的等待按键释放的程序，会占用过多时间。
 
@@ -190,7 +190,7 @@ void keyscan()
 
 如果使用有限状态机的思路，可以按照下图方式实现：
 
-![图 7  用状态机实现的按键去抖动程序](http://blanboom.org/images/2015/02/fsm_keyscan_2.jpg)
+![图 7  用状态机实现的按键去抖动程序](/images/2015/02/fsm_keyscan_2.jpg)
 
 该状态机有三个状态，分别是**按键未按下**，**等待**，**按键按下**。当按键按下时，则会进入等待状态，若在等待状态中按键一直保持按下，说明按键已经稳定地按下，进入按键按下的状态，等待按键释放。程序代码如下：
 ``` c
@@ -425,13 +425,13 @@ void alarmApp(void)
 ```
 状态转移图如图所示：
 
-![图 8  用状态机实现的闹钟](http://blanboom.org/images/2015/02/fsm_alarm.jpg)
+![图 8  用状态机实现的闹钟](/images/2015/02/fsm_alarm.jpg)
 
 
 <h1 id="toc_13">6. 后记</h1>
 在单片机编程时，如果遇到代码复杂、任务占用时间过长等问题，可以尝试通过有限状态机解决。
 
-之前写过一个[针对 Arduino 的合作式任务调度器](http://blanboom.org/arduino-task-scheduler-library.html)。配合有限状态机，更有利于多任务处理。
+之前写过一个[针对 Arduino 的合作式任务调度器](https://blanboom.org/2013/arduino-task-scheduler-library)。配合有限状态机，更有利于多任务处理。
 
 另外，instructables 上的一篇文章通过三个实例演示了有限状态机在 Arduino 上的应用，如果感兴趣，可以通过这个链接阅读：[http://www.instructables.com/id/Arduino-Finite-State-Machine/](http://www.instructables.com/id/Arduino-Finite-State-Machine/)
 
@@ -439,4 +439,4 @@ void alarmApp(void)
 
 #### 备注：
 
-<div class="footnotes"><ol><li id="fn1">来源：<a href="http://zh.wikipedia.org/zh-cn/%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA">http://zh.wikipedia.org/zh-cn/有限状态机</a>&nbsp;<a href="#fnref1" rev="footnote">&#8617;</li><li id="fn2">为了便于理解，此处描述的状态机及状态转移图省略了一些内容，例如没有标明开始状态&nbsp;<a href="#fnref2" rev="footnote">&#8617;</li><li id="fn3">Programming Basics 针对初学者的互动编程学习网站，网址为：<a href="http://programmingbasics.org">http://programmingbasics.org</a>&nbsp;<a href="#fnref3" rev="footnote">&#8617;</li><li id="fn4">根据 <a href="http://www.ti.com/mcu/docs/litabsmultiplefilelist.tsp?sectionId=96&amp;tabId=1502&amp;literatureNumber=slaa402a&amp;docCategoryId=1&amp;familyId=342">Finite State Machines for MSP430 (Rev. A)</a> 翻译&nbsp;<a href="#fnref4" rev="footnote">&#8617;</li><li id="fn5">改编自<a href="http://book.douban.com/subject/3413850/">《新概念51单片机C语言教程》</a>中相关内容&nbsp;<a href="#fnref5" rev="footnote">&#8617;</li><li id="fn6">其实 MP3 播放程序也可以通过有限状态机实现，因为为了实现 MP3 播放持续时间较长（一首歌的时间），而且需要完成多个步骤（打开文件、读取文件、将数据发送到 MP3 解码芯片、告诉 MP3 解码芯片音乐播放完毕等）&nbsp;<a href="#fnref6" rev="footnote">&#8617;</li></ol></div>
+<div class="footnotes"><ol><li id="fn1">来源：<a href="http://zh.wikipedia.org/zh-cn/%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA">http://zh.wikipedia.org/zh-cn/有限状态机</a>&nbsp;<a href="#fnref1">&#8617;</li><li id="fn2">为了便于理解，此处描述的状态机及状态转移图省略了一些内容，例如没有标明开始状态&nbsp;<a href="#fnref2">&#8617;</li><li id="fn3">Programming Basics 针对初学者的互动编程学习网站，网址为：<a href="http://programmingbasics.org">http://programmingbasics.org</a>&nbsp;<a href="#fnref3">&#8617;</li><li id="fn4">根据 <a href="http://www.ti.com/mcu/docs/litabsmultiplefilelist.tsp?sectionId=96&amp;tabId=1502&amp;literatureNumber=slaa402a&amp;docCategoryId=1&amp;familyId=342">Finite State Machines for MSP430 (Rev. A)</a> 翻译&nbsp;<a href="#fnref4">&#8617;</li><li id="fn5">改编自<a href="http://book.douban.com/subject/3413850/">《新概念51单片机C语言教程》</a>中相关内容&nbsp;<a href="#fnref5">&#8617;</li><li id="fn6">其实 MP3 播放程序也可以通过有限状态机实现，因为为了实现 MP3 播放持续时间较长（一首歌的时间），而且需要完成多个步骤（打开文件、读取文件、将数据发送到 MP3 解码芯片、告诉 MP3 解码芯片音乐播放完毕等）&nbsp;<a href="#fnref6">&#8617;</li></ol></div>

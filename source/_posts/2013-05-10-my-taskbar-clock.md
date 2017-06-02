@@ -48,11 +48,11 @@ tags:
 
 不多说，请看照片：
 **整体外观**
-![](http://blanboom.org/images/2013/05/IMG_20130511_003748.jpg)
+![](/images/2013/05/IMG_20130511_003748.jpg)
 **控制板**
-![](http://blanboom.org/images/2013/05/IMG_20130511_003931.jpg)
+![](/images/2013/05/IMG_20130511_003931.jpg)
 **进度条背面**特写，恐怖的飞线（还好没短路）
-![](http://blanboom.org/images/2013/05/IMG_20130511_003832.jpg)
+![](/images/2013/05/IMG_20130511_003832.jpg)
 制作时，板子尺寸没选好，元件位置没仔细安排，做出来之后，就成了这样，毫无美感。
 
 那就暂且先这样做了，就当作我们入门电子 DIY 的练手作品吧。以后有机会，再推出 2.0 版。以后还需要经常时间，在能做出更好的作品。
@@ -64,6 +64,6 @@ tags:
 - 刚刚看到一个视频，才发现控制水柱不难。我本来还以为要通过压强感应的方式来控制。
 这也是别人的一个 DIY，通过液柱高度显示游戏中人物的生命值。效果确实不错。不知道什么时候，我也能把东西做得这么漂亮。
 
-<iframe width="510" height="498" src="http://player.youku.com/embed/XNTU0MTIxNTUy" allowfullscreen="" frameborder="0"> </iframe>
+<iframe width="510" height="498" src="https://player.youku.com/embed/XNTU0MTIxNTUy" allowfullscreen="" frameborder="0"> </iframe>
 
 - 此外，交流过少，没有提前做好计划，也是这次 DIY 中，我们存在的不足之处。

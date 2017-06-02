@@ -12,21 +12,21 @@ tags:
 - Arduino
 ---
 
-[上次做的辉光管时钟](http://blanboom.org/qs30-1-nixie-clock.html)在外观上还有一些不满意的地方。所以最近这几天，我又新做了一个辉光管时钟。不同于上次，为了节省时间，电路和 PCB 都没有自己设计，而是直接采用成品模块。这样制作难度大大下降，同时能够更快地完成制作。
+[上次做的辉光管时钟](https://blanboom.org/2014/qs30-1-nixie-clock)在外观上还有一些不满意的地方。所以最近这几天，我又新做了一个辉光管时钟。不同于上次，为了节省时间，电路和 PCB 都没有自己设计，而是直接采用成品模块。这样制作难度大大下降，同时能够更快地完成制作。
 
-![辉光管时钟](http://blanboom.org/images/2016/03/nixie-photo-1.jpg)
+![辉光管时钟](/images/2016/03/nixie-photo-1.jpg)
 
 <!-- more -->
 
-![辉光管时钟](http://blanboom.org/images/2016/03/nixie-photo-2.jpg)
+![辉光管时钟](/images/2016/03/nixie-photo-2.jpg)
 
-![辉光管时钟](http://blanboom.org/images/2016/03/nixie-photo-3.jpg)
+![辉光管时钟](/images/2016/03/nixie-photo-3.jpg)
 
 # 电路
 
 在电路上，全部使用成品模块进行制作，通过简单的导线连接即可完成。具体介绍如下：
 
-![电路](http://blanboom.org/images/2016/03/nixie-circuit.png)
+![电路](/images/2016/03/nixie-circuit.png)
 
 **1) Arduino 兼容控制板**
 
@@ -49,7 +49,7 @@ tags:
 
 上次制作的辉光管时钟，只有上下两片亚克力板起到保护作用，在外观上似乎有点简陋。所以这一次制作一个完整的亚克力外壳。
 
-![外壳](http://blanboom.org/images/2016/03/nixie-case.png)
+![外壳](/images/2016/03/nixie-case.png)
 
 外壳采用 3mm 黑茶色透明亚克力板制作而成，其中，顶部和侧面通过胶水固定，成为一个底部开口的亚克力盒子。所有模块放置于底板，通过螺丝和铜柱与亚克力盒相连，可以自由拆卸。
 
