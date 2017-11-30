@@ -2,7 +2,7 @@
 author: Blanboom
 layout: post
 slug: airterminal
-title: "AirTerminal: 用于Raspberry Pi等设备的蓝牙终端"
+title: "AirTerminal: 用于 Raspberry Pi 等嵌入式设备的蓝牙终端"
 date: 2017-11-30 22:04:00 +0800
 comments: true
 categories: 软件与工具
