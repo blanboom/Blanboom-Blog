@@ -42,7 +42,7 @@ AirTerminal 是我近期完成的一个 iOS App 作品，能够通过蓝牙 4.0 
 
 
 
-毕业之后，已经不再有这种需求，这时候主要是以调试工具的目的进行 AirTerminal 的开发，以便于使 iPad/iPhone 连接无法访问网络的嵌入式设备，或在网络故障时，通过 AirTerminal 进行应急操作。
+毕业之后，已经不再有这种需求，这时候开发 AirTerminal，主要是为了将其用做嵌入式开发工具，以便于使 iPad/iPhone 连接无法访问网络的嵌入式设备，或在网络故障时，通过 AirTerminal 进行应急操作。
 
 
 
@@ -67,5 +67,5 @@ AirTerminal 是我近期完成的一个 iOS App 作品，能够通过蓝牙 4.0 
 # 其他
 
 1. 由于 Raspberry Pi 3 的板载蓝牙目前不支持串口透传，目前 AirTerminal 不能直接支持 Raspberry Pi 3 上的板载蓝牙。
-2. DFRobot 的 [USB BLE Link](http://www.dfrobot.com.cn/goods-1065.html) ([Bluno Link](https://www.dfrobot.com/product-1220.html))会将 USB 串口输入的数据，通过 USB 串口原路返回输出。所以 AirTerminal 和 USB BLE Link 配合使用会出现异常。
+2. DFRobot 的 [USB BLE Link](http://www.dfrobot.com.cn/goods-1065.html) ([Bluno Link](https://www.dfrobot.com/product-1220.html)) 会将 USB 串口输入的数据，通过 USB 串口原路返回输出。所以 AirTerminal 和 USB BLE Link 配合使用会出现异常。
 3. 提高串口波特率，可以带来更好的使用体验。
